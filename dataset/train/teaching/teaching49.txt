@@ -1,0 +1,41 @@
+25.3  System building 693
+Codeline 2.1
+<branch>
+V2.1.1 V2.1.2
+Codeline 2 
+<merge>
+V2.0 V2.1 V2.4
+<branch> V2.2 V2.3
+V1.0 V1.1 V1.2
+Figure 25.9 Branching
+Codeline 1 
+and merging
+to check out that component that it has been checked out by someone else. The sys-
+tem will also ensure that when the modified components are checked in, the different
+versions are assigned different version identifiers and are separately stored.
+A consequence of the independent development of the same component is that
+codelines may branch. Rather than a linear sequence of versions that reflect changes to
+the component over time, there may be several independent sequences, as shown in
+Figure 25.9. This is normal in system development, where different developers work
+independently on different versions of the source code and change it in different ways.
+At some stage, it may be necessary to merge codeline branches to create a new
+version of a component that includes all changes that have been made. This is also
+shown in Figure 25.9 where versions 2.1.2 and 2.3 of the component are merged to
+create version 2.4. If the changes made involve completely different parts of the
+code, the component versions may be merged automatically by the version manage-
+ment system by combining the deltas that apply to the code. More often, there are
+overlaps between the changes made and they interfere with each other. A developer
+has to check for clashes and modify the changes so that they are compatible.
+25.3
+System building
+System building is the process of creating a complete, executable system by compil-
+ing and linking the system components, external libraries, configuration files, etc.
+System building tools and version management tools must communicate as the build
+process involves checking out component versions from the repository managed by
+the version management system. The configuration description used to identify a
+baseline is also used by the system building tool.
+Building is a complex process, which is potentially error-prone, as there may be
+three different system platforms involved (Figure 25.10):
+1. The development system, which includes development tools such as compilers,
+source code editors, etc. Developers check out code from the version manage-
+ment system into a private workspace before making changes to the system.

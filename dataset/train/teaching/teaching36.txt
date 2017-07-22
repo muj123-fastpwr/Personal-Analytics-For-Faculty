@@ -1,0 +1,53 @@
+13.4 Kernel I/O Subsystem 605
+device: keyboard
+status: idle
+request for
+device: laser printer
+laser printer
+status: busy
+address: 38546
+device: mouse
+length: 1372
+status: idle
+device: disk unit 1
+status: idle
+device: disk unit 2 
+request for request for
+status: busy
+disk unit 2 disk unit 2
+.
+.
+. file: xxx file: yyy
+operation: read operation: write
+address: 43046 address: 03458
+length: 20000 length: 500
+Figure 13.9 Device-status table.
+Each table entry indicates the device’s type, address, and state (not functioning,
+idle, or busy). If the device is busy with a request, the type of request and other
+parameters will be stored in the table entry for that device.
+Scheduling I/O operations is one way in which the I/O subsystem improves
+the ef?ciency of the computer. Another way is by using storage space in main
+memory or on disk via buffering, caching, and spooling.
+13.4.2 Buffering
+A buffer, of course, is a memory area that stores data being transferred between
+two devices or between a device and an application. Buffering is done for three
+reasons. One reason is to cope with a speed mismatch between the producer and
+consumer of a data stream. Suppose, for example, that a ?le is being received
+via modem for storage on the hard disk. The modem is about a thousand
+times slower than the hard disk. So a buffer is created in main memory to
+accumulate the bytes received from the modem. When an entire buffer of data
+has arrived, the buffer can be written to disk in a single operation. Since the
+disk write is not instantaneous and the modem still needs a place to store
+additional incoming data, two buffers are used. After the modem ?lls the ?rst
+buffer, the disk write is requested. The modem then starts to ?ll the second
+buffer while the ?rst buffer is written to disk. By the time the modem has ?lled
+the second buffer, the disk write from the ?rst one should have completed,
+so the modem can switch back to the ?rst buffer while the disk writes the
+second one. This double buffering decouples the producer of data from the
+consumer, thus relaxing timing requirements between them. The need for this
+decoupling is illustrated in Figure 13.10, which lists the enormous differences
+in device speeds for typical computer hardware.
+A second use of buffering is to provide adaptations for devices that
+have different data-transfer sizes. Such disparities are especially common in
+computer networking, where buffers are used widely for fragmentation and
+reassembly of messages. At the sending side, a large message is fragmented

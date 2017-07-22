@@ -1,0 +1,864 @@
+Sport, Education and Society
+ISSN: 1357-3322 (Print) 1470-1243 (Online) Journal homepage: http://www.tandfonline.com/loi/cses20
+Algorithmic skin: health-tracking technologies,
+personal analytics and the biopedagogies of
+digitized health and physical education
+Ben Williamson
+To cite this article: Ben Williamson (2015) Algorithmic skin: health-tracking technologies,
+personal analytics and the biopedagogies of digitized health and physical education, Sport,
+Education and Society, 20:1, 133-151, DOI: 10.1080/13573322.2014.962494
+To link to this article:  http://dx.doi.org/10.1080/13573322.2014.962494
+© 2014 The Author(s). Published by Taylor &
+Francis.
+Published online: 01 Oct 2014.
+Submit your article to this journal 
+Article views: 2271
+View related articles 
+View Crossmark data
+Citing articles: 5 View citing articles 
+Full Terms & Conditions of access and use can be found at
+http://www.tandfonline.com/action/journalInformation?journalCode=cses20
+Download by: [182.185.102.82] Date: 05 October 2016, At: 22:34
+Sport, Education and Society, 2015
+Vol. 20, No. 1, 133–151, http://dx.doi.org/10.1080/13573322.2014.962494
+Algorithmic skin: health-tracking
+technologies, personal analytics and the
+biopedagogies of digitized health and
+physical education
+Ben Williamson*
+School of Education, University of Stirling, Stirling, UK
+The emergence of digitized health and physical education, or ‘eHPE’, embeds software algorithms
+in the organization of health and physical education pedagogies. Particularly with the emergence of
+wearableandmobileactivitytrackers,biosensorsandpersonalanalyticsapps,algorithmicprocesses
+have an increasingly powerful part to play in how people learn about their own bodies and health.
+This article specifically considers the ways in which algorithms are converging with eHPE through
+the emergence of new health-tracking and biophysical data technologies designed for use in
+educational settings. The first half of the article provides a conceptual account of how algorithms
+‘do things’ in the social world, and considers how algorithms are interwoven with practices of
+health tracking. In the second half, three key issues are articulated for further exploration: (1)
+health tracking as a ‘biopedagogy’ of bodily optimization based on data-led and algorithmically
+mediated understandings of the body; (2) health tracking as a form of pleasurable self-surveillance
+utilizing data analytics technologies to predict future bodily probabilities and (3) the ways that
+health-tracking produces a body encased in an‘algorithmic skin’, connected to a wider ‘networked
+cognitive system’. These developments and issues suggest the need for greater attention to how
+algorithmic systems are embedded in emerging eHPE technologies and pedagogies.
+Keywords: Algorithms; Analytics; Biopedagogy; Data; Dataveillance; Health tracking;
+Self-quantification
+What does the study of computer algorithms have to offer to research in health and
+physical education? In a recent article in Sport, Education and Society, Evans and
+Davies (2014) argue for a research agenda exploring new forms of the governance of
+health and physical education curricula and pedagogy, while in his provocation for
+this new Research Forum section of Sport, Education and Society, Gard (2014)
+demandsthat researchersconsider critically the‘digital future’ of healthand physical
+education. Responding to both, this article explores an important emerging
+dimension of governance in the digital future of health and physical education: the
+current growth of digital technologies designed to enable students to track, monitor
+and analyze their physical activity. Variously referred to as self-tracking, personal
+*School of Education, University of Stirling,Pathfoot,Stirling,FK94LA,UK.Email:ben.williamson
+@stir.ac.uk
+© 2014 The Author(s). PublishedbyTaylor&Francis.
+ThisisanOpenAccessarticledistributedunderthetermsoftheCreativeCommonsAttributionLicense(http://
+creativecommons.org/licenses/by/3.0), which permits unrestricted use, distribution, and reproduction in any
+medium,providedtheoriginalworkisproperlycited.Themoralrightsofthenamedauthor(s)havebeenasserted.
+
+134 B. Williamson
+informatics, personal analytics or technologies of the ‘quantified self’, these digital
+technologies are part of a rapidly growing global market in wearable electronics and
+biosensor platforms designed to allow users to collect and analyze biophysical data
+on their own physical activities and health. Designed around algorithms and
+physiological models expressed in computer code, these devices are increasingly
+augmenting, mediating and governing the ways in which individuals and social
+groups engage with their own bodies and health, and transforming the ways that
+people undertake physical activity.
+This article is based on an initial survey of health-tracking products designed for
+use by schoolchildren. Rather than viewing such products in isolation, I consider
+them in the context of emerging empirical and theoretical literature on self-tracking
+inordertoraisesomecriticalchallengesforthefutureofphysicaleducation.Ifurther
+situate these technologies as part of an emerging trend to configure schools as ‘data
+platforms’ within which a wide range of data tracking, sensing and analytics
+technologies are being mobilized to monitor and measure student activities,
+performances and outcomes (Mayer-Schönberger & Cukier, 2014). The emergence
+of what I term ‘smart schools’ in which networked database technologies have
+been thoroughly embedded (Williamson, 2014a), and that Lupton (2014) calls
+‘sentient schools’, signifies how data-tracking technologies are now being positioned
+to provide a constant stream of knowledge, in real time, about the activity and
+performance of every aspect of the institution, from facilities and administration
+to classroom pedagogy and student progress. By focusing on health and activity
+tracking devices in terms of their underlying algorithmic systems and processes, I
+argue for greater attention in health and physical education research (as well as
+in educational research more generally) to how algorithms are interweaving with
+processes of educational governance and control in these emerging smart and
+sentient schools.
+By governance I mean two things. First, as Evans and Davies (2014) and Gard
+(2014) have already argued, and reflecting wider shifts in educational governance
+(Ball & Junemann, 2012), health and physical education is increasingly being
+governed by a hybrid mix of commercial providers with business interests as well as
+governmentagenciesactingonpublichealthagendas.Thismixingandnetworkingof
+actors from the public and private sectors is all part of what Macdonald (2014)
+articulates as a characteristically neoliberal approach to the governance of physical
+education through diversifying resources, expertise and services locally and globally.
+Within this, physical education is now being shaped by discourses of markets,
+opportunity, choice and competition. But I also draw on conceptualizations of
+governance from research that has focused on the ways in which human beings and
+bodies have been understood, managed and treated—either for purposes of care and
+cure or for individual and social reform and improvement—through ‘biopolitical’
+techniquesassociatedwith medical,psychologicalandneurologicalsciences(Lemke,
+2011; Rose, 1999; Rose & Abi-Rached, 2013). According to this body of work,
+medical science, psychology and neuroscience have become central to how people
+are governed today, and increasingly in how they are encouraged to understand and
+
+Algorithmic skin 135
+care for themselves. In the clinic, such processes of governing have always been at
+least partly technical, relying on various technologies such as diagnostic survey
+instruments, psychological tests and newer developments like brain imaging. My
+argument is that health tracking is an emerging technology of governance, enabling
+people individually and socially to understand and care for their bodies, and to
+identifyproblemsrequiringcureorimprovement.Thealgorithmsinstalledinhealth-
+tracking devices act to translate physiological signals recorded from the body into
+data, presented as numbers and visualizations, that enable this kind of bodily self-
+governing to take place.
+As a market in such devices for young people and children grows, many targeted
+for use in health and physical education in schools, I argue, it is imperative to
+understand better thefunctioning of suchdevices, the ways they might interlace with
+school pedagogies and how they might influence how students learn about their own
+bodies and health. These ‘self-mediation interfaces with health’, as Rich and Miah
+(2014, p. 301) describe them, have become ‘inextricable from the manner in which
+people learn about health’. This is not a case of technological determinism, but a
+complex interweaving of algorithmic processes with commercially produced tracking
+devices and contemporary public health agendas into physical education pedagogies
+that are intended to govern and shape the ways young people see and care for
+themselves. I argue that health and physical activity tracking technologies aimed at
+the schools market provide the hardware and software for an emerging form of
+digitally mediated biopedagogy, and speculate on how such a digital biopedagogy
+mightbeproducingabodythatiswrappedinalayerof‘algorithmicskin’—thatis,an
+individual whose physical activities, movement and overall healthiness are at least
+partly animated by algorithmic processes.
+To be clear, the article is intended as a response to Gard’s(2014) provocation in
+this Research Forum section to consider how digital technologies might shape the
+future of digitized health and physical education—or ‘eHPE’ as he terms it. By
+engaging with recent critical literature on algorithms and exploring recent technical
+developments, it offers some critically informed speculations about the implications
+of self-tracking and the role of algorithms in shaping and governing the future of
+health and physical education.
+Socio-algorithmic interaction
+In his account of the agendas shaping physical education’s future, Gard (2014)
+suggests that it is likely to become increasingly digitized, especially as new
+technologies of ‘big data’, surveillance, ‘exergaming’ and automation converge with
+current political, economic and public health imperatives. Some digital technologies
+are already well embedded in physical education curricula and pedagogies, such
+as fitness testing, movement analysis software, kinetic videogaming and digital
+pedometers. Mobile and wearable physical activity monitoring devices that collect
+biophysical data from users are now being developed and promoted for the physical
+education schools market. These emerging forms of eHPE depend on computer
+
+136 B. Williamson
+technologies and software that, like all computational processes, are constituted by
+algorithmic procedures expressed in computer code. The algorithmic constitution of
+software is an emerging topic in social scientific research, but is virtually absent in
+educational research (Williamson, 2014a). It is worth considering for a moment why
+a deeper consideration of algorithms, and what has been termed ‘algorithmic power’
+(Beer, 2009), is necessary for eHPE research. My approach is not to specify every
+technical detail of how an ‘algorithmic system’ works, but ‘to be able to understand
+some of the logics or principles of their functioning in order to critically engage with
+the ways in which systems work on a theoretical level’ (Bucher, 2012, p. 1177).
+In his recent book Nine Algorithms That Changed the Future, MacCormick (2012,
+p. 3) defines an ‘algorithm’ simply as ‘a precise recipe that specifies the exact
+sequence of steps required to solve a problem’. However, algorithms are more than
+simply computer science abstractions and routines for sorting and structuring data.
+As Bucher (2012, p. 1165) contends, ‘algorithmic architectures dynamically
+constitute certain forms of social practice’. According to this view, much of
+contemporary everyday life in a heavily mediated world is governed by various
+sorting and filtering algorithms determining what users encounter online, perhaps
+most obviously in our encounters with major commercial organizations such as
+Google and Facebook (Bucher, 2012; Mager, 2012). Algorithms have also emerged
+as an important object of analysis in studies of science (Mackenzie, 2006), cultural
+politics (Lash, 2007), identity formation (Cheney-Lippold, 2011), surveillance
+(Amoore, 2009), popular culture (Beer, 2013) and digital governance (Williamson,
+2014b). Such studies go beyond computer science conceptions of algorithms to
+account for their contemporary social power. As Beer (2013, p. 81) argues,
+‘algorithms are an integrated and irretractable part of everyday social processes’
+that can ‘reinforce, maintain or even reshape visions of the social world, knowledge
+and encounters with information’. Algorithms are not only products of social,
+political, economic and cultural processes, but also productive of further social,
+political, economic and cultural effects (Kitchin & Dodge, 2011). Given such
+accounts of the complex relational interweaving and interaction between algorithms
+and social worlds, it is perhaps more accurate to write of ‘socio-algorithmic’
+processes and practices, and to acknowledge that algorithms are both socially
+produced and socially productive, than to imply that they act deterministically as
+mechanical or objective technologies.
+Perhaps most significantly, however, algorithms privilege automaticity, quantifica-
+tion, proceduralization and automation in human endeavours, and reflect an his?
+toricaltensionbetweennotionsofautonomoushumansocialityandtheimpositionof
+systemizedprocedures(Gillespie, 2014b).A concern with the‘politicsof algorithms’
+reflects these longer concerns over the insertion of computational procedures into
+human practice or, as Neyland (2014, p. 5) argues, over the modelling of ‘human
+action through mathematical logics of order’. In order for an algorithmic system to
+function, he claims, the world outside of the system has to be mathematically
+modelledinsuchawaythatitcanbecomepartof‘thesocialworldofthealgorithmic
+system’ (Neyland, 2014, pp. 10–11). Moreover, Gillespie (2014a) argues, as
+
+Algorithmic skin 137
+algorithms are increasingly being designed to anticipate users and make predictions
+about their future behaviours, users are now reshaping their practices to suit the
+algorithms they depend on. This constructs ‘calculated publics’, the ‘calculated
+approximation of a public’ through its traceable activities and the subsequent
+presentation of a public back to itself that shapes its very sense of itself, thus helping
+to constitute ‘publics that would not otherwise exist except that the algorithm called
+them into existence’ (Gillespie, 2014a, p. 189).
+The notion of a calculated public, both measured and presented back to itself, is
+important in considering the role of self-tracking technologies and algorithms
+interacting with students in eHPE. Ultimately, we need to consider how certain
+forms of health data are chosen for collection by these devices; inquire into the
+evaluative criteria, promises of objectivity and models of health and the body built
+into their algorithmic systems; consider how these algorithms are constructed to
+anticipate users’ behaviour and predict their likely futures; and examine how these
+calculative activities conjure new publics and new subject positions into being.
+The ‘quantified self’ as a ‘calculated public’
+It is worth briefly restating at this stage that the use of health tracking in eHPE is an
+emerging issue, with little evidence to date that there has been any sustained take-up
+of such devices in schools. The point I want to make is that a market for health
+trackinginphysicaleducationisemergingthatislinkedtoamuchwiderglobaltrend
+often captured in the term ‘quantified self’, and that by taking seriously this
+movement, its associated technologies and the basic algorithmic functioning of its
+models, we may be able to apprehend some of the issues facing educators in the
+digital future of physical education. Focused on the ideal of a ‘data-driven life’ and
+‘self-knowledge through numbers’, self-quantifiers use statistical data collected
+from self-tracking mobile devices, electronic biosensors and data analytics apps to
+understand their personal health and, on that basis, to modify and optimize their
+health behaviours (Wolf, 2010). The term ‘quantified self’ has since been applied to
+theuseofhealth-trackingdevicesforvariouspracticesof‘lifelogging’,‘lifestreaming’,
+‘self-science’ and ‘personal informatics’.
+To give a general technical sense of this area, digital health-tracking devices
+include a variety of smartwatches, wearable biosensors, accelerometers, pedometers,
+biometrics, GPS devices and Wi-fi or Bluetooth-enabled clothing and wearable body
+metric textiles, plus assorted smartphone applications and peripherals. Swan (2012)
+describes an emerging ‘sensor mania’, where personal health-tracking technologies
+are part of a vast interconnected ‘Internet of Things’. Twinned with these devices, a
+huge range of apps to support user-led health data collection are available to track
+and analyze physical movement, food and drink intake, energy expended, sleep
+levels, blood glucose levels, cholesterol levels, calories burned, mood and emotion,
+inactivity and more. These apps allow users to interpret and visualize the health data
+collected through tracking devices, and to use these insights from the data to inform
+their health behaviour choices. Some health-tracking apps also feature built-in
+
+138 B. Williamson
+‘personal analytics’ capacities that permit users to synchronize and connect different
+datasets in order to generate more fine-grained data about their own health, dietary
+and physical activities.
+Major computing and mobile technology companies have entered the field,
+including AppleandGoogle, and a lively entrepreneurial‘start-up’ scene has emerged
+(Boessel, 2013). Strong interest in self-quantification has also been expressed by
+medical professionals and by governments, and health tracking is an emerging topic
+ingovernmenthealthstrategies.TheUKorganizationNesta(2014)hasdocumented
+the emergence of a number of trends related to personal health data for medical,
+governmental and commercial purposes alike, and speculated on the further
+emergence of devices and practices such as wearable sensing technologies, biometric
+cards, health-based ‘data currencies’, body ‘hacking’ and data-driven citizen ‘care
+circles’. In addition, a distinctive cultural discourse has emerged around these
+health-tracking devices and apps. The emphasis is placed on personal goals and
+challenges, ‘life projects’, personal discovery, motivational prompts and nudges,
+being rewarded for meeting or beating goals and using insights gained from data to
+make healthy lifestyle choices. The language of social science is also invoked through
+commitments to ‘self-ethnography’ and ‘self-science’. The quantified self is an
+emerging hybrid assembled from social science methods, public health agendas,
+digitaltracking,socialnetworkingandthe‘start-up’discourseassociatedwithSilicon
+Valley entrepreneurship.
+There is now evidence of self-tracking and quantification technologies being
+designed for use by younger people, including very young children. Within the
+quantified self community itself, there are some emerging indications of ‘quantified
+child’ activities mobilizinghealth-tracking technologies and techniques.A numberof
+commercial child-tracking devices and applications have been launched to allow
+parents to generate knowledge about their child’s health. These include sensor-
+enabled ‘smart diapers’ to enable urine analysis and identify health patterns, and
+‘smart baby clothing’ activated with ‘sleep algorithms’ and temperature and
+respiratory sensors to continually monitor infant health (E. Williamson, 2014).
+The physical education schools market is an obvious target for health-tracking
+products. A key emerging area is health-tracking devices and apps for students that
+are designed to encourage healthy lifestyles, aid dietary planning and encourage
+physical activity. Popular features of health-related apps for children include the
+concept of caring for virtual creatures by fulfilling their dietary and fitness needs,
+often combined with various gaming and competition elements and online social
+media environments (Hswen et al., 2013). For example, Zamzee consists of a
+wearable physical activity meter twinned with a social media experience and per?
+sonalizable avatar, as well as online leaderboards and facilities for accessing indi?
+vidualactivitygraphs,sendingstatusupdatesandearningvirtualcurrencies.Another
+hybrid healthgaming/social media platformforchildren is Sqord, which consists of a
+wearable data logger, an online social media environment and a personalizable on-
+screen avatar called a PowerMe. Sqord is marketed as ‘one part social media, one
+
+Algorithmic skin 139
+part game platform, and one part fitness tracker’. Extensively piloted and tested in
+schools in the USA, Sqord is targeted firmly at the physical education market:
+Sqord gives you an administrative reporting tool with quantifiable metrics on the
+physical activity, levels, and participation of each of your players. No more
+guesswork or gray areas in measuring physical activity. Sqord puts the numbers
+in plain view, and allows your teachers and coaches to see exactly what’s what in
+real-time. (Sqord, 2014)
+Sqord users can compete with one another on an online leaderboard through
+everyday physical challenges, as measured by their activity trackers, and are able to
+win medals and ‘sqoins’ as rewards for completion of goals, which can be used to
+purchase upgrades and personalized features. The Sqord social media environment
+promotes peer competition as a motivational technique. Sqord also provides an
+administrative reporting tool for educators to access metrics on the physical activity
+levels and participation of each child player. Likewise, Polar Active is a wristwatch
+devicethattwinswiththeonlinepolargofit.comonlineenvironmenttoallowteachers
+to view, analyze and evaluate their students’ physical activity. This product, along
+with others, forms part of an emerging market in wearable physical activity monitors
+now being promoted to schools that combine tracking and sensing capacities with
+built-in algorithms for estimating health (Schaefer, Van Loan, & German, 2014).
+Sqord, Polar Active, Zamzee and others act as a bridge between the quantified self
+trend and physical education pedagogy, and represent a convergence of devices,
+software, apps, techniques and discourses of self-quantification with pedagogic
+practices, commercial imperatives and governmental health agendas. As Rich and
+Miah (2014, p. 305) have argued, ‘increasingly, younger people engage with these
+technologiesaspedagogicaldevicesthroughwhichtheylearntorecognizethemselves
+and/or others as good, healthy, active and/or having desirable bodies in the pursuit
+of healthiness’. This hybrid mix of pedagogic technologies and modes of self-
+management is ordered and organized (at least partly) by underlying algorithms and
+their inbuilt models of the body in order to make the health of the child amenable to
+measurement and management. Self-quantification is, then, more than a participat-
+ory online movement: it invites powerful commercial, governmental and medical
+research involvement. These are not neutral and value-free activities, but politically
+and economically charged industries for which individual health data can act
+variouslyassourcesforgovernmentalpolicymaking,academicknowledgeproduction
+and revenue creation. As such, self-quantification produces a ‘calculable public’,a
+public that is presented back to itself through the data organized and coordinated by
+algorithmic approximations of its traceable health activities. Such a public is made
+amenable to being calculated upon by a spectrum of government and medical
+agencies, third-party analysts and commercial data industries. In turn, it is incited to
+identify itself and act upon itself in terms of those numbers and their modes of
+visualization. Having identified some of the key technologies and techniques of self-
+quantification, including those designed for use by children in educational settings,
+the rest of the article provides an initial conceptualization of the operational
+
+140 B. Williamson
+principles of these algorithmic systems—that is, it does not provide a specification of
+the technical functioning of the algorithms at work, but an account of the
+proceduralization of human actions that they model.
+Biopedagogies of body optimization
+Self-quantification represents a new algorithmically mediated pedagogic technique
+for governing and ordering the body. Rich and Miah (2014) have recently called for
+more attention to the ‘public pedagogies’ of health technologies—the pedagogical
+processes operating in the kind of digital devices and environments described above
+that bear on what and how people learn about their bodies and health. Elsewhere in
+the physical education literature, ‘biopedagogy’ is an accurate term for these new
+digitally mediated techniques of bodily monitoring and enhancement. If ‘pedagogy’
+refers to forms of conduct, knowledge and practice acquired from someone or
+something considered an appropriate provider, as Bernstein (2000) conceptualized
+it, ‘biopedagogy’ refers to pedagogies in which the actual physical body, bodily
+practices and healthy conduct of the learner are made into the object of intervention.
+Such ‘body pedagogies’ generate and convey knowledge, competencies, skills and
+moral codes, which define what the body is and ought to be, whose and what bodies
+have status and value, and what ‘body work’ needs to be done to make one’s body
+‘fit’ (Evans & Rich, 2011).
+These pedagogies, and the digital companies that provide the devices, apps and
+resources to mediate them, have a crucial role to play in the governing of children’s
+health. Governing through physical education pedagogies here refers, as Vander
+Schee (2009, p. 558) phrases it after Foucault, to the deployment of ‘particular
+knowledgesandtruthsaboutthewaysinwhichindividualsshouldconducttheirlives
+for the betterment of self and society’. Indeed, from this perspective, pedagogy is
+itself a governing practice (Pykett, 2012). Thus, in previous studies of physical
+education, technologies such as fitness testing and performance data collection have
+been conceptualized as pedagogic technologies of governing aimed at optimizing the
+well-being of both the individual and the social order as a whole.
+The emerging technologies of the quantified self, including those designed for
+children and with pedagogical intentions in physical education, have become central
+tohowphysicalactivityisnowbeingclassified,categorizedandrepresented,andthus
+governed and made amenable to management and improvement. Algorithms have
+been positioned as powerful classificatory mechanisms for moulding and making
+health and physical activity data intelligible, in ways that govern and order the body
+of the child and influence how children learn about their bodies and health. Just as
+‘thedecisiontoclassifystudentsbytheirstandardizedachievementandaptitudetests
+valorizes some kinds of knowledge skills and renders other kinds invisible’ (Bowker
+& Star, 1999, p. 6), the health-tracking technologies being promoted in physical
+education can be understood as sorting systems for classifying and categorizing
+physical activity, thus valorizing certain kinds of activities and rendering others as
+undesirable. Such forms of classification are not mere bureaucratic formalities but
+
+Algorithmic skin 141
+holdseriousmaterialforceasthreadsthataretiedtothewaysthatschoolchildrenare
+likely to learn to conduct their own lives and bodies.
+Although the health-tracking technologies emerging in physical education vary
+slightly from product to product, based on proprietary algorithms that calculate and
+present data differently, they are all based on standard algorithmic classification
+systems that make individuals’ health data combinable, comparable and amenable to
+data visualization and representation. In order for these technologies to function,
+certain expert understandings and classifications of the body and of healthiness,
+derived from various sciences, have to be accommodated through being mathemat-
+ically encoded in physiological models and algorithmic systems. In devices targeted
+at schools, such as Sqord, a particular socially produced understanding of the
+malleableandimprovablechild’sbodyhasbeenfoldedintotheclassificationsystems
+andalgorithmsthroughwhichit functions. AsNeyland (2014,p.11)putsit,thetask
+of an algorithm designer is to ‘build a world out there into a world in here, in the
+algorithmic machine’. In the case of self-tracking, monitoring and personal analytics
+devices in eHPE, this can be rearticulated as a concern with transforming the child’s
+body into a calculable model in the algorithmic machine. The algorithmic models
+that are built into pedagogical self-tracking technologies combine various bioscien-
+tific understandings, physiological models and forms of medical and psychological
+expertise. Devices such as Polar Active, Zamzee and Sqord classify the child’s body
+and health in ways that are intelligible to children, and that touch them in very real
+corporealwaysbyenforcingparticularnormsandattachingstatisticalmeasurements,
+as encoded in their algorithms, of bodily health and physical activity. This
+algorithmic and classificatory system enforces a particular understanding of what
+‘health’ is, as defined through the classificatory scheme written into their algorithms,
+which can thread back into the ways that schoolchildren will come to see, identify
+and conduct themselves.
+Such socio-algorithmic processes are not neutral, objective sources of knowledge.
+Instead, as Lupton (2013, pp. 14–15) argues, ‘the data themselves and the algori?
+thmsthatinterpretthemandmakepredictionsbasedonthemaresocialactants’with
+a ‘profound impact on how individuals view themselves and the world’. Self-
+quantification encourages children to understand their bodies as ‘personal laborat-
+ories’, and in terms of ‘objective’ data and metrics rather than subjective, haptic and
+sensory-embodied knowledge. It makes the body of the individual visible in terms of
+data, calculable as numbers, and on that basis amenable to enhancement, though as
+Nafus and Sherman (2014, p. 1793) caution, self-trackers
+interact with algorithms not as blind, mindless dupes, but as active participants in a
+dialogue that moves between data as an externalization of self and internal,
+subjective, qualitative understandings of what the data means.
+While there is certainly interpretive flexibility in how users engage with technologies,
+self-quantificationalgorithmsalsodostructureandshapepossibilitiesforaction.The
+ways in which health-tracking technologies may be enforced through their use in
+school pedagogies and curricula may also work to reproduce and solidify social
+
+142 B. Williamson
+norms and expectations around child health, not least as they interact with existing
+public health agendas around, for example, obesity.
+As a result of these emerging biopedagogies of self-quantification in eHPE,
+children are increasingly, it seems likely, going to be incited to view their own bodies
+as malleable, correctable and improvable, and to experiment upon themselves to
+make themselves better than they are. Sqord, for example, encourages child self-
+trackersto customizetheir‘PowerMe’ avatarsandto displaythemto oneanother via
+a social media environment. As the website explains,
+Everything in Sqord centers around you and your fully customizable PowerMe.
+Make yours look like you, or make it how you want to look that day. Your friends
+will see you your way, and you’ll see them how they want to be seen. (http://www.
+sqord.com/)
+Consequently, the body of the learner has been made into a seemingly legitimate
+pedagogic site for presentational enhancement. The point being made by Sqord and
+similar products is that the body can be taught, improved and optimized, and
+through ‘the process of collecting, visualising, sharing and monitoring such data on
+one’s body in a public space, users learn about the body in terms of appropriate
+forms of maintenance, development and repair’ (Rich & Miah, 2014, pp. 305–306).
+Self-quantification is part of a technologically solutionist obsession with ‘tuning’ and
+‘perfecting’thebodywiththerightalgorithms.Thechild’sbodyismadeamenableto
+being recoded and reprogrammed, manipulated, enhanced and optimized according
+to new socially desirable norms as modelled, organized and ordered in algorithmic
+system of self-quantification.
+Pleasurable predictive dataveillance
+A central issue for researchers of self-quantification with children and in physical
+education is that of surveillance. In particular, self-tracking devices, when twinned
+with powerful data analytics software, can transform simple ‘monitoring’ into the
+‘prediction’ of children’s future behaviours and bodily health. In contrast to typical
+images of digital surveillance being undertaken covertly by government agencies and
+commercial companies, self-tracking appears to be a more benevolent form of
+surveillance. Indeed, as with many other forms of digital ‘dataveillance’, individuals
+increasingly submit to being monitored and tracked by voluntarily surrendering their
+personal data (Raley, 2013).
+Part of the seduction of voluntary surveillance throughhealthtracking, particularly
+as it is now being marketed to children and schools, is the tactic of designing the
+technologies along the lines of videogames or competitions. Creature-based apps
+such as Sqord, Fitter Critters and Zamzee represent the ‘gamification’ of digital
+health among children. Many mainstream self-tracking devices and apps feature
+gaming elements, such as competing with others on specific physical activity
+challenges or racing to complete goals. Programmes and devices that promote
+healthy eating habits using points and fitness and weight loss coaches for game
+
+Algorithmic skin 143
+consoles are obvious examples of gamification. These techniques promise to make
+everyday tasks more rewarding, fulfilling and fun, using incentivization and rewards
+to shape desirable behaviours such as physical exercise or healthy eating habits.
+Whitson (2013) refers to gamification strategies in self-tracking as ‘pleasurable
+surveillance’—a kind of self-monitoring and self-policing done voluntarily and for
+fun. However, the algorithms that enable children’s physical activity and health data
+to be translated into games and competitions are not politically innocent. Many of
+the algorithms enabling these devices and apps are proprietary to the commercial
+companiesproducingthem,arevariableinwhatandhowtheymeasureandcalculate
+the data and are rife with embedded value judgments that reward some activities and
+not others.
+Applying a concern with data-based surveillance to health tracking, Ruckenstein
+(2014, p. 69) argues these devices make formerly ‘unknown’ aspects of bodies and
+lives more ‘detectable’, ‘transparent’ and ‘visible’. Through such personal analytics
+being promoted in physical education in products like Sqord, the individual child is
+to be‘sliced’ upor deconstructed into data flows; thebody and mindabstracted into
+data visualizations, composites of information and representations. For example,
+Sqordenables students togeneratedatavisualizations thatchart‘activitypoints’ won
+foractivities they haveperformed atan hourly, daily orweeklyscale, as well as to use
+these activity points as a form of virtual ‘currency’ to purchase customizations for
+their graphical on-screen avatar. These informational and decorporealized data-
+based versions of the self, or ‘data doubles’, enable children to see, know and
+understand the problems of their corporeal selves through seemingly objective,
+scientific and reliable representations of the data. The algorithms at work in such
+devices and apps enable biophysical data to be captured as an input, and then
+translated in real time into a digital output as numbers and data visualizations that
+have the power to persuade students of their bodies’ problems and then nudge and
+coerce them to reform themselves. Personal analytics do not just render the body as
+abstract graphs, tables and figures in real time, but make it actionable.
+It is clear that the emergence of health-tracking technologies in schools enable
+a pleasurable and voluntary form of dataveillance to become one of physical
+education’s future pedagogies. It should also be noted of course that there are
+continuities here with how fitness testing, pedometers and movement analysis
+softwarehavealreadybeenacceptedassurveillanttechnologiesinphysicaleducation.
+Indeed, the widespread acceptance of fitness and activity assessment tools like
+Fitnessgram in the USA suggests that newer digital forms of personal analytics will
+beeasilyaccommodatedintophysicaleducationprovisioninschoolsinwaysthatwill
+exacerbateexistingusesofstudentdataforsurveillantandperformativepurposes.As
+Gard (2014, p. 833) notes in relation to Fitnessgram:
+there is evidence that schools … are structuring their physical education
+programmes—and therefore the information they use to instruct children and
+explain their programmes to the broader public—in ways that prioritise student
+performance in these data collection exercises. … Fitnessgram is one example—
+doubtless others will follow—of how HPE might be digitally shoehorned into
+
+144 B. Williamson
+conformity with the worldwide trend towards measurability, accountability,
+performativity and standardisation in other areas of the curriculum.
+Thelatest upgradesto Fitnessgramitself alsofeature data-miningfunctionality, web-
+based data collection, mobile apps, and reader-friendly graphical visualizations that
+demonstratehownewtechnicaldevelopmentsinmobileactivitymonitoringanddata
+analytics are feeding back into existing surveillance products. These are making the
+collection, accumulation and dissemination of large datasets about children’s
+physical health and fitness more easy and efficient to administer to accomplish.
+Lupton (2014, p. 9) suggests that the use of digital self-tracking devices and apps in
+school-based health and physical education is a form of ‘imposed self-tracking’ and
+argues that ‘some physical education teachers are beginning to require their students
+to wear such devices as heart-rate monitors to determine whether they are fully
+participating in set exercise activities and to compare their exertions with other
+students’. We can see from such examples how the data are becoming not just a tool
+for measurement, but are actually influencing pedagogic practice, curriculum design
+and disciplinary techniques. This is leading, as Selwyn (2014, p. 9) notes in relation
+to digital data use in education more generally, ‘to a recursive state where data
+analysis begins to produce educational settings, as much as educational settings
+producing data’.
+Moreover, the personal analytics embedded in health-tracking and activity-
+monitoring technologies are part of a much wider socio-technical trend in the
+development of predictive ‘machine learning’ techniques. ‘Machine learning’ is the
+term to describe ‘intelligent’ software systems that utilize adaptive algorithms and
+statistical models to analyze users’ data in order to anticipate or even predict their
+future actions. Utilizing ‘taught algorithms’, Mackenzie (2013, p. 399) argues,
+‘programmers construct models that predict what people will do’ through ‘trans-
+forming data on events, actions, behaviours, beliefs and desires’ into probabilistic
+predictions of the future that then can be used to decide on the action to be taken in
+the present. The statistical models and algorithms of predictive machine learning
+techniques are enmeshed in powerful social currents of thought. Machine learning is
+part of a world in which ‘probabilistic outcomes’ and predictions about the future
+increasingly influence people’s ‘everyday actions, habits and practices’ (Mackenzie
+2013, p. 396). Driven by the machine learning techniques and the adaptive
+algorithms of personal analytics, health tracking may then be understood not just
+asareal-timedatapracticebutasananticipatoryor‘future-tense’practice,premised
+on the use of devices programmed with the power to predict probable personal
+actions based on the analysis of data traces of past actions.
+Throughself-trackingtechnologiesofanticipationinphysicaleducation,thestudent
+istobesolicitedasalittleexpertofthefuture,enabledtoanticipate,calculate,predict
+and project a spectrum of bodily probabilities and possibilities. The student’s data
+double is the source for algorithmically mediated modes of self-anticipation and
+projections of possible futures. As such, self-quantification techniques in physical
+education might be approached analytically as an emerging form of both pleasurable
+
+Algorithmic skin 145
+and predictive biopedagogy—a pedagogy of bodily inspection, monitoring and
+improvement based on the anticipatory technologies and algorithmic systems of
+predictiveanalyticsandenactedthroughtechniquesofgamificationanddataveillance.
+All of these raise an important issue for the digital future of health and physical
+education. The predictive capacity of personal analytics makes it possible to apply
+algorithmicprocessestopredictstudents’likelyfuturesand,onthatbasis,topre-empt
+their actions and activities. Yet little is known about the selection, values and
+assumptions of the ‘training data’ that machine learning algorithms act upon. Such
+datamaybeincomplete,partial,orevenincompatiblewiththedatathatthealgorithm
+willoperateon‘inthewild’(Gillespie,2014b).Decisionsabouthowtotrainamachine
+learning algorithm will always be made by algorithm designers and computer
+programmers. Given that such data can only ever remain partial and approximate,
+andhowtheyreflectthevaluejudgmentsandassumptionsbuiltintothedata’smodels,
+thereisarealpossibilityherethatstudents’healthinessmaybeincreasinglydetermined
+by automated procedures, and their future lives shaped by algorithmic systems
+embeddedinthevaluesystemsanddecisionsofcomputercodersratherthanphysical
+educators. This certainly adds an extra and largely hidden layer of complexity to the
+trend in outsourcing of health, sport and physical education (Williams, Hay, &
+Macdonald, 2011), further complicating existing concerns about the suppliers
+authorized to select physical education resources or to define the quality of physical
+educationmaterials(Evans&Davies,2014).
+Corporealgorithmic connections
+So far we have considered how educational health-tracking devices constitute a new
+form of biopedagogy, and identified the surveillant and predictive capacities of such
+technologiesforthedata-basedshapingofstudents’futurelives.Butwhathappensto
+the body of the student in practices of health and activity tracking in eHPE? In line
+with post-humanist literature which has sought to erase the boundaries between
+humans and non-humans and to reveal the technological metaphors that we use to
+understandourselves(e.g.Hayles,1999),manyofthemetaphorsusedtodescribethe
+technologies and techniques of the quantified self routinely juxtapose the body with
+machinery. This includes metaphors of measurable ‘input/output’ ratios from
+cybernetics, vehicular imagery of ‘a dashboard for your body’, computer imagery
+of ‘body hacking’ and the ‘body as the ultimate computer’ and data-related
+references to the body as a ‘data factory emitting digital exhaust’ (Lupton, 2013,
+pp. 26–27). Using such technological metaphors of intense human–computer
+interaction, people are represented merely as ‘nodes’ in the ‘Internet of Things’,
+exchanging data with other people as well as with other objects and devices through
+networked communication and informational infrastructures:
+The body in this discourse becomes positioned as a ‘smart machine’ linked with
+other ‘smart machines’. Bodily sensations become phenomena that are mediated
+and augmented through machines, transformed into data and then communicated
+back to the user. This vision of the body as augmented via self-tracking devices
+
+146 B. Williamson
+present a digital cyborg, in which such devices not only become prosthetics of the
+body but extend the body into a network with other bodies and with objects.
+(Lupton 2013, p. 27)
+Through health-tracking data, the body appears increasingly as part of an extended
+and distributed digital information system. Similarly, in their article on the
+pedagogies of self-tracking, Rich and Miah (2014, p. 308) describe a condition of
+‘posthuman technological mediation and prostheticisation’, in which ‘new sensorial
+experiences, such as the wearing of fitbit health bands, which vibrate when you
+achieve your activity goals, combine different pedagogical forces to produce em?
+bodied ways of knowing’. Self-tracking technologies targeted for use in physical edu?
+cationlikewiselinkchildrenintodistributednetworksofhybridsensorialexperiences
+that are produced through an amalgam of wearable devices, physical gaming
+activities and algorithmic modes of data analysis and visualization.
+Certainly devices like Sqord connect students prosthetically to various wearable
+devices. But the connection of the body to the machine in health tracking is subtler
+than this. Rather than the cyborg image of the artificially prosthetized body, self-
+tracking connects bodies into a web of data, analytics and algorithmic forms of
+power—a ‘corporealgorithmic’ coupling of bodies and flows of data. From such a
+perspective, the body can be perceivedas part of a distributed system of information,
+interfaces, data and devices that coordinate, pattern and connect it up to wider
+networks. The body in such imagery is conceived as a biological core, a skeletal,
+muscular and nervous system, which is increasingly surrounded and augmented
+by technical and information infrastructures, a range of ‘artificial skins’ and a
+‘networked cognitive system’ (Beer, 2013, p. 131). These artificial skins, however,
+are leaky and porous with the wider informational environment so that the ‘mobility
+ofdatameets themobility ofbodies’ (Beer,2013,p.162).Digitaltechnologies, from
+this perspective, open up the body to data flows and the dynamic experience of
+interfacing with information. Such interfacing is itself now constitutive of much
+human experience, as bodies have become increasingly overlaid with data and
+information:
+Gradually we areadding a new skinof data to theworld, a skinwhich can also have
+its own life…. What we are seeing is data gradually becoming a part of how we see
+the world as it becomes embedded in all of the surfaces we come across, and the
+moving actors that span them, whether birds and trees or cars or us. (Thrift, 2014,
+p. 1264)
+Intricately webbed into data flows through mobile devices and wearable sensors, the
+body moves in ‘coded spaces’ where the flow of data through the environment can
+shape physical movement and activity (Kitchin & Dodge, 2011). It is clear that
+metaphorical accounts of personal data as bodily surfaces and ‘artificial skins’ linked
+to wider networked systems resonates with images of the quantified self as node in a
+mosaic of connections, mathematical models and proceduralized actions. In this
+
+Algorithmic skin 147
+sense, health-tracking data act as a kind of active and algorithmic layer of skin that
+does not only sheathe but animates and orders the body.
+For eHPE, such developments raise the possibility that devices such as Polar
+Active, Sqord, Zamzee and the rest will increasingly interlace children with algori?
+thmic models that have the power to shape the ways in which they think about and
+activate their own physical capacities. In post-humanist media theory, it has been
+recognized that the nature of consciousness and subjectivity changes over time as
+media technologies change—that subjects conceive of themselves and act in relation
+to the technical environment (Hall, 2013). In the contemporary social media envi?
+ronment, within which emerging health-tracking technologies for physical education
+must be situated, subjects are increasingly being coordinated by pre-programmed
+patterns of information that are based on the algorithmic tracking and analysis of
+their personal data. There is symmetry here with recent theoretical and empirical
+work in biopolitics, which has shown how the body in recent discourses has been
+reconceived as a kind of programmable software that can be controlled through
+sequencing the right kind of codes—whether genetic or computational (Lemke,
+2011). The body and even thebrain are increasingly viewed as malleable, plastic and
+improvable (Rose & Abi-Rached, 2013). As data captured from the body are
+processed by health-tracking algorithms, specific health problems can be identified
+and new personalized goals set. This process repositions the student’s growing body
+and subjectivity as the co-constructed product of biology and algorithms—a
+biological body that is increasingly augmented and expanded through its intercon-
+nection with vast coded and networked systems of sensing, monitoring, tracking and
+control, and with their underlying algorithmic systems of analysis, anticipation and
+prediction. The pedagogies of health-tracking produce a student growing up in a
+body with algorithmic skin.
+Conclusion
+ThisarticlehasaimedtocontributetothediscussioninthisnewResearchForumon
+thelikely‘digitalfuture’ofhealthandphysicaleducation.Tothatendithasexplored
+the idea that health-tracking and personal analytics technologies designed and
+promoted for use in eHPE are an emerging form of biopedagogy concerned with
+the algorithmic governance of the body. These biopedagogies are part of the culture
+of self-optimization and self-knowledge through numbers—a solutionist obsession
+with ‘tuning’ and ‘perfecting’ the body with the right algorithms—that pervades the
+calculated public of the self-quantification movement. Undergirding self-quantification
+is a particular set of socially produced classification of healthiness that are now
+encoded and modelled in the algorithmic systems that track, measure and metricize
+physicalexertionandotherbodilyandpsychologicalactivities.Thesemodelsarepart
+of a broader issue of how the ‘world out there’ can be translated ‘into a world in
+here, in the algorithmic machine’ (Neyland, 2014, p. 11), a process that involves
+translating the body of the student into quantifiable data and fitting them to pre-
+existing classifications. Students are to be governed through particular classifications
+
+148 B. Williamson
+and modelsof the body that canbe capturedand tracked as calculabledata bysocio-
+algorithmic procedures.
+The logic of such self-quantification technologies in eHPE is that if the student’s
+body can be counted and calculated, it can also then become amenable to being
+governed and controlled. The child’s body in this discourse has been redefined as a
+kind of software that has been made amenable to being acted upon, enhanced and
+optimized, as instructed by codes and algorithms. This is a process not only of real-
+time data collection and analysis, but also of future-tense prediction. These activities
+are part of an increasing concern with imagining the future in contemporary
+biopolitics, a concern at least partly interwoven with the technical capacity of
+computational statistics, machine learning algorithms and predictive analytics to
+construct probabilistic predictions of individuals’ future actions and behaviours.
+Such technologies of anticipation have the potential to exert material and corporeal
+effects on the health of children. Metaphorically speaking, the biological and
+corporeal figure of the quantified child is wrapped in algorithmic skin, an artificial
+informational membrane that continually interacts with, and is activated by, a
+densely coded informational environment. Self-quantification practices are con-
+nected to a vast networked cognitive system that increasingly has an active power to
+shape the body that moves through it. This raises serious concerns about the extent
+to which students’ physical development may be hybridized with flows of media and
+data, and the role of data gadgets in formatting individual and social health. Built
+into the algorithmic models of self-tracking eHPE hardware and software is a
+particularclassification andorderingofthesociallydesirable childthatconformstoa
+messymixofcommercial,governmentalandmedicalaspirationsregardingthemoral
+ordering of society as a whole.
+Thesedevelopmentsmakeitimportantforresearcherstointerrogatetheroleofthe
+algorithms that are increasingly interwoven with the classification, control and
+governance of health and physical education. The algorithms that enable health and
+physical activity tracking devices and apps to function privilege automaticity,
+quantification, proceduralization and automation in humanhealth. These algorithms
+enact a range of assumptions and models of healthiness and social norms of how
+students should conduct their lives and improve their bodies. Such technologies can
+be seen as extensions of the complex of medical, psychological and neurological
+technologies through which governments and businesses seek to understand popu?
+lations in order to better manage them, or market to them. As such, algorithmic
+health-tracking processes are also interlaced with public health agendas and
+governmental and medical strategies which put the emphasis both on digitized forms
+of health data collection and on individuals using such data to take care of their own
+health—‘people-poweredhealth’mediatedbyemergingtechnologiesasNesta(2014)
+imagines it. As more and more health-tracking devices and apps designed for use in
+educational institutions become available, the governance of physical education
+pedagogies is likely to become more and more subject to commercially produced
+health-tracking systems and their built-in algorithmic models and assumptions about
+children’s health and physical activity.
+
+Algorithmic skin 149
+Moreover, the digitized future of health and physical education is likely to mirror
+the wider development of data-driven schools in which data tracking, sensing and
+analysis, facilitated by software and data analytics algorithms, will increasingly in?
+fluence and shape administration, curriculum, pedagogy and assessment. Such
+‘smartschools’willmobilizetheconstantcollectionandconnectionofdataasaform
+of artificial sentience, making every aspect of school performance into a real-time
+process of data collection, analysis and feedback. Such technologies will ramify and
+solidify existing regimes of performance management, whilst also serving to
+accelerate the use of data for predictive purposes. As data analytics technologies
+suchaseducational datamining and learninganalytics becomeincreasingly powerful
+through the use of machine learning algorithms that can be used to build predictive
+models, these sentient and smart schools will become able not only to provide real-
+time data on student progress, but also to make ‘future-tense’ predictions of their
+likely outcomes and to prescribe automated interventions that might pre-empt them.
+Asmachinelearningalgorithmsandpredictiveanalyticsfromthewiderdata-tracking
+ecosystem leak into schools, it is likely that the future pedagogies of eHPE will be
+based on new forms of anticipatory knowledge and predictive forecasts of students’
+future healthiness that will make it possible and perhaps pedagogically desirable to
+intervene to pre-empt their future lives.
+Funding
+This article is based on research funded by the Economic and Social Research Council [grant
+number ES/L001160/1] and the Royal Society of Edinburgh.
+References
+Amoore, L. (2009). Algorithmic war: Everyday geographies of the war on terror. Antipode, 41(1),
+49–69. doi:10.1111/j.1467-8330.2008.00655.x
+Ball, S. J., & Junemann, C. (2012). Networks, new governance and education. Bristol: Policy Press.
+Beer, D. (2009). Power through the algorithm? Participatory web cultures and the technological
+unconscious. New Media and Society, 11, 985–1002. doi:10.1177/1461444809336551
+Beer, D. (2013). Popular culture and new media: The politics of circulation. London: Palgrave
+Macmillan.
+Bernstein, B. (2000). Pedagogy, symbolic control and identity (Rev. ed.). Oxford: Rowman &
+Littlefield.
+Boessel, W. E. (2013, September 26). Return of the Quantrepreneurs. The Society Pages:
+Cyborgology. Retrieved from http://thesocietypages.org/cyborgology/2013/09/26/return-of-
+the-quantrepreneurs/#more-17136
+Bowker, G. C., & Star, S. L. (1999). Sorting things out: Classification and its consequences. London:
+MIT Press.
+Bucher, T. (2012). Want to be on the top? Algorithmic power and the threat of invisibility on
+Facebook. New Media & Society, 14, 1164–1180. doi:10.1177/1461444812440159
+Cheney-Lippold, J. (2011). A new algorithmic identity: Soft biopolitics and the modulation of
+control. Theory, Culture & Society, 28, 164–181. doi:10.1177/0263276411424420
+
+150 B. Williamson
+Evans, J., & Davies, B. (2014). Physical education PLC: Neoliberalism, curriculum and
+governance. New directions for PESP research. Sport, Education and Society, 19, 869–884.
+doi:10.1080/13573322.2013.850072
+Evans, J., & Rich, E. (2011). Body policies and body pedagogies: Every child matters in totally
+pedagogised schools? Journal of Education Policy, 26, 361–379.
+Gard, M. (2014). eHPE: A history of the future. Sport, Education and Society, 19, 827–845.
+doi:10.1080/13573322.2014.938036
+Gillespie, T. (2014a). The relevance of algorithms. In T. Gillespie, P. J. Boczkowski, & K. A. Foot
+(Eds.), Media technologies: Essays on communication, materiality and society. 167–194. London:
+MIT Press.
+Gillespie, T. (2014b, June 25). Algorithm. Culture Digitally. Retrieved from http://culturedigitally.
+org/2014/06/algorithm-draft-digitalkeyword/
+Hall, G. (2013). #Mysubjectivation. New Formations, 79(1), 83–103. doi:10.3898/NEWF.79.
+05.2013
+Hayles, N. K. (1999). How we became posthuman: Virtual bodies in cybernetics, literature and
+informatics. London: University of Chicago Press.
+Hswen, Y., Murti, V., Vormawor, A. A., Bhattacharjee, R., & Naslund, J. A. (2013). Virtual
+avatars, gaming, and social media: Designing a mobile health app to help children choose
+healthier food options. Journal of Mobile Technologies in Medicine, 2,8–14. doi:10.7309/
+jmtm.2.4S.6
+Kitchin, R., & Dodge, M. (2011). Code/space: Software and everyday life. London: MIT Press.
+Lash, S. (2007). Power after hegemony: Cultural studies in mutation? Theory, Culture & Society,
+24(3), 55–78. doi:10.1177/0263276407075956
+Lemke, T. (2011). Biopolitics: An advanced introduction. New York: New York University Press.
+Lupton, D. (2013). Understanding the human machine. IEEE Technology and Society Magazine,
+32(4), 25–30. doi:10.1109/MTS.2013.2286431
+Lupton, D. (2014, August 27). Self-tracking modes: Reflexive self-monitoring and data practices.
+Paper presented at the ‘Imminent Citizenships: Personhood and Identity Politics in the
+Informatic Age’ workshop, ANU, Canberra.
+MacCormick, J. (2012). Nine algorithms that changed the future: The ingenious ideas that drive today’s
+computers. Oxford: Princeton University Press.
+Macdonald, D. (2014). Is global neo-liberalism shaping the future of physical education? Physical
+Education and Sport Pedagogy, 19, 494–499. doi:10.1080/17408989.2014.920496
+Mackenzie, A. (2006). Cutting code: Software and sociality. Oxford: Peter Lang.
+Mackenzie, A. (2013). Programming subjects in the regime of anticipation: Software studies and
+subjectivity. Subjectivity, 6, 391–405. doi:10.1057/sub.2013.12
+Mager, A. (2012). Algorithmic ideology: How capitalist society shapes search engines. Information,
+Communication & Society, 15(5), 769–787.
+Mayer-Schönberger, V., & Cukier, K. (2014). Learning from big data: The future of education. New
+York, NY: Houghton Mifflin Harcourt.
+Nafus, D., & Sherman, J. (2014). This one does not go up to 11: The quantified self movement as
+an alternative big data practice. International Journal of Communication, 8, 1784–1794.
+Nesta. (2014). Six futures for health data. Retrieved from http://www.nesta.org.uk/six-futures-
+health-data
+Neyland, D. (2014). On organizing algorithms. Theory, Culture & Society. doi:10.1177/
+0263276414530477
+Pykett, J. (2012). The pedagogic state: Education, citizenship, governing. In J. Pykett (Ed.),
+Governing through pedagogy: Re-educating citizens (pp. 1–20). London: Routledge.
+
+Algorithmic skin 151
+Raley, R. (2013). Dataveillance and counterveillance. In L. Gitelman (Ed.), ‘Raw data’ is an
+oxymoron (pp. 121–146). London: MIT Press.
+Rich, E., & Miah, A. (2014). Understanding digital health as public pedagogy: A critical
+framework. Societies, 4, 296–315. doi:10.3390/soc4020296
+Rose, N. (1999). Governing the soul: The shaping of the private self. London: Free Association.
+Rose, N., & Abi-Rached, J. (2013). Neuro: The new brain sciences and the management of the mind.
+Oxford: Princeton University Press.
+Ruckenstein, M. (2014). Visualized and interacted life: personal analytics and engagements with
+data doubles. Societies, 4(1), 68–84. doi:10.3390/soc4010068
+Schaefer, C. E., Van Loan, German, (2014). A feasibility study of wearable activity monitors for
+pre-adolescent school-age children. Preventing Chronic Disease, 11(130262).
+Selwyn, N. (2014). Data entry: Towards the critical study of digital data and education. Learning,
+Media & Technology. doi:10.1080/17439884.2014.921628
+Sqord. (2014). About Sqord. Retrieved from http://sqord.com/
+Swan, M. (2012). Sensor mania! The internet of things, wearable computing, objective metrics,
+and the quantified self 2.0. Journal of Sensor and Actuator Networks, 1, 217–253. Retrieved
+from http://www.mdpi.com/2224-2708/1/3/217/pdf
+Thrift, N. (2014). The promise of urban informatics: Some speculations. Environment & Planning
+A, 46, 1263–1266. doi:10.1068/a472c.
+Vander Schee, C. (2009). Fruit, vegetables, fatness, and Foucault: Governing students and their
+families through school health policy. Journal of Education Policy, 24, 557–574. doi:10.1080/
+02680930902823047
+Whitson, J. R. (2013). Gaming the quantified self. Surveillance & Society, 11, 163–176.
+Williams, B. J., Hay, P. J., & Macdonald, D. (2011). The outsourcing of health, sport and physical
+educational work: A state of play. Physical Education & Sport Pedagogy, 16, 399–415.
+doi:10.1080/17408989.2011.582492
+Williamson, B. (2014a). Governing software: networks, databases and algorithmic power in the
+digitalgovernanceofeducation. Learning,Media&Technology.doi:10.1080/17439884.2014.
+924527
+Williamson,B.(2014b).Knowingpublicservices:Cross-sectorintermediariesandalgorithmic
+governance in public sector reform. Public Policy & Administration, 29(4), 292–312.
+doi:10.1177/0952076714529139
+Williamson, E. (2014, June 6). Baby tech: Will new gadgets result in paranoid parents? BBC News.
+Retrieved from http://www.bbc.co.uk/news/technology-27669210
+Wolf, G. (2010, April 28). The data-driven life. New York Times. Retrieved from http://www.
+nytimes.com/2010/05/02/magazine/02self-measurement-t.html
+

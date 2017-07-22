@@ -1,0 +1,312 @@
+S e e 	 d i s c u s s i o n s , 	 s t a t s , 	 a n d 	 a u t h o r 	 p r o f i l e s 	 f o r 	 t h i s 	 p u b l i c a t i o n 	 a t :
+h t t p s : / / w w w . r e s e a r c h g a t e . n e t / p u b l i c a t i o n / 2 9 1 4 2 4 8 0 9
+P e r s o n a l 	 A c t i v i t y 	 T r a c k e r s 	 a n d 	 t h e
+Q u a n t i f i e d 	 S e l f
+A r t i c l e 	 	 i n 	 	 M e d i c a l 	 R e f e r e n c e 	 S e r v i c e s 	 Q u a r t e r l y 	 · 	 J a n u a r y 	 2 0 1 6
+D O I : 	 1 0 . 1 0 8 0 / 0 2 7 6 3 8 6 9 . 2 0 1 6 . 1 1 1 7 3 0 0
+C I T A T I O N S R E A D S
+2 6 4
+1 	 a u t h o r :
+M a t t h e w 	 B 	 H o y
+M a y o 	 F o u n d a t i o n 	 f o r 	 M e d i c a l 	 E d u c …
+1 4 	 P U B L I C A T I O N S 	 	 	 1 0 1 	 C I T A T I O N S 	 	 	
+S E E 	 P R O F I L E
+A l l 	 i n - t e x t 	 r e f e r e n c e s 	 u n d e r l i n e d 	 i n 	 b l u e 	 a r e 	 l i n k e d 	 t o 	 p u b l i c a t i o n s 	 o n 	 R e s e a r c h G a t e , A v a i l a b l e 	 f r o m : 	 M a t t h e w 	 B 	 H o y
+l e t t i n g 	 y o u 	 a c c e s s 	 a n d 	 r e a d 	 t h e m 	 i m m e d i a t e l y . R e t r i e v e d 	 o n : 	 0 5 	 O c t o b e r 	 2 0 1 6
+MEDICAL REFERENCE SERVICES QUARTERLY
+2016, VOL. 35, NO. 1, 94–100
+http://dx.doi.org/10.1080/02763869.2016.1117300
+EMERGING TECHNOLOGIES
+Matthew B. Hoy and Tara J. Brigham, Column Editors
+Personal Activity Trackers and the Quantified Self
+Matthew B. Hoy
+Medical Library, Mayo Clinic Health System, Eau Claire, Wisconsin, USA
+ABSTRACT KEYWORDS
+Activity trackers; FitBit;
+Personal activity trackers are an inexpensive and easy way for
+fitness trackers; life logging;
+people to record their physical activity and simple biometric
+quantified self
+data. As these devices have increased in availability and
+sophistication, their use in daily life and in medicine has grown.
+This column will briefly explore what these devices are, what
+types of data they can track, and how that data can be used. It
+will also discuss potential problems with trackers and how
+librarians can help patients and physicians manage and protect
+activity data. A brief list of currently available activity trackers is
+also included.
+Introduction
+Ever since “physical fitness” became something to be concerned about,
+people have looked for ways to quantify the amount of physical activity
+they perform. Runners track distances and times, weight lifters count
+sets and pounds lifted, and swimmers count laps; everybody is counting
+something. Until relatively recently, much of this counting was done
+manually or with simple tools like a pedometer. Recent advances in
+technology have created a new class of wearable devices commonly
+referred to as personal activity trackers or fitness trackers. These devices
+allow users to automatically track information about their physical
+activity,fromstepstakentoverticaldistancetravelled,andfromheartrate
+to sleep cycles. These devices also make it easy for users to create detailed
+records of their physical activity. These records can be valuable tools in
+motivating users to exercise more, and may also be useful in the practice
+of medicine. This column will briefly explore what personal activity track-
+ers are and what implications they may have for the practice of medicine.
+It will also discuss some of the problems inherent to these devices and
+ways that librarians can help users and health care professionals manage
+these devices. A brief list of currently available activity trackers is also
+included.
+CONTACT Matthew B. Hoy hoy.matt@mayo.edu Medical Library, Mayo Clinic Health System–Eau Claire,
+1221 Whipple Street, Eau Claire, WI 54701, USA.
+Comments and suggestions should be sent to the Column Editors: Matthew B. Hoy (hoy.matt@mayo.edu) and Tara J.
+Brigham (Brigham.Tara@mayo.edu).
+Published with license by Taylor & Francis. © Matthew B. Hoy
+MEDICAL REFERENCE SERVICES QUARTERLY 95
+What Are Personal Activity Trackers?
+Like many other new technologies, there are no clear rules defining what
+makes a device an activity tracker. There are many devices on the market,
+and every manufacturer is trying to differentiate their product with unique
+features. For purposes of clarity, this column defines a personal activity
+tracker as an electronic device with the following features:
+. is designed to be worn on the user’s body;
+. uses accelerometers, altimeters, or other sensors to track the wearer’s
+movements and/or biometric data; and
+. uploads activity data to an online application that shows trends over
+time.
+Therearemanycurrentlyavailabledevicesthatfittheserequirements,from
+simple step trackers to smart fitness watches that monitor the wearer’s heart
+beat and track their movements via GPS. Fitness trackers come in all shapes
+andsizesfromwristbandstopendantsandfromtowatchestosmallclipsthat
+attachtotheuser’sshoe.Datauploadisusuallyhandledbyadockingstation
+attached to an Internet-enabled computer or via Bluetooth to a smartphone.
+Usersaccesstheirdataviaawebsite,whichusuallyfeaturestoolsforgoal-set-
+ting,long-termtracking,andsocialmediafunctionssuchassharingstatistics
+and encouraging or competing with other users.
+Manyexistingdietandfitnessappsallowuserstointegrateactivitytracker
+data into their products. MyFitnessPal <http://www.myfitnesspal.com>, a
+popular online dieting community that helps users to keep a diary of their
+food intake and exercise, currently integrates with over a dozen different
+activity tracker brands. This integration allows users to automatically pull
+their activity data over into the food tracking application. If they eat a
+cheese-burger for lunch and run an extra mile to make up for it, the two
+applications will share their data to give the user a clearer picture of their
+caloric intake and output. Weight loss site LoseIt <http://www.loseit.com>
+also allows users to connect many activity trackers to their food diary.
+The desire to attach personal numeric data to everyday activities such as
+eating and exercising has been dubbed the “quantified self” movement.
+Adherents to this philosophy believe that if they can measure an aspect of
+their life on a regular basis, they can find a way to improve it. As Wolf put
+it,“theallureofthequantifiedselfisaguessthatmanyofourproblemscome
+1
+from simply lacking the instruments to understand who we are.” Others
+describe the movement as one that “encourages people to use computers,
+smartphones, various electronic gadgets, and even pen and paper to track
+2
+and manage one’s sleep patterns, work, exercise, diet, and mood.” Members
+ofthe“quantifiedself”movementaresimplyusingactivitytrackersasanother
+toolintheirarsenaltoattachharddatatoasmanyofaspectsoftheirlivesas
+possible.
+96 M. B. HOY
+Implications for Medicine
+Activity trackers have the potential to be useful in the practice of medicine.
+Physicians have been advising patients to be more physically active for dec-
+ades. Encouraging patients to track their activity could provide the daily
+reminder and motivation needed to make an exercise intervention truly suc-
+cessful. Majmudar et al. feel these devices could “close the feed-back loop
+3
+between a patient’s choices, actions, and overall health.”
+Althoughthepotentialfortrackerstobeamotivatingforceisthere,sofar
+thereislittleevidence;asmalltrialconductedbyWangetal.foundthat“sim-
+ply providing a wearable sensor/device for self-monitoring of PA [physical
+4
+activity] was insufficient in achieving increases in target PA levels.” It will
+likelytakeyearsofexperimentationtofindtherightmixtureofactivitytrack-
+ing, positive feedback, and traditional counseling to maximize the positive
+effects of activity tracking.
+Inadditiontobeingamotivatorforexercise,physicianscouldaskpatients
+towearanactivitytrackerasadiagnostictool.AsLyonsetal.noted,“consis-
+tent,objectivemeasuresprovidedbythesemonitorscouldallowcliniciansto
+identify at-risk individuals for secondary prevention and rehabilitation
+5
+interventions.” At present, there do not appear to be any studies of activity
+trackers used in this way.
+Another key application for activity trackers in medicine is as a low-cost
+and widely available method of sleep monitoring. Sleep studies conducted
+inatraditionalsetting are expensiveanddisruptivetothe patient’sdaily life.
+Activity monitors can sense when a patient is moving and use that data as
+proxy for whether they are asleep or awake. Marino et al. found that wrist
+wornactivitytrackerswere86%accurateatmeasuringpatientssleeporwake-
+fulness; they consider “wrist actigraphy [a wrist worn activity monitor] a
+6
+reasonable technique for measuring sleep.” The long-term tracking abilities
+of these devices “make them an attractive alternative to standard actigraphy
+7
+in monitoring daily sleep–wake rhythms over several days.” Multiday stays
+in a traditional sleep laboratory are expensive and disruptive to the patient’s
+dailylife.Ifanactivitytrackercanapproximatetheresultsofasleeplab,there
+is potential for huge savings.
+Although there is definitely potential for activity trackers to positively
+impactsleepmedicine,theyarenotasilverbullet.VandenBulckurgedcau-
+tionagainstanoverrelianceondatafromthesedevices,notingthatthereare
+8
+likely to be many false positives and self-diagnosing patients.
+Activity tracking and data use in medicine is still in its infancy. Chung
+et al. found that only around one-third of activity tracker users currently
+share that data with their health care providers, and that “providers rarely
+9
+engage with this data, which frustrates many of thoseself-trackers.” There
+are several reasons for this lack of provider engagement: sheer volume of
+MEDICAL REFERENCE SERVICES QUARTERLY 97
+data, lack of time both in the appointment and outside it to analyze
+activity data, and lack of a useable export mechanism from most tracking
+websites. Until these issues are resolved, it is unlikely activity trackers will
+be broadly used in general practice.
+Potential Problems
+Althoughactivitytrackersshowpromiseinmotivatingusersandempowering
+them to participate in their health care, these devices are not without issues.
+Lee and Finkelstein noted one of the largest causes for concern: with the
+exception of one device (BodyMedia FIT), activity trackers are not regulated
+bytheFoodandDrugAdministrationasmedicaldevices,andtheirmanufac-
+10
+turerscanmakeclaimsof“questionableorunverifiedqualitiesorbenefits.”
+Devicemanufacturersarealsonotrequiredtoprovidedataabouttheaccuracy
+and reliability of the data produced by these devices. Consumers assume the
+devices are 100% accurate, even though they can drastically over- or under-
+estimate energy expenditure, especially for activities other than walking.
+Stackpooletal.foundthat“errorsinmeasuringEE[energyexpenditure]were,
+in general, unacceptably large and became larger with non-standard ambu-
+11
+lation.” Users hoping for an easy way to track calories burned are likely
+to be disappointed with their results, especially if they engage in complex
+activities with many different movements.
+There are also ethical and privacy issues surrounding activity data. Users
+may not be aware of all the data their device is gathering. In the case of
+GPS-enableddevices,activitylogswillprovideadailylogoftheuser’smove-
+ments. If these data are stored on a website, as most are, there are very real
+risks for the user if that website is compromised. Users could find their
+devicesimplicatingthemincrimesorplacingthematriskifmaliciousparties
+knowtheirdailyhabitsviatrackingdata.Theseideasmaysoundfar-fetched,
+but so did cars that report on driver behavior in accidents, and that
+12
+technology is now widely used.
+Anotherproblemwiththesedevicesistheirpotentialtobeusedasawayto
+force people to be active. Employers and insurance companies have a vested
+interestinseeingemployeesbecomemoreactiveandhealthier,thuslowering
+health care costs. Many companies have started employee wellness programs
+13
+andareincentivizingactivitytracking. Whileimprovingemployeehealthis
+a noble if not entirely altruistic goal, it is not a great leap from incentivizing
+positivebehaviorstopunishingunwantedbehaviors.Theethicalimplications
+of forcing someone to wear a device that reports on their activities are
+troubling. However, there are ways around any system, as a group of British
+school children discovered while participating in an exercise study. Several
+participants attached their tracking devices to their pet’s collars and racked
+14
+up impressive step totals without getting off the couch.
+98 M. B. HOY
+How Librarians Can Help
+There are several ways librarians can help physicians and patients realize the
+benefitsoffitnesstrackersandthe“quantifiedself”movement.Thefirstisto
+simply be familiar with these devices; know what they are capable of, what
+types of data they can capture, and where they store that data. Librarians
+should also be able to temper expectations and explain the limitations
+inherent in these devices. Physicians and patients may be convinced that an
+activitytrackerwillworkasadvertised,butasO’Brienetal.noted,“manufac-
+turersofactivitytrackersprovidelittleinformationabouttheirreliabilityand
+15
+validity.” Librarians can also act as a voice of caution for protecting the
+privacy ofuserswho decidetosharetheir activitydatawiththeir healthcare
+providers.
+Another way for librarians to help is to assist with data export, manage-
+ment, and visualization. This can be a problematic area for many users
+because most devices do not offer a simple export tool and only allow
+9
+social media sharing or API access to data. Trackers with a sufficiently
+active user community will often have well-developed third-party tools
+for exporting data, but most users are not sophisticated enough to make
+use of those files. Librarians should be prepared to teach users to access
+activity data and format it in a way that can be shared meaningfully with
+their health care provider.
+Lastly, librarians can advocate for transparency and standardization in
+how personal activity data is gathered, managed, and used. As profes-
+sionals who have traditionally provided access to information while main-
+taining user privacy, librarians are uniquely equipped to help health care
+professionals manage the coming barrage of patient activity data.
+Currently Available Trackers
+At the time of this writing, these were some of the most popular personal
+activity trackers:
+. FitBit<http://www.fitbit.com>:Multipletrackersavailablewithavarietyof
+features, from simple step counting to continuous heart rate monitoring.
+High-end models integrate with user’s smartphone.
+. Nike Fuelband <http://www.nike.com/us/en_us/c/nikeplus/nikefuel>:
+Wristband tracker pairs with smartphone. App has gamification features
+to encourage competition among users.
+. Garmin Vivo <http://sites.garmin.com/en-US/vivo/>: Multiple trackers,
+some with sports-specific apps and phone integration.
+. Jawbone <http://www.jawbone.com>: Multiple trackers that can track
+activity,sleep,andheartrate.High-endmodelsincludetouchlesspaymentsys-
+tem toreplacecredit cards.
+MEDICAL REFERENCE SERVICES QUARTERLY 99
+. Xiamo Mi Band <http://www.mi.com/sg/miband>: Low-cost tracker that
+has many features including phone integration and sleep tracking.
+Conclusion
+Personalactivitytrackersarealreadybeingusedbymillionsofpeople.There
+is a growing movement toward quantifying and storing data about everyday
+personalactivitiessuchasexerciseanddiet,andthesetrackersplayakeyrole
+in gathering that data quickly and easily. At present there are no clear stan-
+dards foraccuracyandreliability ofthedatabeinggatheredorhow personal
+activity data are shared or managed. Librarians should be familiar with
+activitytrackerssotheycanhelpphysiciansandpatientsmanageactivitydata
+while protecting the patient’s privacy.
+Notes on Contributor
+Matthew B. Hoy, MLIS (hoy.matt@mayo.edu) is Supervisor of the Medical Library, Mayo
+Clinic Health System – Eau Claire, 1221 Whipple Street, Eau Claire, WI 54701.
+References
+1. Wolf,Gary.“TheData-DrivenLife.”NewYorkTimesMagazine.May2,2010.http://www.
+nytimes.com/2010/05/02/magazine/02self-measurement-t.html.
+2. Kim,Jeongeun.“AnalysisofHealthConsumers’BehaviorUsingSelf-TrackerforActivity,
+Sleep, and Diet.” Telemedicine Journal and E-Health 20, no. 6 (June 2014): 552–558.
+doi:10.1089/tmj.2013.0282.
+3. Majmudar, Maulik, Lina Avancini Colucci, and Adam Landman. “The Quantified
+Patient of the Future: Opportunities and Challenges.” Healthcare 3, no. 3 (September
+2015): 153–156. doi:10.1016/j.hjdsi.2015.02.001.
+4. Wang,Julie,LisaCadmus-Bertram,LokiNatarajan.“WearableSensor/Device(FitbitOne)
+andSMSText-MessagingPromptstoIncreasePhysicalActivityinOverweightandObese
+Adults:ARandomizedControlledTrial.”TelemedicineJournalandE-Health:TheOfficial
+Journal of the American Telemedicine Association 21, no. 10 (October 2015): 782–792.
+doi:10.1089/tmj.2014.0176.
+5. Lyons, Elizabeth, Zakkoyya Lewis, Brian Mayrsohn, and Jennifer Rowland. “Behavior
+Change Techniques Implemented in Electronic Lifestyle Activity Monitors: A Systematic
+Content Analysis.” Journal of Medical Internet Research 16, no. 8 (August 2014): e192.
+doi:10.2196/jmir.3469.
+6. Marino,Miguel,YiLi,MichaelRueschman,etal. “MeasuringSleep:Accuracy,Sensitivity,
+and Specificity of Wrist Actigraphy Compared to Polysomnography.” Sleep 36, no. 11
+(November 2013): 1747–1755. doi:10.5665/sleep.3142.
+7. de Zambotti, Massimiliano, Stephanie Claudatos, Sarah Inkelis, Ian Colrain, and Fiona
+Baker. “Evaluation of a Consumer Fitness-Tracking Device to Assess Sleep in Adults.”
+Chronobiology International 32, no. 7 (August 2015): 1024–1028. doi:10.3109/07420528.
+2015.1054395.
+8. Van den Bulck, Jan. “Sleep Apps and the Quantified Self: Blessing or Curse?” Journal of
+Sleep Research 24, no. 2 (April 2015): 121–123. doi:10.1111/jsr.12270.
+100 M. B. HOY
+9. Chung, Chia-Fang, Jonathan Cook, Elizabeth Bales, Jasmine Zia, and Sean Munson.
+“More Than Telemonitoring: Health Provider Use and Nonuse of Life-Log Data in
+IrritableBowelSyndromeandWeightManagement.”JournalofMedicalInternetResearch
+17, no. 8 (August 2015): e203. doi:10.2196/jmir.4364.
+10. Lee,Jeon,andJosephFinkelstein.“ActivityTrackers:ACriticalReview.”StudiesinHealth
+Technology and Informatics 205 (2014): 558–562. doi:10.3233/978-1-61499-432-9-558.
+11. Stackpool, Caitlin, John Porcari, Richard Mikat, Cordial Gillette, and Carl Foster. “The
+Accuracy of Various Activity Trackers in Estimating Steps Taken and Energy Expendi-
+ture.” Journal of Fitness Research 3, no. 3 (December 2014): 32–48.
+12. Scanlon, John, Kristofer Kusano, and Hampton Gabler. “Analysis of Driver Evasive
+Maneuvering Prior to Intersection Crashes Using Event Data Recorders.” Traffic Injury
+Prevention 16, no. 2 Suppl. (October 2015): S182–189. doi:10.1080/15389588.2015.
+1066500.
+13. Norman,Gregory,KevinHeltemes,DebiHeck,andMaryJaneOsmick.“EmployeeUseof
+a Wireless Physical Activity Tracker Within Two Incentive Designs at One Company.”
+Population Health Management (June 18, 2015). doi:10.1089/pop.2015.0030.
+14. “Sly Children Fool Exercise Study.” BBC. July 10, 2009, sec. London. http://news.bbc.co.
+uk/2/hi/uk_news/england/london/8143364.stm.
+15. O’Brien, Tara, Meredith Troutman-Jordan, Donna Hathaway, Shannon Armstrong, and
+Michael Moore. “Acceptability of Wristband Activity Trackers Among Community
+Dwelling Older Adults.” Geriatric Nursing 36, no. 2 Suppl. (April 2015): S21–25.
+doi:10.1016/j.gerinurse.2015.02.019.

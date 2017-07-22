@@ -1,0 +1,60 @@
+28.1 Solving systems of linear equations 819
+null null nullnull
+null
+563 x 8
+1
+00:8null 0:6 x D 1:4 ;
+2
+002:5 x 1:5
+3
+thereby obtaining the desired answer
+null null
+null 1:4
+2:2
+xD
+0:6
+by computing ?rst x ,thenx , and ?nally x .
+3 2 1
+ComputinganLUdecomposition
+We have now shown that if we can create an LUP decomposition for a nonsingular
+matrix A, then forward and back substitution can solve the system Ax D b of
+linear equations. Now we show how to ef?ciently compute an LUP decomposition
+for A. We start with the case in which A is an nnulln nonsingular matrix and P is
+absent (or, equivalently, P D I ). In this case, we factor AD LU . We call the
+n
+two matrices L and U anLUdecomposition of A.
+We use a process known asGaussianelimination to create an LU decomposi-
+tion. We start by subtracting multiples of the ?rst equation from the other equations
+in order to remove the ?rst variable from those equations. Then, we subtract mul-
+tiples of the second equation from the third and subsequent equations so that now
+the ?rst and second variables are removed from them. We continue this process
+until the system that remains has an upper-triangular form—in fact, it is the ma-
+trix U . The matrix L is made up of the row multipliers that cause variables to be
+eliminated.
+Our algorithm to implement this strategy is recursive. We wish to construct an
+LU decomposition for an nnulln nonsingular matrix A.IfnD 1, then we are done,
+since we can choose LD I and UD A.Forn>1 , we break A into four parts:
+1
+? null
+a a nullnull a
+11 12 1n
+a a nullnull a
+21 22 2n
+A D
+: : :
+:
+: : : :
+:
+: : :
+a a nullnull a
+n1 n2 nn
+null null
+T
+a w
+11
+D ;
+0
+null
+T 0
+where null is a column .nnull1/-vector, w isarow.nnull1/-vector, and A is an
+.nnull1/null.nnull1/ matrix. Then, using matrix algebra (verify the equations by

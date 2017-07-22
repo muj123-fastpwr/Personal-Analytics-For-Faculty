@@ -1,0 +1,39 @@
+460 Chapter 9 Virtual Memory
+Test File
+We provide the ?leaddresses.txt, which contains integer values represent-
+ing logical addresses ranging from 0 ? 65535 (the size of the virtual address
+space). Your program will open this ?le, read each logical address and translate
+it to its corresponding physical address, and output the value of the signed byte
+at the physical address.
+How to Begin
+First, write a simple program that extracts the page number and offset (based
+on Figure 9.33) from the following integer numbers:
+1, 256, 32768, 32769, 128, 65534, 33153
+Perhaps the easiest way to do this is by using the operators for bit-masking
+and bit-shifting. Once you can correctly establish the page number and offset
+from an integer number, you are ready to begin.
+Initially, we suggest that you bypass the TLB and use only a page table. You
+can integrate the TLB once your page table is working properly. Remember,
+address translation can work without a TLB;theTLB just makes it faster. When
+you are ready to implement the TLB, recall that it has only 16 entries, so you
+will need to use a replacement strategy when you update a full TLB.Youmay
+use either a FIFO or an LRU policy for updating your TLB.
+How to Run Your Program
+Your program should run as follows:
+./a.out addresses.txt
+Your program will read in the ?leaddresses.txt, which contains 1,000 logical
+addresses ranging from 0 to 65535. Your program is to translate each logical
+address to a physical address and determine the contents of the signed byte
+stored at the correct physical address. (Recall that in the C language, thechar
+data type occupies a byte of storage, so we suggest usingchar values.)
+Your program is to output the following values:
+1. The logical address being translated (the integer value being read from
+addresses.txt).
+2. The corresponding physical address (what your program translates the
+logical address to).
+3. The signed byte value stored at the translated physical address.
+We also provide the ?le correct.txt, which contains the correct output
+values for the ?leaddresses.txt. You should use this ?le to determine if your
+program is correctly translating logical to physical addresses.
+Statistics
+After completion, your program is to report the following statistics:

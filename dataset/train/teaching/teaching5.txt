@@ -1,0 +1,35 @@
+Section 14.1. Representing Knowledge in an Uncertain Domain 511 
+A Bayesian network is a directed graph in which each node is annotated with quantita-
+tive probability information. The full specification is as follows: 
+Each node corresponds to a random variable, which may be discrete or continuous. 
+2. A set of directed links or arrows connects pairs of nodes. If there is an arrow from node 
+X to node Y, X is said to be a parent of Y. The graph has no directed cycles (and hence 
+is a directed acyclic graph, or DAG. 
+3. Each node Xi has a conditional probability distribution P(X Parents(Xj))   that quan-
+L 
+tifies the effect of the parents on the node. 
+The topology of the network—the set of nodes and links—specifies the conditional indepen-
+dence relationships that hold in the domain, in a way that will be made precise shortly. The 
+intuitive meaning of an arrow is typically that X has a direct influence on Y, which suggests 
+that causes should be parents of effects. It is usually easy for a domain expert to decide what 
+direct influences exist in the domain—much easier, in fact, than actually specifying the prob-
+abilities themselves. Once the topology of the Bayesian network is laid out, we need only 
+specify a conditional probability distribution for each variable, given its parents. We will 
+see that the combination of the topology and the conditional distributions suffices to specify 
+(implicitly) the full joint distribution for all the variables_ 
+Recall the simple world described in Chapter 13, consisting of the variables Toothache, 
+Cavity, Catch, and Weather. We argued that Weather is independent of the other vari-
+ables; furthermore, we argued that Toothache and Catch are conditionally independent, 
+given Cavity. These relationships are represented by the Bayesian network structure shown 
+in Figure 14.1. Formally, the conditional independence of Toothache and Catch„ given 
+Cavity, is indicated by the absence of a link between Toothache and Catch. Intuitively, the 
+network represents the fact that Cavity is a direct cause of Toothache and Catch, whereas 
+no direct causal relationship exists between Toothache and Catch. 
+Now consider the following example, which is just a little more complex. You have 
+a new burglar alarm installed at home. it is fairly reliable at detecting a burglary, but also 
+responds on occasion to minor earthquakes. (This example is due to Judea Pearl, a resident 
+of Los Angeles—hence the acute interest in earthquakes.) You also have two neighbors, John 
+and Mary, who have promised to call you at work when they hear the alarm.  John nearly 
+always calls when he hears the alarm, but sometimes confuses the telephone ringing with 
+Figure 14.1  A simple Bayesian network in which Weather is independent of the other 
+three variables and Toothache  and Catch, are conditionally independent, given Cavity. 

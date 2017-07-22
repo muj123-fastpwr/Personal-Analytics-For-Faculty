@@ -1,0 +1,30 @@
+BEYOND CLASSICAL 
+SEARCH 
+In which we relax the simplifying assumptions of the previous chapter;   thereby 
+getting closer to the real world. 
+Chapter 3 addressed a single category of problems: observable, deterministic, known envi-
+ronments where the solution is a sequence of actions. In this chapter, we look at what happens 
+when these assumptions are relaxed. We begin with a fairly simple case: Sections 4.1 and 4.2 
+cover algorithms that perform purely local search in the state space, evaluating and modify-
+ing one or more current states rather than systematically exploring paths from an initial state. 
+These algorithms are suitable for problems in which all that matters is the solution state, not 
+the path cost to reach it. The family of local search algorithms includes methods inspired by 
+statistical physics (simulated annealing) and evolutionary biology (genetic algorithms). 
+Then, in Sections 4.3-4.4, we examine what happens when we relax the assumptions 
+of determinism and observability. The key idea is that if an agent cannot predict exactly whit 
+percept it will receive, then it will need to consider what to do under each contingency that 
+its percepts may reveal. With partial observability, the agent will also need to keep track of 
+the states it might be in. 
+Finally, Section 4.5 investigates online search, in which the agent is faced with a state 
+space that is initially unknown and must be explored. 
+4.1 LOCAL SEARCH ALGORITHMS AND OPTIMIZATION PROBLEMS 
+The search algorithms that we have seen so far are designed to explore search spaces sys-
+tematically. This systematicity is achieved by keeping one or more paths in memory and by 
+recording which alternatives have been explored at each paint along the path. When a goal is 
+found, the path to that goal also constitutes a solution to the problem. In many problems, how-
+ever, the path to the goal is irrelevant. For example, in the 8-queens problem (see page 71). 
+what matters is the final configuration of queens, not the order in which they are added. The 
+same general property holds for many important applications such as integrated-circuit de-
+sign, factory-flour  layout, job-shop scheduling, automatic programming, telecommunications 
+network optimization, vehicle routing. and portfolio management. 
+120 

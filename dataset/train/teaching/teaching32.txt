@@ -1,0 +1,44 @@
+3.6 Communication in Client–Server Systems 139
+import java.net.*;
+import java.io.*;
+public class DateClient
+{
+public static void main(String[] args) {
+try {
+/* make connection to server socket */
+Socket sock = new Socket("127.0.0.1",6013);
+InputStream in = sock.getInputStream();
+BufferedReader bin = new
+BufferedReader(new InputStreamReader(in));
+/* read the date from the socket */
+String line;
+while ( (line = bin.readLine()) != null)
+System.out.println(line);
+/* close the socket connection*/
+sock.close();
+}
+catch (IOException ioe) {
+System.err.println(ioe);
+}
+}
+}
+Figure 3.22 Date client.
+abstract the procedure-call mechanism for use between systems with network
+connections. It is similar in many respects to the IPC mechanism described in
+Section 3.4, and it is usually built on top of such a system. Here, however,
+because we are dealing with an environment in which the processes are
+executing on separate systems, we must use a message-based communication
+scheme to provide remote service.
+In contrast to IPC messages, the messages exchanged in RPC communication
+are well structured and are thus no longer just packets of data. Each message is
+addressed to an RPC daemon listening to a port on the remote system, and each
+contains an identi?er specifying the function to execute and the parameters
+to pass to that function. The function is then executed as requested, and any
+output is sent back to the requester in a separate message.
+A port is simply a number included at the start of a message packet.
+Whereas a system normally has one network address, it can have many ports
+within that address to differentiate the many network services it supports. If a
+remote process needs a service, it addresses a message to the proper port. For
+instance, if a system wished to allow other systems to be able to list its current
+users, it would have a daemon supporting such an RPC attached to a port—
+say, port 3027. Any remote system could obtain the needed information (that

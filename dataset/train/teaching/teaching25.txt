@@ -1,0 +1,33 @@
+Programming Example: Election Results | 589
+After a call to this function, the arrays to hold the data are as shown in Figure 10-21.
+candidatesName votesByRegion totalVotes
+[0] [1] [2] [3]
+[0] Mia [0] [0]
+[1] Mickey [1] [1]
+[2] Donald [2] [2]
+[3] Peter [3] [3]
+[4] Danny [4] [4]
+[5] Ashley [5] [5]
+FIGURE 10-21 Arrays candidatesName, votesByRegion, and totalVotes after reading
+candidates’ names
+Function This function uses the selection sort algorithm to sort the array candidatesName.
+sortCandidatesName This function has two parameters: one corresponding to the array candidatesName
+and a second to pass the number of rows of the array candidatesName. Essentially,
+this function is:
+void sortCandidatesName(string cNames[], int noOfRows)
+{
+int i, j;
+int min;
+1
+//selection sort
+0
+for (i = 0; i < noOfRows - 1; i++)
+{
+min = i;
+for (j = i + 1; j < noOfRows; j++)
+if (cNames[j] < cNames[min])
+min = j;
+cNames[i].swap(cNames[min]);
+}
+}
+After a call to this function, the arrays are as shown in Figure 10-22.

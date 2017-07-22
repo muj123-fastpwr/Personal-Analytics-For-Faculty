@@ -1,0 +1,45 @@
+672 | Chapter 12: Classes and Data Abstraction
+ThisstatementdeclaresanobjectmyClockoftypeclockType.Here,wearepassingthree
+valuesoftypeint,whichmatchesthetypeoftheformalparametersoftheconstructorwith
+aparameter.Therefore,theconstructorwithparametersoftheclassclockTypeexecutes,
+and thethree member variablesof the objectmyClock are set to 5,12,and40.
+Example 12-6 further illustrates how constructors are executed.
+EXAMPLE 12-6
+Consider the following class definition:
+class inventory
+{
+public:
+inventory(); //Line 1
+inventory(string); //Line 2
+inventory(string, int, double); //Line 3
+inventory(string, int, double, int); //Line 4
+//Add additional functions
+private:
+string name;
+int itemNum;
+double price;
+int unitsInStock;
+};
+Thisclasshasfourconstructorsandfourmembervariables.Supposethatthedefinitionsof
+the constructors are as follows:
+inventory::inventory() //default constructor
+{
+name = "";
+itemNum = -1;
+price = 0.0;
+unitsInStock = 0;
+}
+inventory::inventory(string n)
+{
+name = n;
+itemNum = -1;
+price = 0.0;
+unitsInStock = 0;
+}
+inventory::inventory(string n, int iNum, double cost)
+{
+name = n;
+itemNum = iNum;
+price = cost;
+unitsInStock = 0;
+}

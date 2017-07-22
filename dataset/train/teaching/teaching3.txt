@@ -1,0 +1,19 @@
+100 Chapter 3. Solving Problems by Searching 
+(a) After expanding Arad. Sibiu, 
+and Rkunieu  Vilcea   
+(b) After unwinding back to Sibiu 
+and expanding Fagaras 
+(c) After switching back to Rimnicu  Vilcea 
+and expanding Pitesti   
+Figure 3.27 Stages in an RBFS  search for the shortest route to Bucharest. The f-limit 
+value for each recursive call is shown on top of each current node, and every node is labeled 
+with its f-cost.   (a) The path via Rimnicu  Vilcea is followed until the current best leaf (Pitesti) 
+has a value that is worse than the best alternative path (Fagaras).  (b) The recursion unwinds 
+and the best leaf value of the forgotten subtree  (417) is backed up to Rirnnicu  Vilcea;  then 
+Fagaras is expanded, revealing a best leaf value of 450. (c) The recursion unwinds and the 
+best leaf value of the forgotten subtree (450) is backed up to Fagaras:  then Rimnicu  Vilcea is 
+expanded. This time, because the best alternative path (through Timisoara) casts at least 447, 
+the expansion continues to Bucharest. 
+reexpanding the subtree at some later time. Figure 3.27 shows how RBFS  reaches Bucharest. 
+REFS  is somewhat more efficient than WA",  but still suffers from excessive node re- 
+generation. In the example in Figure 3.27, RBFS follows the path via Rimnicu  Vilcea, then 

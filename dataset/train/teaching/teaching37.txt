@@ -1,0 +1,47 @@
+17.5 Communication Protocols 757
+1. Layer 1: Physical layer. The physical layer is responsible for handling
+both the mechanical and the electrical details of the physical transmission
+of a bit stream. At the physical layer, the communicating systems must
+agree on the electrical representation of a binary 0 and 1, so that when data
+are sent as a stream of electrical signals, the receiver is able to interpret the
+data properly as binary data. This layer is implemented in the hardware
+of the networking device. It is responsible for delivering bits.
+2. Layer 2: Data-link layer. The data-link layer is responsible for handling
+frames, or ?xed-length parts of packets, including any error detection
+and recovery that occurs in the physical layer. It sends frames between
+physical addresses.
+3. Layer 3: Network layer. The network layer is responsible for breaking
+messages into packets, providing connections between logical addresses,
+and routing packets in the communication network, including handling
+the addresses of outgoing packets, decoding the addresses of incoming
+packets, and maintaining routing information for proper response to
+changing load levels. Routers work at this layer.
+4. Layer 4: Transport layer. The transport layer is responsible for transfer of
+messages between nodes, including partitioning messages into packets,
+maintaining packet order, and controlling ?ow to avoid congestion.
+5. Layer 5: Session layer. The session layer is responsible for implementing
+sessions, or process-to-process communication protocols.
+6. Layer 6: Presentation layer. The presentation layer is responsible for
+resolving the differences in formats among the various sites in the
+network, including character conversions and half duplex–full duplex
+modes (character echoing).
+7. Layer 7: Application layer. The application layer is responsible for inter-
+acting directly with users. This layer deals with ?le transfer, remote-login
+protocols, and electronic mail, as well as with schemas for distributed
+databases.
+Figure 17.6 summarizes the OSI protocol stack—a set of cooperating
+protocols—showing the physical ?ow of data. As mentioned, logically each
+layer of a protocol stack communicates with the equivalent layer on other
+systems. But physically, a message starts at or above the application layer and
+is passed through each lower level in turn. Each layer may modify the message
+and include message-header data for the equivalent layer on the receiving
+side. Ultimately, the message reaches the data-network layer and is transferred
+as one or more packets (Figure 17.7). The data-link layer of the target system
+receives these data, and the message is moved up through the protocol stack.
+It is analyzed, modi?ed, and stripped of headers as it progresses. It ?nally
+reaches the application layer for use by the receiving process.
+The OSI model formalizes some of the earlier work done in network
+protocols but was developed in the late 1970s and is currently not in widespread
+use. Perhaps the most widely adopted protocol stack is the TCP/IP model, which
+has been adopted by virtually all Internet sites. The TCP/IP protocol stack has
+fewer layers than the OSI model. Theoretically, because it combines several

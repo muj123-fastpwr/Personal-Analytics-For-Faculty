@@ -1,0 +1,46 @@
+C.2 Probability 1191
+In our coin-?ipping example, suppose that each of the four elementary events
+has probability 1=4. Then the probability of getting at least one head is
+PrfHH; HT; THg D PrfHHgC PrfHTgC PrfTHg
+D 3=4 :
+Alternatively, since the probability of getting strictly less than one head is
+PrfTTgD 1=4, the probability of getting at least one head is 1null1=4D 3=4.
+Discreteprobabilitydistributions
+A probability distribution isdiscrete if it is de?ned over a ?nite or countably in?nite
+sample space. Let S be the sample space. Then for any event A,
+X
+PrfAgD Prfsg ;
+s2A
+since elementary events, speci?cally those in A, are mutually exclusive. If S is
+?nite and every elementary event s2 S has probability
+PrfsgD 1=jSj ;
+then we have theuniformprobabilitydistribution on S. In such a case the experi-
+ment is often described as “picking an element of S at random.”
+As an example, consider the process of ?ipping afair coin, one for which the
+probability of obtaining a head is the same as the probability of obtaining a tail, that
+is, 1=2. If we ?ip the coin n times, we have the uniform probability distribution
+n
+n
+de?ned on the sample space SDfH; Tg , a set of size 2 . We can represent each
+elementary event in S as a string of length n overfH; Tg, each string occurring with
+n
+probability 1=2 .Theevent
+ADfexactly k heads and exactly nnullk tails occurg
+nullnull nullnull
+n n
+is a subset of S of size A D ,since strings of length n over H; T contain
+j j f g
+k k
+nullnull
+n
+n
+exactly k H’s. The probability of event A is thus PrfAgD =2 .
+k
+Continuousuniformprobabilitydistribution
+The continuous uniform probability distribution is an example of a probability
+distribution in which not all subsets of the sample space are considered to be
+events. The continuous uniform probability distribution is de?ned over a closed
+interval Œa; bnull of the reals, wherea<b . Our intuition is that each point in the in-
+terval Œa; bnull should be “equally likely.” There are an uncountable number of points,
+however, so if we give all points the same ?nite, positive probability, we cannot si-
+multaneously satisfy axioms 2 and 3. For this reason, we would like to associate a

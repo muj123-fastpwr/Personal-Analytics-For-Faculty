@@ -1,0 +1,36 @@
+726 Chapter 26  Process improvement
+Level 5
+Optimizing
+Level 4
+Quantitatively
+Managed
+Level 3
+Defined
+Level 2
+Managed
+Level 1
+Initial
+Figure 26.10 The CMMI
+staged maturity model
+introducing good practice; however, higher levels require a commitment to process
+measurement and improvement.
+For example, the process areas as defined in the model associated with the second
+level (the managed level) are:
+1. Requirements management Manage the requirements of the project’s products and
+product components, and identify inconsistencies between those requirements and
+the project’s plans and work products.
+2. Project planning Establish and maintain plans that define project activities.
+3. Project monitoring and control Provide understanding into the project’s
+progress so that appropriate corrective actions can be taken when the project’s
+performance deviates significantly from the plan.
+4. Supplier agreement management Manage the acquisition of products and services
+from suppliers external to the project for which a formal agreement exists.
+5. Measurement and analysis Develop and sustain a measurement capability that is
+used to support management information needs.
+6. Process and product quality assurance Provide staff and management with
+objective insight into the processes and associated work products.
+7. Configuration management Establish and maintain the integrity of work products
+using configuration identification, configuration control, configuration status
+accounting, and configuration audits.
+As well as these specific practices, organizations operating at the second level in
+the CMMI model should have achieved the generic goal of institutionalizing each of

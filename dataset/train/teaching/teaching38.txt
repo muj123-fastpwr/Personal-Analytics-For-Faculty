@@ -1,0 +1,39 @@
+800 Chapter 18 The Linux System
+top-half interrupt handlers
+bottom-half interrupt handlers
+kernel-system service routines (preemptible)
+user-mode programs (preemptible)
+Figure 18.2 Interrupt protection levels.
+bottom halves to prevent any other critical sections from interrupting it. At
+the end of the critical section, the kernel can reenable the bottom halves and
+run any bottom-half tasks that have been queued by top-half interrupt service
+routines during the critical section.
+Figure 18.2 summarizes the various levels of interrupt protection within
+the kernel. Each level may be interrupted by code running at a higher level
+but will never be interrupted by code running at the same or a lower level.
+Except for user-mode code, user processes can always be preempted by another
+process when a time-sharing scheduling interrupt occurs.
+18.5.4 Symmetric Multiprocessing
+The Linux 2.0 kernel was the ?rst stable Linux kernel to support symmetric
+multiprocessor (SMP) hardware, allowing separate processes to execute in
+parallel on separate processors. The original implementation of SMP imposed
+the restriction that only one processor at a time could be executing kernel code.
+In version 2.2 of the kernel, a single kernel spinlock (sometimes termed
+BKL for “big kernel lock”) was created to allow multiple processes (running on
+different processors) to be active in the kernel concurrently. However, the BKL
+provided a very coarse level of locking granularity, resulting in poor scalability
+to machines with many processors and processes. Later releases of the kernel
+made the SMP implementation more scalable by splitting this single kernel
+spinlock into multiple locks, each of which protects only a small subset of the
+kernel’s data structures. Such spinlocks are described in Section 18.5.3. The 3.0
+kernel provides additional SMP enhancements, including ever-?ner locking,
+processor af?nity, and load-balancing algorithms.
+18.6 Memory Management
+Memory management under Linux has two components. The ?rst deals with
+allocating and freeing physical memory—pages, groups of pages, and small
+blocks of RAM. The second handles virtual memory, which is memory-mapped
+into the address space of running processes. In this section, we describe these
+two components and then examine the mechanisms by which the loadable
+components of a new program are brought into a process’s virtual memory in
+response to anexec() system call.
+increasing priority

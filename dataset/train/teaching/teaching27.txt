@@ -1,0 +1,26 @@
+798 | Chapter 14: Pointers, Classes, Virtual Functions, and Abstract Classes
+EXAMPLE 14-2
+Consider the following statements:
+int *p;
+int x;
+Suppose that we have the memory allocation for p and x as shown in Figure 14-2.
+. . . . . . . . .
+1400 1750
+p x
+FIGURE 14-2 Main memory, p, and x
+The values of &p, p, *p, &x, and x are as follows:
+&p 1400 p ? (unknown) *p Does not exist &x 1750 x ? (unknown)
+(undefined)
+Suppose that the following statements are executed in the order given:
+x = 50;
+p = &x;
+*p = 38;
+The values of &p, p, *p, &x, and x are shown after each of these statements executes.
+After the statement x = 50; executes, the values of &p, p, *p, &x, and x are as follows:
+&p 1400 p ? (unknown) *p Does not exist &x 1750 x 50
+(undefined)
+After the statement p = &x; executes, the values of &p, p, *p, &x, and x are as follows:
+&p 1400 p 1750 *p 50 &x 1750 x 50
+After the statement *p = 38; executes, the values of &p, p, *p, &x, and x are as follows.
+(Because *p and x refer to the same memory space, the value of x is also changed to 38.)
+&p 1400 p 1750 *p 38 &x 1750 x 38

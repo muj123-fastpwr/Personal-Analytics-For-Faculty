@@ -1,0 +1,53 @@
+6.8 Algorithm Evaluation 301
+The waiting time is 0 milliseconds for process P , 10 milliseconds for process
+1
+P , 39 milliseconds for process P , 42 milliseconds for process P,and49
+2 3 4
+milliseconds for process P . Thus, the average waiting time is (0 + 10 + 39
+5
++ 42 + 49)/5 = 28 milliseconds.
+With nonpreemptive SJF scheduling, we execute the processes as
+P P P P P
+3 4 1 5 2
+03 10 20 32 61
+The waiting time is 10 milliseconds for process P , 32 milliseconds for process
+1
+P , 0 milliseconds for process P , 3 milliseconds for process P,and20
+2 3 4
+milliseconds for process P . Thus, the average waiting time is (10 + 32 + 0
+5
++ 3 + 20)/5 = 13 milliseconds.
+With the RR algorithm, we execute the processes as
+P P P P P P P P
+1 2 3 4 5 2 5 2
+0 10 20 23 30 40 50 52 61
+The waiting time is 0 milliseconds for process P , 32 milliseconds for process
+1
+P , 20 milliseconds for process P , 23 milliseconds for process P,and40
+2 3 4
+milliseconds for process P . Thus, the average waiting time is (0 + 32 + 20
+5
++ 23 + 40)/5 = 23 milliseconds.
+We can see that, in this case, the average waiting time obtained with the SJF
+policy is less than half that obtained with FCFS scheduling; the RR algorithm
+gives us an intermediate value.
+Deterministic modeling is simple and fast. It gives us exact numbers,
+allowing us to compare the algorithms. However, it requires exact numbers for
+input, and its answers apply only to those cases. The main uses of deterministic
+modeling are in describing scheduling algorithms and providing examples. In
+cases where we are running the same program over and over again and can
+measure the program’s processing requirements exactly, we may be able to use
+deterministic modeling to select a scheduling algorithm. Furthermore, over a
+set of examples, deterministic modeling may indicate trends that can then be
+analyzed and proved separately. For example, it can be shown that, for the
+environment described (all processes and their times available at time 0), the
+SJF policy will always result in the minimum waiting time.
+6.8.2 Queueing Models
+On many systems, the processes that are run vary from day to day, so there
+is no static set of processes (or times) to use for deterministic modeling. What
+can be determined, however, is the distribution of CPU and I/O bursts. These
+distributions can be measured and then approximated or simply estimated. The
+result is a mathematical formula describing the probability of a particular CPU
+burst. Commonly, this distribution is exponential and is described by its mean.
+Similarly, we can describe the distribution of times when processes arrive in
+the system (the arrival-time distribution). From these two distributions, it is

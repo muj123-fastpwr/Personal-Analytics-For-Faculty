@@ -1,0 +1,25 @@
+Chapter 1. Introduction 
+Green 
+Gretn   
+Figure 1.4  A scene from the blocks world. S HRDLU  (Winograd, 1972) has just completed 
+the command "Find a block which is taller than the one you are holding and put it in the box." 
+The most famous mieroworld  was the blocks world, which consists of a set of solid blocks 
+placed on a tabletop (or more often, a simulation of a tabletop), as shown in Figure 1.4. 
+A typical task in this world is to rearrange the blocks in a certain way, using a robot hand 
+that can pick up one block at a time. The blocks world was home to the vision project of 
+David Huffman (1971), the vision and constraint-propagation work of David Waltz (1975). 
+the learning theory of Patrick Winston (1970), the natural-language-understanding program 
+of Terry Winograd (1972), and the planner of Scott Fahlman  (1974). 
+Early work building on the neural networks of McCulloch and Pitts also flourished. 
+The work of Winograd and Cowan (1963) showed how a large number of elements could 
+collectively represent an individual concept, with a corresponding increase in robustness and 
+parallelism. Hebb's learning methods were enhanced by Bernie Widrow (Widrow and Hoff. 
+1960; Widrow,  1962), who called his networks adalines.  and by Frank Rosenblatt (1962) 
+with his perceptrons. The perceptron convergence theorem (Block et a1., 1962) says that 
+the learning algorithm can adjust the connection strengths of a perceptron to match any input 
+data, provided such a match exists. These topics are covered in Chapter 20. 
+1.3.4 A dose of reality (1966-1973) 
+From the beginning, Al   researchers were not shy about making predictions of their coming 
+successes. The following statement by Herbert Simon in 1957 is often quoted: 
+It is not my aim to surprise or shock you butthe simplest way I can summarize is  to say 
+that there are now in the world machines that think, that learn and that create. Moreover, 

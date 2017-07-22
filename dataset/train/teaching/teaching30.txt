@@ -1,0 +1,39 @@
+Ordered Linked Lists | 1059
+// inserted at the proper place in the list,
+// last points to the last node in the
+// list, and count is incremented by 1.
+void insertLast(const Type& newItem);
+//Function to insert newItem at the end of the list.
+//Postcondition: first points to the new list, newItem is
+// inserted at the proper place in the list,
+// last points to the last node in the
+// list, and count is incremented by 1.
+void deleteNode(const Type& deleteItem);
+//Function to delete deleteItem from the list.
+1
+//Postcondition: If found, the node containing
+// deleteItem is deleted from the list;
+8
+// first points to the first node of the
+// new list, and count is decremented by 1.
+// If deleteItem is not in the list, an
+// appropriate message is printed.
+};
+Figure 18-29 shows a UML class diagram of the class orderedLinkedList and the
+inheritance hierarchy.
+orderedLinkedList<Type>
+linkedListType
++search(const Type&) const: bool
++insert(const Type&): void
++insertFirst(const Type&): void
++insertLast(const Type&): void
++deleteNode(const Type&): void orderedLinkedList
+FIGURE18-29 UMLclassdiagramoftheclassorderedLinkedListandtheinheritancehierarchy
+Next, we give the definitions of the member functions of the class orderedLinkedList.
+Search the List
+First, we discuss the search operation. The algorithm to implement the search opera-
+tion is similar to the search algorithm for general lists discussed earlier. Here, because
+the list is sorted, we can improve the search algorithm somewhat. As before, we start the
+search at the first node in the list. We stop the search as soon as we find a node in
+the list with info greater than or equal to the search item or when we have searched
+the entire list.

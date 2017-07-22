@@ -1,0 +1,49 @@
+856 Chapter 19 Windows 7
+management, partition management, and disk striping and mirroring are all
+examples of functionality implemented using ?lter drivers that execute beneath
+the ?le system in the stack. File-system ?lter drivers execute above the ?le
+system and have been used to implement functionalities such as hierarchical
+storage management, single instancing of ?les for remote boot, and dynamic
+format conversion. Third parties also use ?le-system ?lter drivers to implement
+virus detection.
+Device drivers for Windows are written to the Windows Driver Model
+(WDM) speci?cation. This model lays out all the requirements for device drivers,
+including how to layer ?lter drivers, share common code for handling power
+and plug-and-play requests, build correct cancellation logic, and so forth.
+Because of the richness of the WDM, writing a full WDM device driver
+for each new hardware device can involve a great deal of work. Fortunately,
+the port/miniport model makes it unnecessary to do this. Within a class of
+similar devices, such as audio drivers, SATA devices, or Ethernet controllers,
+each instance of a device shares a common driver for that class, called a port
+driver. The port driver implements the standard operations for the class and
+then calls device-speci?c routines in the device’s miniport driver to implement
+device-speci?c functionality. The TCP/IP network stack is implemented in
+this way, with the ndis.sys class driver implementing much of the network
+driver functionality and calling out to the network miniport drivers for speci?c
+hardware.
+Recent versions of Windows, including Windows 7, provide additional
+simpli?cations for writing device drivers for hardware devices. Kernel-mode
+drivers can now be written using the Kernel-Mode Driver Framework (KMDF),
+which provides a simpli?ed programming model for drivers on top of WDM.
+Another option is the User-Mode Driver Framework (UMDF). Many drivers
+do not need to operate in kernel mode, and it is easier to develop and deploy
+drivers in user mode. It also makes the system more reliable, because a failure
+in a user-mode driver does not cause a kernel-mode crash.
+19.3.3.6 Cache Manager
+In many operating systems, caching is done by the ?le system. Instead,
+Windows provides a centralized caching facility. The cache manager works
+closely with the VM manager to provide cache services for all components
+under the control of the I/O manager. Caching in Windows is based on ?les
+rather than raw blocks. The size of the cache changes dynamically according
+to how much free memory is available in the system. The cache manager
+maintains a private working set rather than sharing the system process’s
+working set. The cache manager memory-maps ?les into kernel memory and
+then uses special interfaces to the VM manager to fault pages into or trim them
+from this private working set.
+The cache is divided into blocks of 256 KB. Each cache block can hold a
+view (that is, a memory-mapped region) of a ?le. Each cache block is described
+by a virtual address control block (VA C B) that stores the virtual address and
+?le offset for the view, as well as the number of processes using the view. The
+VA C Bs reside in a single array maintained by the cache manager.
+When the I/O manager receives a ?le’s user-level read request, the I/O
+manager sends an IRP to the I/O stack for the volume on which the ?le resides.

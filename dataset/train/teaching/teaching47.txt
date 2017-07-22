@@ -1,0 +1,42 @@
+640 Chapter 23  Project planning
+been agreed and initial stages of the system design process are under way. Your goal
+at this stage should be to make a quick and approximate cost estimate. Therefore,
+you have to make simplifying assumptions, for example, that the effort involved in
+integrating reusable code is zero.
+The estimates produced at this stage are based on the standard formula for algo-
+rithmic models, namely:
+B
+Effort  A  Size  M
+Based on his own large data set, Boehm proposed that the coefficient A should be
+2.94. The size of the system is expressed in KSLOC, which is the number of thousands
+of lines of source code. You calculate KSLOC by estimating the number of function
+points in the software. You then use standard tables that relate software size to function
+points for different programming languages, to compute an initial estimate of the sys-
+tem size in KSLOC.
+The exponent B reflects the increased effort required as the size of the project
+increases. This can vary from 1.1 to 1.24 depending on the novelty of the project, the
+development flexibility, the risk resolution processes used, the cohesion of the devel-
+opment team, and the process maturity level (see Chapter 26) of the organization. 
+I discuss how the value of this exponent is calculated using these parameters in the
+description of the COCOMO II post-architecture model.
+This results in an effort computation as follows:
+(1.1  1.24)
+PM  2.94  Size  M
+where
+M  PERS× RCPX× RUSE× PDIF× PREX× FCIL× SCED
+The multiplier M is based on seven project and process attributes that increase or
+decrease the estimate. The attributes used in the early design model are product reli-
+ability and complexity (RCPX), reuse required (RUSE), platform difficulty (PDIF),
+personnel capability (PERS), personnel experience (PREX), schedule (SCED), and
+support facilities (FCIL). I explain these attributes on the book’s webpages. You
+estimate values for these attributes using a six-point scale, where 1 corresponds to
+‘very low’ and 6 corresponds to ‘very high’.
+The reuse model
+As I have discussed in Chapter 16, software reuse is now common. Most large sys-
+tems include a significant amount of code that has been reused from previous devel-
+opment projects. The reuse model is used to estimate the effort required to integrate
+reusable or generated code.
+COCOMO II considers two types of reused code. ‘Black-box’ code is code that
+can be reused without understanding the code or making changes to it. The develop-
+ment effort for black-box code is taken to be zero. ‘White box’ code has to be
+adapted to integrate it with new code or other reused components. Development

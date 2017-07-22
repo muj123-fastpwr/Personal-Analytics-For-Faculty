@@ -1,0 +1,42 @@
+12.5  Formal specification 333
+Threat Probability Control Feasibility
+Unauthorized user gains Low Only allow system Low cost of
+access as system manager management from implementation but care
+and makes system specific locations that are must be taken with key
+unavailable physically secure. distribution and to ensure
+that keys are available in
+the event of an
+emergency.
+Unauthorized user gains High Require all users to Technically feasible but
+access as system user and authenticate themselves high-cost solution.
+accesses confidential using a biometric Possible user resistance.
+information mechanism.
+Simple and transparent to
+Log all changes to patient implement and also
+information to track supports recovery.
+system usage.
+2. All patient information on the system client shall be encrypted.
+Figure 12.11
+Threat and control
+3. Patient information shall be uploaded to the database when a clinic session is
+analysis in a
+over and deleted from the client computer.
+preliminary risk
+assessment report
+4. A log of all changes made to the system database and the initiator of these
+changes shall be maintained on a separate computer from the database server.
+The first two requirements are related—patient information is downloaded to a
+local machine so that consultations may continue if the patient database server is
+attacked or becomes unavailable. However, this information must be deleted so that
+later users of the client computer cannot access the information. The fourth require-
+ment is a recovery and auditing requirement. It means that changes can be recovered
+by replaying the change log and that it is possible to discover who has made the
+changes. This accountability discourages misuse of the system by authorized staff.
+12.5 Formal specification
+For more than 30 years, many researchers have advocated the use of formal methods
+of software development. Formal methods are mathematically-based approaches to
+software development where you define a formal model of the software. You may
+then formally analyze this model and use it as a basis for a formal system specifica-
+tion. In principle, it is possible to start with a formal model for the software and
+prove that a developed program is consistent with that model, thus eliminating
+software failures resulting from programming errors.

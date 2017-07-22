@@ -1,0 +1,43 @@
+19.7 Programmer Interface 875
+SECURITY ATTRIBUTES sa;
+sa.nlength = sizeof(sa);
+sa.lpSecurityDescriptor = NULL;
+sa.bInheritHandle = TRUE;
+Handle a semaphore = CreateSemaphore(&sa, 1, 1, NULL);
+char comand line[132];
+ostrstream ostring(command line, sizeof(command line));
+ostring << a semaphore << ends;
+CreateProcess("another process.exe", command line,
+NULL, NULL, TRUE, . . .);
+Figure 19.8 Code enabling a child to share an object by inheriting a handle.
+may create and share a single object named “foo” when two distinct objects—
+possibly of different types—were desired.
+Named objects have the advantage that unrelated processes can readily
+share them. The ?rst process calls one of theCreateXXX functions and supplies
+a name as a parameter. The second process gets a handle to share the object
+by calling OpenXXX() (or CreateXXX) with the same name, as shown in the
+example in Figure 19.9.
+The third way to share objects is via the DuplicateHandle() function.
+This method requires some other method of interprocess communication to
+pass the duplicated handle. Given a handle to a process and the value of a
+handle within that process, a second process can get a handle to the same
+object and thus share it. An example of this method is shown in Figure 19.10.
+19.7.3 Process Management
+In Windows, a process is a loaded instance of an application and a thread is an
+executable unit of code that can be scheduled by the kernel dispatcher. Thus,
+a process contains one or more threads. A process is created when a thread
+in some other process calls the CreateProcess() API. This routine loads
+any dynamic link libraries used by the process and creates an initial thread
+in the process. Additional threads can be created by the CreateThread()
+function. Each thread is created with its own stack, which defaults to 1 MB
+unless otherwise speci?ed in an argument toCreateThread().
+// Process A
+...
+HANDLE a semaphore = CreateSemaphore(NULL, 1, 1, "MySEM1");
+...
+// Process B
+...
+HANDLE b semaphore = OpenSemaphore(SEMAPHORE ALL ACCESS,
+FALSE, "MySEM1");
+...
+Figure 19.9 Code for sharing an object by name lookup.

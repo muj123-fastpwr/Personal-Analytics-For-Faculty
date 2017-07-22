@@ -1,0 +1,40 @@
+114 Chapter 4  Requirements engineering
+FPO
+Requirements traceability
+You need to keep track of the relationships between requirements, their sources, and the system design so 
+that you can analyze the reasons for proposed changes and the impact that these changes are likely to have on
+other parts of the system. You need to be able to trace how a change ripples its way through the system. Why?
+http://www.SoftwareEngineering-9.com/Web/Requirements/ReqTraceability.html
+using a formal process for change management is that all change proposals are treated
+consistently and changes to the requirements document are made in a controlled way.
+There are three principal stages to a change management process:
+1. Problem analysis and change specification The process starts with an identified
+requirements problem or, sometimes, with a specific change proposal. During
+this stage, the problem or the change proposal is analyzed to check that it is
+valid. This analysis is fed back to the change requestor who may respond with a
+more specific requirements change proposal, or decide to withdraw the request.
+2. Change analysis and costing The effect of the proposed change is assessed
+using traceability information and general knowledge of the system require-
+ments. The cost of making the change is estimated both in terms of modifica-
+tions to the requirements document and, if appropriate, to the system design and
+implementation. Once this analysis is completed, a decision is made whether or
+not to proceed with the requirements change.
+3. Change implementation The requirements document and, where necessary, the
+system design and implementation, are modified. You should organize the
+requirements document so that you can make changes to it without extensive
+rewriting or reorganization. As with programs, changeability in documents is
+achieved by minimizing external references and making the document sections
+as modular as possible. Thus, individual sections can be changed and replaced
+without affecting other parts of the document.
+If a new requirement has to be urgently implemented, there is always a temptation to
+change the system and then retrospectively modify the requirements document. You
+should try to avoid this as it almost inevitably leads to the requirements specification and
+the system implementation getting out of step. Once system changes have been made, it
+is easy to forget to include these changes in the requirements document or to add infor-
+mation to the requirements document that is inconsistent with the implementation.
+Agile development processes, such as extreme programming, have been designed
+to cope with requirements that change during the development process. In these
+processes, when a user proposes a requirements change, this change does not go
+through a formal change management process. Rather, the user has to prioritize that
+change and, if it is high priority, decide what system features that were planned for the
+next iteration should be dropped.

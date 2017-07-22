@@ -1,0 +1,49 @@
+8.3 Radix sort 199
+Lemma8.4
+Givennb-bit numbers and any positive integer rnullb,RADIX-SORT correctly sorts
+r
+these numbers in ‚..b=r/.nC 2 // time if the stable sort it uses takes ‚.nC k/
+time for inputs in the range 0 to k.
+Proof For a value rnullb, we view each key as having dDdb=re digits of r bits
+r
+each. Each digit is an integer in the range 0 to 2 null1, so that we can use counting
+r
+sort with kD 2 null1. (For example, we can view a 32-bit word as having four 8-bit
+r
+digits, so that bD 32, rD 8, kD 2 null1D 255,anddD b=rD 4.) Each pass of
+r
+counting sort takes time ‚.nC k/D ‚.nC 2 / and there are d passes, for a total
+r r
+running time of ‚.d.nC 2 //D ‚..b=r/.nC 2 //.
+For given values of n and b, we wish to choose the value of r, with r nullb,
+r
+that minimizes the expression .b=r/.nC 2 /.Ifb<blg nc, then for any value
+r
+of rnullb,wehavethat.nC 2 /D ‚.n/. Thus, choosing rD b yields a running
+b
+time of .b=b/.nC 2 /D ‚.n/, which is asymptotically optimal. If bnullblg nc,
+then choosing r Dblg nc gives the best time to within a constant factor, which
+we can see as follows. Choosing rDblg nc yields a running time of ‚.bn= lg n/.
+r
+As we increase r aboveblg nc,the2 term in the numerator increases faster than
+the r term in the denominator, and so increasing r aboveblg nc yields a running
+time of nullbn= lg n/. If instead we were to decrease r belowblg nc, then the b=r
+r
+term increases and the nC 2 term remains at ‚.n/.
+Is radix sort preferable to a comparison-based sorting algorithm, such as quick-
+sort? If bD O.lg n/, as is often the case, and we choose rnulllg n, then radix sort’s
+running time is ‚.n/, which appears to be better than quicksort’s expected running
+time of ‚.n lg n/. The constant factors hidden in the ‚-notation differ, however.
+Although radix sort may make fewer passes than quicksort over the n keys, each
+pass of radix sort may take signi?cantly longer. Which sorting algorithm we prefer
+depends on the characteristics of the implementations, of the underlying machine
+(e.g., quicksort often uses hardware caches more effectively than radix sort), and
+of the input data. Moreover, the version of radix sort that uses counting sort as the
+intermediate stable sort does not sort in place, which many of the ‚.n lg n/-time
+comparison sorts do. Thus, when primary memory storage is at a premium, we
+might prefer an in-place algorithm such as quicksort.
+Exercises
+8.3-1
+Using Figure 8.3 as a model, illustrate the operation of RADIX-SORT on the fol-
+lowing list of English words: COW, DOG, SEA, RUG, ROW, MOB, BOX, TAB,
+BAR, EAR, TAR, DIG, BIG, TEA, NOW, FOX.

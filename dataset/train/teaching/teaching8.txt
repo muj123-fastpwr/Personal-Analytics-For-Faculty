@@ -1,0 +1,32 @@
+990 Chapter 25. Robotics 
+(6) 
+(a) 
+Figure 25.16  (a) Value function and path found for a discrete grid cell approximation of 
+the configuration space. (b) The same path visualized in workspace coordinates. Notice how 
+the robot bends its elbow to avoid a collision with the vertical obstacle. 
+be the case that the only paths to the goal go through mixed cells—especially if the cell size 
+is comparable to that of the passageways and clearances in the space. And third, any path 
+through a discretized state space will not be smooth. It is generally difficult to guarantee that 
+a smooth solution exists near the discrete path. So a robot may not be able to execute the 
+solution found through this decomposition. 
+Cell decomposition methods can be improved in a number of ways, to alleviate some 
+of these problems. The first approach allows further subdivision of the mixed cells—perhaps 
+using cells of half the original size. This can he continued recursively until a path is found 
+that lies entirely within free cells. (of course, the method only works if there is a way to 
+decide if a given cell is a mixed cell, which is easy only if the configuration space boundaries 
+have relatively simple mathematical descriptions.) This method is complete provided there is 
+a bound on the smallest passageway through which a solution must pass. Although it focuses 
+most of the computational effort on the tricky areas within the configuration space, it still 
+fails to scale well to high-dimensional problems because each recursive splitting of a cell 
+4 
+creates 2 smaller cells. A second way to obtain a complete algorithm is to insist on an exact 
+EXACT CELL 
+cell decomposition of the free space. This method must allow cells to be irregularly shaped 
+C ECOM   PDX  !TICS 
+where they meet the boundaries of free space, but the shapes must still be "simple" in the 
+sense that it should be easy to compute a traversal of any free cell. This technique requires 
+some quite advanced geometric ideas, so we shall not pursue it further here. 
+Examining the solution path shown in Figure 25.16(a), we can see an additional diffi- 
+culty that will have to be resolved. The path contains arbitrarily sharp comets; a robot moving 
+at any finite speed could not execute such a path. This problem is solved by storing certain 
+continuous values for each grid cell. Consider an algorithm which stores, for each grid cell, 

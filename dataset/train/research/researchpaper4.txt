@@ -1,0 +1,324 @@
+National Conference on Innovative Paradigms in Engineering & Technology (NCIPET-2013)   
+Proceedings published by International Journal of Computer Applications® (IJCA) 
+Preprocessing Techniques in Text Categorization
+Pritam C. Gaigole (*), L. H. Patil (**), P.M Chaudhari(**) 
+(*) Department of CSE,Priyadarshini Institute of Engineering& Technology, Nagpur 
+(**)Department of CSE, Priyadarshini Institute of Engineering & Technology, Nagpur 
+(**)Department of IT, Priyadarshini Institute of Engineering & Technology, Nagpur 
+ 
+         While many feature selection techniques have been 
+ABSTRACT 
+tried, through evaluations are rarely carried out for large text 
+ 
+categorization problems. This is due in part to the fact that 
+Bulk data is generated in the era ofInformation Technology. If 
+many learning algorithms do not scale to high dimensional 
+it is not stored in aproperly systematic manner then the 
+feature space. That is if a classifier can only be tested on a 
+generated datacannot be reused. This is because navigation 
+small subset of the native space, one cannot use it to evaluate 
+becomes 
+the full range of potential of feature selection methods. A 
+if not impossible, certainly very difficult. The data generated 
+recent theoretical comparison. For example, was based on 
+is to analyze so as to maximizethe benefits, for intelligent 
+performance of decision tree algorithm in solving problems 
+decision making. Textcategorization is an important and 
+with 6 to 180 features in the native space [14]. An analysis on 
+extensively studiedproblem in machine learning. The basic 
+this scale is distant from the realities of text categorization. 
+phases in textcategorization include preprocessing features, 
+Amazing development of Internet and digital library 
+extractingrelevant features against the features in a database, 
+hastriggered a lot of research areas. Text categorization is 
+andfinally categorizing a set of documents into 
+oneof them. Text categorization is a process that group 
+predefinedcategories. Most of the researches in text 
+textdocuments into one or more predefined categories 
+categorization arefocusing more on the development of 
+basedon their contents [1]. It has wide applications, such as 
+algorithms andcomputer techniques.  
+emailfiltering, category classification for search engines 
+anddigital libraries. Associative text classification, a task 
+Keywords 
+thatcombines the capabilities of association rule mining 
+Preprocessing, Text categorization 
+andclassification, is performed in a series of 
+sequentialsubtasks. They are the preprocessing, the 
+ 
+association rulegeneration, the pruning and the actual 
+I. INTRODUCTION 
+classification. Out ofthese, the first step, that is, 
+ 
+'Preprocessing', is the mostimportant subtask of text 
+categorization.The importance of preprocessing is emphasized 
+Text categorization is the problem of automatically assigning 
+by the factthat the quantity of training data grows 
+predefined categories to free text documents, while more and 
+exponentially withthe dimension of the input space. It has 
+more textual information is available online, effective 
+already beenproven that the time spent on preprocessing can 
+retrieval is difficult without good indexing and summarization 
+take from50% up to 80% of the entire classification process 
+is one solution to this problem. A growing number of 
+[2],which clearly proves the importance of preprocessing 
+statistical classification methods and machine learning 
+intext categorization process.This paper discusses the various 
+techniques have been applied to text categorization in recent 
+preprocessing techniquesused in the present research work 
+years, including multivariate regression models[13] nearest 
+and analyzes the effect ofpreprocessing on text categorization 
+neighbor classification[12], Bayes probabilistic 
+using machinelearning algorithms. Section 2 gives an 
+approaches[15], decision trees[15], Neural networks[2], 
+overview of thework in text preprocessing. Section 3 explains 
+Symbolic rule learning[10] and Inductive learning 
+thepreprocessing steps used. 
+algorithms[11]. 
+ 
+      A major characteristic or difficulty of text categorization 
+II. TEXT PREPROCEESING 
+problems is the high dimensionality of the feature space. The 
+native feature space consists of the unique terms(words or 
+The preprocessing phase of the study converts the 
+phrases) that occur in documents, which can be tens or 
+originaltextual data in a data-mining-ready structure, where 
+hundreds of thousands of terms for even a moderate sized text 
+themost significant text-features that serve to 
+collection. This is prohibitively high for many learning 
+differentiatebetween text-categories are identified. It is the 
+algorithms, few neural network, for example, can handle such 
+process ofincorporating a new document into an 
+a large number of input nodes. Bayes belief models as another 
+informationretrieval system. An effective preprocessor 
+example, will be computationally intractable unless an 
+represents thedocument efficiently in terms of both space (for 
+independence assumption(often not true) among features is 
+storing thedocument) and time (for processing retrieval 
+imposed. It is highly desirable to reduce the native space 
+requests)requirements and maintain good retrieval 
+without sacrificing categorization accuracy. It is also desirable 
+performance(precision and recall). This phase is the most 
+to achieve such a goal automatically, i.e. no manual definition 
+critical andcomplex process that leads to the representation of 
+or construction of features is required. 
+eachdocument by a select set of index terms. The 
+        Automatic feature selection methods include the removal 
+mainobjective of preprocessing is to obtain the key features 
+of non-information terms according to corpusstatistics, and 
+orkey terms from online news text documents and to 
+the construction of new features which combine lower level 
+enhancethe relevancy between word and document and 
+features (i.e. terms) into higher level orthogonal dimensions. 
+therelevancy between word and category. 
+ 
+1 
+National Conference on Innovative Paradigms in Engineering & Technology (NCIPET-2013)   
+Proceedings published by International Journal of Computer Applications® (IJCA) 
+classificationsystem. Since different terms have different level 
+III.PREPROCESSING STEPS 
+ofimportance in a text, the term weight is associated 
+withevery term as an important indicator [6]. 
+The goal behind preprocessing is to represent eachdocument 
+The three main components that affect the importance of 
+as a feature vector, that is, to separate the textinto individual 
+aterm in a document are the Term Frequency (TF) 
+words. In the proposed classifiers, the textdocuments are 
+factor,Inverse Document Frequency (IDF) factor and 
+modeled as transactions. Choosing thekeyword that is the 
+Documentlength normalization [7].Term frequency of each 
+feature selection process, is the mainpreprocessing step 
+word in adocument (TF) is a weight which depends on 
+necessary for the indexing ofdocuments. This step is crucial in 
+thedistribution of each word in documents. It expresses 
+determining the quality of the nextstage, that is, the 
+theimportance of the word in the document. Inverse 
+classification stage. It is important toselect the significant 
+documentfrequency of each word in the document database 
+keywords that carry the meaning, anddiscard the words that 
+(IDF) isa weight which depends on the distribution of each 
+do not contribute to distinguishingbetween the documents.  
+word inthe document database. It expresses the importance of 
+ 
+eachword in the document database [8]. TF/IDF is a 
+3.1 Stop Word Removal 
+techniquewhich uses both TF and IDF to determine the weight 
+ 
+aterm. TF/IDF scheme is very popular in text 
+Many of the most frequently used words in English areuseless 
+classificationfield and almost all the other weighting schemes 
+in Information Retrieval (IR) and text mining.These words are 
+arevariants of this scheme [9]. Given a document collection'D' 
+called 'Stop words. Stop-words, whichare language-specific 
+, a word 'w' , and an individual documentd D, the weightw is 
+d
+functional words,are frequentwordsthat carry no information 
+calculated using Equation 1.1   
+(i.e., pronouns, prepositions,conjunctions). In English 
+ 
+language, there are about 400-500 Stop words. Examples of 
+w =f * log(|D| / f )     (1.1)  
+d w,d w,D
+such words include 'the', 'of','and', 'to'. The first step during 
+ 
+preprocessing is to removethese Stop words, which has 
+where,  
+proven as very important [3].The present work uses 
+f orTF is the number of times 'w' appears in a document 'd' 
+w,d
+theSMARTstop word list [4] 
+D| is the size of the dataset 
+ 
+f or IDF is the number of documents in which 'w' appears 
+w,D
+3.2 Stemming inD.
+ 
+The result of TF/IDF is a vector with the various termsalong 
+ 
+with their term weight. The pseudo code for thecalculation of 
+Stemming techniques are used to find out the root/stem of 
+TF/IDF is shown in following algorithm. 
+aword. Stemming converts words to their stems, 
+ 
+whichincorporates a great deal of language-dependent 
+Determine TF, calculate its corresponding weight andstore 
+linguisticknowledge. Behind stemming, the hypothesis is that 
+it in 
+wordswith the same stem or word root mostly describe same 
+Weight matrix (WM) 
+orrelatively close concepts in text and so words can 
+Determine IDF 
+beconflated by using stems. For example, the words, 
+if IDF == zero then 
+user,users, used, using all can be stemmed to the word 'USE'.  
+Remove the word from the WordList 
+In the Porter Stemmer algorithm [5], whichis the most 
+Remove the corresponding TF from the WM 
+commonly used algorithm in English, is used. 
+Else 
+A consonant will be denoted by c, a vowel by v. A list ccc... 
+Calculate TF/IDF and store normalizedTF/IDF in the 
+of length greater than 0 will be denoted by C, and a list vvv... 
+corresponding element of theweight matrix. 
+of length greater than 0 will be denoted by V. Any word, or 
+ 
+part of a word, therefore has one of the four forms:  
+3.4 DimensionalityReduction 
+CVCV ... C  
+ 
+CVCV ... V  
+Document frequency (DF) is the number of documents 
+VCVC ... C  
+inwhich a term occurs. DF thresholding is the 
+VCVC ... V  
+simplesttechnique for vocabulary reduction. Stop word 
+ 
+eliminationexplained previously, removes all high frequency 
+3.3 Document Indexing 
+wordsthat are irrelevant to the classification task, while 
+Themain objective of document indexing is to increase 
+DFthresholding removes infrequent words. All words 
+theefficiency by extracting from the resulting document 
+thatoccur in less than 'm' documents of the text collection 
+aselected set ofterms to be used for indexing the 
+arenot considered as features, where 'm' is a pre-
+document.Document indexing consists of choosing the 
+determinedthreshold. DF thresholding is based on the 
+appropriateset of keywords based on the whole corpus of 
+assumption thatinfrequent words are not informative for 
+documents,and assigning weights to those keywords for 
+categoryprediction. DF thresholding easily scales to a very 
+eachparticular document, thus transforming each 
+largecorpora and has the advantage of easy implementation. 
+documentinto a vector of keyword weights. The weight 
+Inthe present work, during classification, the 
+normally isrelated to the frequency of occurrence of the term 
+documentfrequency threshold is set as 1 so that terms that 
+in thedocument and the number of documents that use that 
+appear inonly one document are removed. 
+term. 
+ 
+ 
+3.3.1TermWeighting 
+IV. CONCLUSION 
+ 
+ 
+In the vector space model, the documents are representedas 
+The present work uses five important preprocessing 
+vectors. Term weighting is an important concept 
+techniques namely, stop word removal, stemming, document 
+whichdetermines the success or failure of the 
+2 
+National Conference on Innovative Paradigms in Engineering & Technology (NCIPET-2013)   
+Proceedings published by International Journal of Computer Applications® (IJCA) 
+indexing and TF/IDF on Reuter’s dataset. From the frequency in largecollections”, Advances in Information 
+experimental results,it could be seen that preprocessing has a Retrieval, Lecture Notes in Computer Science, Springer 
+huge impact onperformances of classification. The goal of Berlin / Heidelberg, Vol.3936/2006, Pp.72-83. 
+preprocessingis to reduce the number of features which was 
+[8] Diao, Q. and Diao, H. (2000) “Three Term Weighting and     
+successfully met by the selected techniques. From the results 
+Classification Algorithms in Text Automatic 
+it is clear that the removal of stop-words can expand words 
+Classification”, The Fourth International Conference on 
+and enhance the discrimination degree between documents 
+High-Performance          Computing in theAsia-Pacific 
+and can improve the system performance. TF/IDF, the most 
+Region,Vol. 2, P.629. 
+frequently used indexing technique is used to create theindex 
+file from the resulting terms 
+[9] Chisholm, E. and Kolda, T.F. (1998) “New term weighting    
+ 
+Formulas for the vector space method in information 
+retrieval”,Technical Report, Oak Ridge National 
+REFERENCES 
+Laboratory. 
+[1] K. Aas “Text categorization: A survey", 
+Technicalreport,Norwegian Computing Center, June, 
+[10]C. Apte, F. Damerau and S. Weiss “Towards language   
+1999. 
+independent automated learning of text categorization 
+th
+models”. Proceeding of 17 Annual ACM/SIGIR 
+[2] Katharina, M. and Martin, S. (2004) “The Mining Mart 
+conference,1994. 
+Approach to Knowledge Discovery in Databases”, 
+NingZhong and Jiming Liu (editors), Intelligent 
+[11]William W.Cohen and Yoram Singer, ”Context sensitive   
+Technologies for Information Analysis Springer, Pp. 47-
+learning methods for text categorization”, In SIGIR’96:        
+th
+65. 
+Proceeding of 19 Annual International ACM/SIGIR 
+conference on research and development in information 
+[3] Xue, X. and Zhou, Z. (2009),“Distributional Features for 
+retrieval, 1996. 
+Text Categorization”, IEEE Transactions on Knowledge 
+and Data Engineering,Vol. 21, No. 3, Pp. 428-442. 
+[12] R.H. Creecy, B.M. Masand, S.J. Smith and D.L. Waltz,        
+“Trading mips and memory for knowledge Engineering”, 
+[4] Salton, G. (1989), “Automatic Text Processing: 
+classifying census returns on the connection machine 
+TheTransformation, Analysis, and Retrieval of 
+comm.. ACM, 35:48-63,1992 
+Information   ByComputer”, Pennsylvania, Addison-
+Wesley, Reading. 
+[13] N. Fuhr, S.Hartmanna, G. Lusting, M. Schwanter and 
+K.Tzeras, “ Rule based multistage indexing systems for 
+[5] Porter, M. (1980) “An algorithm for suffix stripping, 
+large subject field”, In 606-623, editor, Proceedings of 
+Program”,Vol. 14, No. 3, Pp. 130–137. 
+RIAO’91.[14] D. Koller and M. Sahami,” Toward 
+th
+[6] Salton, G. and Buckley, C. (1988) “Term weighting 
+optimal feature selection”, In proceedings of the 13 
+approaches In automatic text retrieval, Information 
+international conference on machine learning 1996 
+Processing and Management”,Vol. 24, No.5, Pp. 513-
+[15] D.D. Lewis and M. Ringvette, ”Comparison of two 
+523. 
+learning algorithm for text categorization”, In Proceeding 
+[7] Karbasi, S. and Boughanem, M. (2006),”Document 
+Analysis and Information Retrieval(SDAIR’94) 1994. 
+lengthnormalization using effective level of term 
+ 
+3 

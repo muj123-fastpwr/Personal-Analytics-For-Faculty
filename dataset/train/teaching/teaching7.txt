@@ -1,0 +1,40 @@
+Exercises 801 
+EXERCISES 
+19.1 Show, by translating into conjunctive normal form and applying resolution, that the 
+conclusion drawn on page 784 concerning Brazilians is sound. 
+19i  For each of the following determinations, write down the logical representation and 
+explain why the determination is true (if it is): 
+a. Design and denomination determine the mass of a coin. 
+h. For a given program, input determines  output. 
+c. Climate, food intake, exercise, and metabolism determine weight gain and loss. 
+d. Baldness is determined by the baldness (or lack thereof) of one's maternal grandfather. 
+193 Would a probabilistic version of determinations be useful? Suggest a definition. 
+19.4 Fill in the missing values for the clauses C or C2 (or both) in the following sets of 
+l 
+clauses, given that C is the resolvent of Cl 
+ and C2: 
+7
+a. C = Trite = P(A,   B), Ct = P(2, 
+y) y), C2 = ?. 
+b. C = True P(A, B), Ct =??, C2 =??.   
+c. C = P (x y) = P(T,   f ( 0), C1 =??,   C2 =7?. 
+If there is more than one possible solution, provide one example of each different kind_ 
+19.5 Suppose one writes a logic program that carries out a resolution inference step. That 
+is, let Resolve(e ,  c) succeed if r is the result of resolving e and 0 . Normally, Resolve 
+i l 2
+would be used as part of a theorem prover by calling it with e and c instantiated to par-
+l 2 
+ticular clauses, thereby generating the resolvent c. Now suppose instead that we call it with 
+e  instantiated and o and 0 uninstantiated.  Will this succeed in generating the appropriate 
+f 2 
+results of an inverse resolution step? Would you need any special modifications to the logic 
+programming system for this to work? 
+19.6 Suppose that FOIL is considering adding a literal to a clause using a binary predicate 
+P and that previous literals (including the head of the clause) contain five different variables. 
+a_ How many fiinctionally  different literals can be generated? Two literals are functionally 
+identical if they differ only in the names of the new variables that they contain. 
+b. Can you find a general formula for the number of different literals with a predicate of 
+arity  r when there are rt  variables previously used? 
+c. Why does FOIL not allow literals that contain no previously used variables? 
+19.7 Using the data from the family tree in Figure 19.11, or a subset thereof, apply the FOIL 
+algorithm to learn a definition for the Ancestor predicate. 

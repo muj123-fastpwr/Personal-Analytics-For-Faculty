@@ -1,0 +1,86 @@
+8/8
+8/8
+8/8
+8/8
+14/14
+14/14
+26.5 The relabel-to-front algorithm 753
+6
+s
+10 11
+5
+–26
+4 s s
+x x
+(d) 3
+y
+2 z z
+11
+x
+1
+0
+z
+0
+8
+6
+s
+12 13 14
+5
+–26
+4 s s s
+x x x
+(e) 3
+y
+2 z z z
+6
+x
+1
+5
+z
+0
+8
+y
+6
+6
+s
+15
+5
+–26
+4 s
+x
+(f) 3
+2 z
+x
+1
+5
+z
+0
+8
+y
+6
+0
+s
+5
+–20
+4
+(g) 3
+2
+x
+1
+5
+z
+0
+8
+Figure26.9, continued (d) In iteration 10, .y; s/ is inadmissible, but iteration 11 pushes 5 units
+of excess ?ow from y to x. (e) Because y:current did not advance in iteration 11, iteration 12
+?nds .y; x/ to be inadmissible. Iteration 13 ?nds .y; ´/ inadmissible, and iteration 14 relabels ver-
+tex y and resets y:current. (f) Iteration 15 pushes 6 units of excess ?ow from y to s. (g) Ve r t e x y
+now has no excess ?ow, and DISCHARGE terminates. In this example, DISCHARGE both starts and
+?nishes with the current pointer at the head of the neighbor list, but in general this need not be the
+case.
+14/14
+8/14
+5/5
+5
+5
+5

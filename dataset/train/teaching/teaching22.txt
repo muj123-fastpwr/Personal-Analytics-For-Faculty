@@ -1,0 +1,30 @@
+Logical (Boolean) Operators and Logical Expressions | 183
+Table 4-4 defines the operator && (and). From this table, it follows that
+Expression1 && Expression2 is true if and only if both Expression1 and
+Expression2 are true; otherwise, Expression1 && Expression2 evaluates to
+false.
+TABLE 4-4 The && (And) Operator
+Expression1 Expression2 Expression1 && Expression2
+true(nonzero) true (nonzero) true(1) 4
+true (nonzero) false(0) false(0)
+false(0) true (nonzero) false(0)
+false(0) false(0) false(0)
+EXAMPLE 4-4
+Expression Value Explanation
+(14 >= 5) && ('A' < 'B') true Because(14 >= 5) istrue,('A' <
+'B') istrue,andtrue&& true is
+true, the expression evaluates totrue.
+(24 >= 35) && ('A' < 'B') false
+Because(24 >= 35) isfalse,('A'
+<'B') istrue,andfalse&& true is
+false, the expression evaluatestofalse.
+Table 4-5 defines the operator || (or). From this table, it follows that
+Expression1 || Expression2 is true if and only if at least one of the expressions,
+Expression1orExpression2,istrue;otherwise,Expression1||Expression2evaluates
+tofalse.
+TABLE 4-5 The || (Or) Operator
+Expression1 Expression2 Expression1 || Expression2
+true(nonzero) true (nonzero) true(1)
+true (nonzero) false(0) true(1)
+false(0) true (nonzero) true(1)
+false(0) false(0) false(0)

@@ -1,0 +1,49 @@
+1)	Research Problem:
+Students get their performance history in the form of
+a)	Grades
+b)	Weightage
+c)	Attendance
+d)	Etc
+But data on their personal learning is lacking.
+Personal learning through personal visualization for students so that they can evaluate themselves on basis of their own previous performances (data captured regularly and seamlessly etc).
+Note: Personal visualization doesn’t improve students’ learning. It helps students’ improve their learning.
+2)	Proposed Solution: (Suggestions given practically not done)
+Personal Data ? Personal Visualization ? Personal Learning
+Personal data is dynamically and regularly updated which is displayed to students in a timely way. Such personal data can be presented to the student through personal visualizations (i.e. graphs, charts etc) that engender personal learning.
+Personal Data Capture ? Personal Learning Visualization
+Contribution of the paper:
+1)	Empower the students with resources that enable them to learn better, based on their own data.
+2)	This is a two-way journey of the learners understanding themselves
+a.	personally, their emotions, moods and sensations
+b.	 externally, the material world, events and circumstances
+They raised some key questions regarding a personal learning mechanism.
+1)	 How can we encourage and empower learners to become more conscious of their learning?
+2)	How can we deepen learner’s understanding of what they have learnt?
+3)	How can they adapt learning strategies to their own skill-set and style or see how well they are doing in comparison to others?
+4)	How can they plan, manage and qualify their learning?
+5)	How do we capture data – and what data – to help learners realize how they are progressing?
+6)	How can we assist students using visualizations that effectively depict their progress, learning context and results?
+In order to answer the above questions, they organized the paper in four parts:
+1)	Provide background that gives context to the personal data for learning.
+2)	Highlight core related work.
+3)	Focus on our experience and explain some key projects that we have been involved with.
+4)	Develop a vision for personal learning visualization.
+The aim is to motivate and excite the community to develop further the concept of personal data visualization for learning 
+
+
+Assumptions:
+Our vision is to
+i)	Place visualization at the heart of the learning environment (rather than an afterthought).
+ii)	Put the users in control of their own learning experience.
+iii)	Use a wide range of data as input.
+We propose a tiered approach where most data is captured but some is predicted then visualized and used by students to develop their personal learning plan.
+  
+                              				
+
+
+Limitations:
+Potential challenges:
+1)	Some students may feel that this is too much of an intrusion into their own personal life and activities.
+2)	Consequently, data security and anonymization must be a priority.
+Evaluation Criteria:
+

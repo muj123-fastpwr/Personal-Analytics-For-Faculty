@@ -1,0 +1,37 @@
+Chapter 15  Key points 417
+before the administerInsulin method is executed. You can ignore computations,
+such as if-statement 1 in Figure 15.10, in the safety argument because their results
+are over-written in later program statements.
+In the safety argument shown in Figure 15.11, there are three possible program
+paths that lead to the call to the administerInsulin method. You have to show that the
+amount of insulin delivered never exceeds maxDose. All possible program paths to
+administerInsulin are considered:
+1. Neither branch of if-statement 2 is executed. This can only happen if
+currentDose is either greater than or equal to minimumDose and less than or
+equal to maxDose. This is the post-condition—an assertion that is true after the
+statement has been executed.
+2. The then-branch of if-statement 2 is executed. In this case, the assignment
+setting currentDose to zero is executed. Therefore, its post-condition is
+currentDose 0.
+3. The else-if-branch of if-statement 2 is executed. In this case, the assignment set-
+ting currentDose to maxDose is executed. Therefore, after this statement has
+been executed, we know that the post-condition is currentDose  maxDose.
+In all three cases, the post-conditions contradict the unsafe pre-condition that the
+dose administered is greater than maxDose. We can therefore claim that the compu-
+tation is safe.
+Structured arguments can be used in the same way to demonstrate that certain
+security properties of a system are true. For example, if you wish to show that a com-
+putation will never lead to the permissions on a resource being changed, you may be
+able to use a structured security argument to show this. However, the evidence from
+structured arguments is less reliable for security validation. This is because there is a
+possibility that the attacker may corrupt the code of the system. In such a case, the
+code executed is not the code that you have claimed is secure.
+K E Y P O I N T S
+ Static analysis is an approach to V & V that examines the source code (or other representation)
+of a system, looking for errors and anomalies. It allows all parts of a program to be checked, not
+just those parts that are exercised by system tests.
+ Model checking is a formal approach to static analysis that exhaustively checks all states in a
+system for potential errors.
+ Statistical testing is used to estimate software reliability. It relies on testing the system with a
+test data set that reflects the operational profile of the software. Test data may be generated
+automatically.

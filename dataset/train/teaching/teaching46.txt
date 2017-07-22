@@ -1,0 +1,45 @@
+504 Chapter 18  Distributed software engineering
+Tenant Key       Name Address
+234 C100 XYZ Corp 43, Anystreet, Sometown
+234 C110 BigCorp 2, Main St, Motown
+435 X234 J. Bowie  56, Mill St, Starville
+Figure 18.17
+A multi-tenant 
+592 PP37 R. Burns Alloway, Ayrshire
+database
+Figure 18.16 illustrates this situation. This diagram shows five users of the appli-
+cation service, who work for three different customers of the service provider. Users
+interact with the service through a customer profile that defines the service configu-
+ration for their employer.
+Multi-tenancy is a situation in which many different users access the same system
+and the system architecture is defined to allow the efficient sharing of system
+resources. However, it must appear to each user that they have the sole use of the
+system. Multi-tenancy involves designing the system so that there is an absolute sep-
+aration between the system functionality and the system data. You should, therefore,
+design the system so that all operations are stateless. Data should either be provided
+by the client or should be available in a storage system or database that can be
+accessed from any system instance. Relational databases are not ideal for providing
+multi-tenancy and large service providers, such as Google, have implemented a sim-
+pler database for user data.
+A particular problem in multi-tenant systems is data management. The simplest
+way to provide data management is for each customer to have their own database,
+which they may use and configure as they wish. However, this requires the service
+provider to maintain many different database instances (one per customer) and to
+make these available on demand. This is inefficient in terms of server capacity and
+increases the overall cost of the service.
+As an alternative, the service provider can use a single database with different
+users being virtually isolated within that database. This is illustrated in Figure 18.17,
+where you can see that database entries also have a ‘tenant identifier’, which links
+these entries to specific users. By using database views, you can extract the entries
+for each service customer and so present users from that customer with a virtual, per-
+sonal database. This can be extended to meet specific customer needs using the con-
+figuration features discussed above.
+Scalability is the ability of the system to cope with increasing numbers of users
+without reducing the overall QoS that is delivered to any user. Generally, when con-
+sidering scalability in the context of SaaS, you are considering ‘scaling out’, rather
+than ‘scaling up’. Recall that ‘scaling out’ means adding additional servers and so
+also increasing the number of transactions that can be processed in parallel.
+Scalability is a complex topic that I cannot cover in detail here, but some general
+guidelines for implementing scalable software are:
+1. Develop applications where each component is implemented as a simple state-
+less service that may be run on any server. In the course of a single transaction,

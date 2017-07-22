@@ -1,0 +1,44 @@
+286 Chapter 6 CPU Scheduling
+As a result, the scheduler for a real-time operating system must support a
+priority-based algorithm with preemption. Recall that priority-based schedul-
+ing algorithms assign each process a priority based on its importance; more
+important tasks are assigned higher priorities than those deemed less impor-
+tant. If the scheduler also supports preemption, a process currently running
+on the CPU will be preempted if a higher-priority process becomes available to
+run.
+Preemptive, priority-based scheduling algorithms are discussed in detail in
+Section 6.3.3, and Section 6.7 presents examples of the soft real-time scheduling
+features of the Linux, Windows, and Solaris operating systems. Each of
+these systems assigns real-time processes the highest scheduling priority. For
+example, Windows has 32 different priority levels. The highest levels—priority
+values 16 to 31—are reserved for real-time processes. Solaris and Linux have
+similar prioritization schemes.
+Note that providing a preemptive, priority-based scheduler only guaran-
+tees soft real-time functionality. Hard real-time systems must further guarantee
+that real-time tasks will be serviced in accord with their deadline requirements,
+and making such guarantees requires additional scheduling features. In the
+remainder of this section, we cover scheduling algorithms appropriate for
+hard real-time systems.
+Before we proceed with the details of the individual schedulers, however,
+we must de?ne certain characteristics of the processes that are to be scheduled.
+First, the processes are considered periodic. That is, they require the CPU at
+constant intervals (periods). Once a periodic process has acquired the CPU,it
+has a ?xed processing time t, a deadline d by which it must be serviced by the
+CPU,andaperiodp. The relationship of the processing time, the deadline, and
+the period can be expressed as 0 ? t ? d ? p.Therate of a periodic task is 1/p.
+Figure 6.15 illustrates the execution of a periodic process over time. Schedulers
+can take advantage of these characteristics and assign priorities according to a
+process’s deadline or rate requirements.
+What is unusual about this form of scheduling is that a process may have to
+announce its deadline requirements to the scheduler. Then, using a technique
+known as an admission-control algorithm, the scheduler does one of two
+things. It either admits the process, guaranteeing that the process will complete
+on time, or rejects the request as impossible if it cannot guarantee that the task
+will be serviced by its deadline.
+ppp
+d d d
+t tt
+Time
+period period period
+1 2 3
+Figure 6.15 Periodic task.

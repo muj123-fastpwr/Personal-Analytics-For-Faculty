@@ -1,0 +1,174 @@
+EDITORIAL
+Caban JJ, et al. J Am Med Inform Assoc 2015;22:260–262. doi:10.1093/jamia/ocv006, Editorial
+RECEIVED 13 December 2014
+Visual analytics in healthcare – opportunities
+ACCEPTED 10 January 2015
+and research challenges
+1 2
+Jesus J Caban , David Gotz
+....................................................................................................................................................
+Key words: visual analytics; data visualization; informatics; BI dashboards; big data
+As medical organizations modernize their operations, they are Information overload is the problem that arises when indi-
+increasingly adopting electronic health records (EHRs) and de- viduals try to analyze a number of variables that surpass the
+6
+ploying new health information technology systems that create, limits of human cognition. Information overload often leads to
+gather, and manage their information. As a result, the amount users ignoring, overlooking, or misinterpreting crucial informa-
+of data available to clinicians, administrators, and researchers tion. The information overload problem is widespread in the
+in the healthcare system continues to grow at an unprece- healthcare domain and can result in incorrect interpretations of
+1
+dented rate. However, despite the substantial evidence show- data, wrong diagnoses, and missed warning signs of impend-
+ing the benefits of EHR adoption, e-prescriptions, and other ing changes to patient conditions. The multi-modal and hetero-
+components of health information exchanges, healthcare pro- geneous properties of EHR data together with the frequency of
+viders often report only modest improvements in their ability to redundant, irrelevant, and subjective measures pose significant
+make better decisions by using more comprehensive clinical challenges to users trying to synthesize the information and ob-
+2,3
+information. tain actionable insights.
+The large volume of clinical data now being captured for Yet despite these challenges, the promise of big data in
+1
+each patient poses many challenges to (a) clinicians trying to healthcare remains. There is a critical need to support re-
+combine data from different disparate systems and make search and pilot projects to study effective ways of using visual
+sense of the patient’s condition within the context of the pa- analytics to support the analysis of large amounts of medical
+tient’s medical history, (b) administrators trying to make deci- data. Currently new interactive interfaces are being developed
+sions grounded in data, (c) researchers trying to understand to unlock the value of large-scale clinical databases for a wide
+differences in population outcomes, and (d) patients trying to variety of different tasks. For instance, visual analytics could
+make use of their own medical data. In fact, despite the many help provide clinicians with more effective ways to combine the
+hopes that access to more information would lead to more in- longitudinal clinical data with the patient-generated health data
+formed decisions, access to comprehensive and large-scale to better understand patient progression. Patients could be
+clinical data resources has instead made some analytical pro- supported in understanding personalized wellness plans and
+4
+cesses even more difficult. comparing their health measurements against similar patients.
+Visual analytics is an emerging discipline that has shown Researchers could use visual analytics tools to help perform
+significant promise in addressing many of these information population-based analysis and obtain insights from large
+overload challenges. Visual analytics is the science of analyti- amounts of clinical data. Hospital administrators could use vi-
+cal reasoning facilitated by advanced interactive visual inter- sual analytics to better understand the productivity of an orga-
+5
+faces. In order to facilitate reasoning over, and interpretation nization, gaps in care, outcomes measurements, and patient
+of, complex data, visual analytics techniques combine con- satisfaction. Visual analytics systems—by combining advanced
+cepts from data mining, machine learning, human computing interactive visualization methods with statistical inference and
+interaction, and human cognition. As the volume of health- correlation models—have the potential to support intuitive
+related data continues to grow at unprecedented rates analysis for all of these user populations while masking the un-
+and new information systems are deployed to those already derlying complexity of the data.
+overrun with too much data, there is a need for exploring how This special focus issue of JAMIA is dedicated to new
+visual analytics methods can be used to avoid information research, applications, case studies, and approaches that use
+overload. visual analytics to support the analysis of complex clinical data.
+Correspondence to: Dr Jesus J. Caban, National Intrepid Center of Excellence (NICoE), Walter Reed National Military Medical Center, 8901 Wisconsin Avenue,
+Bethesda, MD 20814, USA; jesus.j.caban.civ@mail.mil, Tel: 301-319-3759
+C
+VThe Author 2015. Published by Oxford University Press on behalf of the American Medical Informatics Association. All rights reserved.
+For Permissions, please email: journals.permissions@oup.com
+For numbered affiliations see end of article.
+260
+EDITORIAL
+Caban JJ, et al. J Am Med Inform Assoc 2015;22:260–262. doi:10.1093/jamia/ocv006, Editorial
+The issue provides a broad picture of active work in this area, believe that visual analytics techniques will become essential
+including four research and applications papers, one review elements in the future of health informatics. As the articles in
+paper, two brief communications, and one case report. this issue demonstrate, these methods promise to allow users
+7
+First, West et al. present a systematic review of innovative of all sorts—clinicians, researchers, administrators, patients,
+visual analytics approaches that have been proposed to illus- and more—to derive actionable, meaningful insights form the
+trate EHR data. The review paper groups over 800 articles in vast and complex data resources that the modern health sys-
+different categories and is a great resource for readers who are tem is now creating. Yet this issue also indirectly highlights
+interested in understanding what has been done in applying vi- some of the areas of informatics that need more attention.
+sual analytics in healthcare settings. These include the visual exploration of unstructured data (e.g.,
+In the first of four research and application papers, Klimov text), the challenge of clinical or operational adoption, and the
+8
+et al. present a data-driven temporal data mining system with lack of standardized methods for evaluation, validation, and
+an interactive visual analytics interface to support the analysis measurement of efficacy of visual analytics tools. These are all
+and exploration of renal-damage risk factors in type II diabetes critical areas for future work.
+patients. Second, Huang et al. present a system to visually ana-
+lyze the polymorbidity associated with chronic kidney disease.
+The study uses a large-scale database with over 14 000 pa- REFERENCES
+tients and a Sankey-style visualization tool to help clinicians
+1. Murdoch T., Detsky A. The inevitable application of big
+predict the outcome of complex disease based on comorbid-
+data to health care. JAMA. 2013; 309(13):1351–1352.
+9 10
+ities the patients have developed. Third, Hirsch et al. present
+2. Lau F., Price M., Boyd J., et al. Impact of electronic medical
+a system called HARVEST, an interactive temporal visualization
+record on physician practice in office settings: a systematic
+for longitudinal patient record. The system implements a pa-
+review. BMC Med Inform Decis Mak. 2012;12(1):10–20.
+tient record summarizer by extracting content from patient
+3. Heisey-Grove D., Danehy L., Consolazio M, et al. A national
+notes, aggregating and presenting information from multiple
+study of challenges to electronic health record adoption
+care settings, and supporting clinicians by providing a flexible
+and meaningful use. Medical Care. 2014;52(2):144–148.
+tool for reviewing patients’ information. Finally, Soulakis
+4. Amarasingham R., Patzer R., Huesch M., et al.
+11
+et al. discuss practical methods for employing network analy-
+Implementing electronic health care predictive analytics:
+sis to visualize and describe multidisciplinary, collaborative
+considerations and challenges. Health Affairs. 2014;33(7):
+care for hospitalized heart failure patients. The authors used
+1148–1154.
+data for over 500 patients and describe the provider’s collabo-
+5. Thomas J., Cook K. eds. Illuminating the path: the research
+ration network as a subset of collaborations within a complex
+and development agenda for visual analytics. IEEE Comput
+graph with 1504 nodes and 83 998 edges.
+Soc Press. 2005.
+12
+In a comprehensive case study, Warner et al. present a
+6. Halford G., Baker R., McCredden, et al. How many vari-
+network visualization-based system to explore, analyze, and
+ables can humans process? Psychol Sci. 2005;16(1):
+display the phenotypic patterns that may have remained occult
+70–76.
+or hidden in basic statistical and pairwise correlation analysis. 7. West V., et al. Innovative information visualization of elec-
+The system allows clinicians and researchers to quickly tronic health record data: a systematic review. JAMIA.
+generate hypotheses and gain deeper understanding of 2015;22(2):330–339.
+subpopulations. 8. Klimov D., et al. Exploration of patterns predicting renal
+Finally, two brief communications describe early results
+damage in diabetes type II patients using a visual temporal
+13
+from a pair of visual analysis systems. First, Basole et al. pre-
+analysis laboratory. JAMIA. 2015;22(2):275–289.
+sent an interactive system that uses visual analytics techniques
+9. Li Y.-C., et al. A novel tool to visualize chronic kidney dis-
+to explore clinical data from 5784 pediatric asthma emergency
+ease associated polymorbidity: a 13-year cohort study in
+department patients. The system makes cohort identification
+Taiwan. JAMIA. 2015;22(2):290–298.
+more efficient and possibly even more accurate that regular
+10. Hirsch J., et al. HARVEST, a longitudinal patient record sum-
+14
+approaches. Second, Ratwani et al. present a dashboard-
+marizer. JAMIA. 2015;22(2):263–274.
+based system that employs visualization techniques to more
+11. Soulakis N., et al. Visualizing collaborative electronic health
+effectively explore patient safety event reports, find patterns,
+record usage for hospitalized heart failure patients. JAMIA.
+and analyze the correlation between different hospital
+2015;22(2):299–311.
+organizations.
+12. Warner J. Seeing the forest through the trees: uncovering
+This special issue provides readers with a sample of the va-
+phenomic complexity through interactive network visualiza-
+riety of work being performed around the world on the topic of
+tion. JAMIA. 2015;22(2):324–329.
+visual analytics in healthcare. Researchers in this discipline are
+13. Basole R. Understanding variations in pediatric asthma care
+exploring a range of topics and a growing, vibrant research
+processes in the emergency department using visual ana-
+15
+community has emerged. Many challenges remain, but we
+lytics. JAMIA. 2015;22(2):318–323.
+261
+EDITORIAL
+Caban JJ, et al. J Am Med Inform Assoc 2015;22:260–262. doi:10.1093/jamia/ocv006, Editorial
+*14. Ratwani R., et al. Connecting the dots: leveraging visual 15. “Visual Analytics in Healthcare.” http://visualanalytic
+analytics to make sense of patient safety event reports. shealthcare.org/. Accessed December 9 2014.
+JAMIA. 2015;22(2):312–317.
+AUTHOR AFFILIATIONS
+....................................................................................................................................................
+1
+National Intrepid Center of Excellence (NICoE), Bethesda, MD,
+USA
+2
+Carolina Health Informatics Program and the School of
+Information and Library Science, University of North Carolina,
+Chapel Hill, NC, USA
+262

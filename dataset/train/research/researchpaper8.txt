@@ -1,0 +1,994 @@
+ 
+“Everybody Knows What You’re Doing”: A Critical 
+Design Approach to Personal Informatics 
+1 2,1 1 1 2,1
+Vera Khovanskaya , Eric P.S. Baumer , Dan Cosley , Stephen Voida , Geri Gay 
+1 2
+Department of Information Science Department of Communication 
+Cornell University Cornell University 
+Ithaca, NY 14850 USA Ithaca, NY 14850 USA 
+{vdk9, ericpsb, drc44, svoida, gkg1}@cornell.edu 
+ 
+This conventional approach to personal informatics design 
+ABSTRACT 
+is facilitated by data-mining infrastructures through which 
+We present an alternative approach to the design of 
+data about measurable behaviors are gathered, interpreted, 
+personal informatics systems: instead of motivating people 
+and reflected back to users. These infrastructures process 
+to examine their own behaviors, this approach promotes 
+vast amounts of personal data but often go unnoticed. Just 
+awareness of and reflection on the infrastructures behind 
+as functioning infrastructure is embedded and transparent in 
+personal informatics and the modes of engagement that they 
+regular use [24], the values of self-optimization through 
+promote. Specifically, this paper presents an interface that 
+quantification built into these infrastructures similarly 
+displays personal web browsing data. The interface aims to 
+disappear into the background. 
+reveal underlying infrastructure using several methods: 
+drawing attention to the scope of mined data by displaying 
+Using data for self-betterment, however, represents but one 
+deliberately selected sensitive data, using purposeful 
+possible approach to designing personal informatics. 
+malfunction as a way to encourage reverse engineering, and 
+Focusing on self-betterment may affirm and reinforce 
+challenging normative expectations around data mining by 
+mainstream or socially predominant values, such as 
+displaying information in unconventional ways. Qualitative 
+efficiency and optimization, at the expense of others. These 
+results from a two-week deployment show that these 
+systems typically present charts and graphs based on 
+strategies can raise people’s awareness about data mining, 
+numerical information, and insights based on “the 
+promote efficacy and control over personal data, and inspire 
+quantified self” are only one kind of insight people might 
+reflection on the goals and assumptions embedded in 
+seek [16]. Uncritical use of data-mining infrastructures may 
+infrastructures for personal data analytics. 
+reinforce growing trends toward ubiquitous surveillance. 
+Relatively few personal informatics systems encourage 
+Author Keywords 
+people to reflect on or to challenge the values embedded 
+Personal informatics; critical design; design strategies 
+within them or the larger context of data mining. A number 
+ACM Classification Keywords 
+of design approaches, such as value-sensitive design [11], 
+H.5.m. [Information interfaces and presentation (e.g., 
+reflective design [22], and critical design [8], have been 
+HCI)]: Miscellaneous. 
+developed specifically to identify ways that social values 
+are embedded in system design and to encourage 
+INTRODUCTION 
+consideration of alternative relationships between these 
+Users of modern technology live in an environment filled 
+systems and their users. 
+with logging technologies that gather information about 
+them, both with and without their knowledge. Personal 
+This paper applies critical design to personal informatics, 
+informatics systems invite users to reflect on and use these 
+with the goal of revealing infrastructure and engaging the 
+data, notionally to understand themselves better. The 
+users of these systems in a dialogue about the values 
+conventional approach driving personal informatics systems 
+embedded in data-mining systems. We present a set of 
+in the field has been self-betterment through self-
+strategies for designing personal informatics systems that 
+knowledge: the fruits of data mining should be presented to 
+draw attention to the scope and limitations of data-gathering 
+users to promote personal optimization and self-
+and data-mining infrastructures. These strategies lead to the 
+improvement in various aspects of their lives [16]. 
+design of systems that promote an alternative to the “know 
+thyself” rhetoric by drawing users’ attention to other 
+ 
+relationships with personal data. We demonstrate these 
+© ACM, 2013. This is the author's version of the work. It is posted here 
+strategies in an interface for collecting and reflecting web 
+by permission of ACM for your personal use. Not for redistribution. 
+browsing data using text-based personal informatics 
+ 
+The definitive version was published in Proceedings of the SIGCHI visualizations embedded within the browser. To evaluate 
+Conference on Human Factors in Computing Systems (CHI ’13), Paris, 
+the interface and strategies, we conducted a qualitative field 
+France, April 27–May 2, pp. 3403–3412. 
+study in which participants used our interface for two 
+http://doi.acm.org/10.1145/2470654.2466467 
+weeks and participated in interviews about their 
+experiences. Data from these interviews demonstrate a 
+ 
+ 
+number of ways that critical designs can promote reflection dimensions of infrastructure that should be examined, and 
+on and an increased critical awareness of the implications describes the feeling of “embedded strangeness” when 
+and limitations of data-mining infrastructures. invisible processes are brought to light [24].  
+RELATED WORK Several design initiatives have sought both to make 
+Personal Informatics and Self-Knowledge 
+infrastructure visible and to support alternative relationships 
+Past research in personal informatics has shed light on the 
+between users and the technologies that make use of such 
+ways that users interact with and interpret their data. Most 
+infrastructure. In critical design, Dunne and Raby have been 
+of this research has been carried out with the understanding 
+proponents of “developing alternative and often gently 
+that data-driven self-reflection can be used to help people 
+provocative artifacts which set out to engage people 
+become more aware of their own behavior [3] and change 
+through humor, insight, surprise and wonder” by adopting 
+their behavior for the better [9]. These values have shaped 
+alternative values that are not typically designed for in 
+research about the questions that individuals might ask of 
+mainstream design [8]. In their Placebo project, eight 
+their data and uses for personal informatics interfaces [17]. 
+prototype objects were created with the goal of engaging 
+users with electromagnetism through electromagnetic 
+The justification for personal informatics systems often 
+interference and malfunction. For example, among the 
+rests on arguments about the limitations of human self 
+objects was a table that “reminds you that electronic objects 
+knowledge: unassisted, knowing oneself is difficult because 
+extend beyond their visible limits” by showing twenty-five 
+we often have incomplete data and limited ability to 
+compasses on its surface that twitch and spin when 
+monitor ourselves [27]. Personal informatics augment a 
+electronics are placed near them. They were designed to act 
+person’s self-knowledge by breaking down human barriers 
+on users’ existing suspicions and elicit stories about the 
+to personal data management [17]. In this reading, as the 
+secret life of electronic objects as seen by their users [8]. 
+infrastructures supporting ubiquitous computing continue to 
+Similarly, Redström’s Chatterbox system explores various 
+evolve, the promise of the field of personal informatics also 
+visualization techniques for reflecting on information 
+grows, as increasingly rich information sources can support 
+technology use in the workplace [19]. 
+new levels of self-understanding and self-optimization. 
+Data visualization techniques have also been used to draw 
+In addition to the trend of gathering and analyzing more 
+attention to power infrastructures. For instance, the Oil 
+data in personal informatics interfaces, it is also becoming 
+Standard modifies and augments web browsing with the 
+more common to consolidate and integrate data from a 
+tactic of revealing power and hegemony by translating the 
+variety of sources. This tactic supports users’ simultaneous 
+prices of consumer goods into units of oil and embedding 
+exploration of multiple facets of their lives through their 
+those translations into the browser window, itself [7, 18]. In 
+data [15]. As an example, popular commercial products 
+personal informatics systems, visualizations are aimed at 
+such as Mint and Nike+ consolidate and display 
+highlighting elements of users’ data, but the visualizations 
+information from multiple data sources to help people find 
+can also be turned on the data-mining infrastructures, 
+patterns in their financial and exercise data [17]. 
+themselves, to draw attention to their size and scope. For 
+It is important, however, to recognize the role that the 
+example, the Mozilla browser extension Collusion shows 
+underlying value of self-optimization through self-
+the extent to which websites cooperate to track people’s 
+knowledge has had in shaping the field of personal 
+behavior by visualizing cookies and the relationships 
+informatics. It has influenced the goals and questions of 
+among the websites that issue them [5]. By displaying the 
+personal informatics researchers and embedded itself into 
+resulting network of data-mining monetization campaigns, 
+the nature of data-mining infrastructure. And though there 
+it encourages reflection on these infrastructures. 
+has been interest in applying personal informatics interfaces 
+In examining the infrastructure of personal informatics and 
+to other ends, such as reminiscing [19] and personal 
+the values and value systems embedded therein, we 
+information management [13], there have been few studies 
+approach personal informatics as an arena for subjective 
+of using personal informatics to raise awareness of the data-
+engagement. Proponents of a subjectivist approach to 
+mining infrastructures, themselves. 
+personal informatics argue for balancing the presentation of 
+Information Infrastructure and Critical Design 
+objective data signals with the human ability to make sense 
+These infrastructures play a major role in how, what, and 
+of this information and interpret it [14]. In particular, we 
+why people might use personal informatics. In her work on 
+focus on encouraging people to playfully engage with their 
+the ethnography of infrastructure, Star notes that 
+personal data through the idea of “making strange” [1], 
+infrastructure is, by default, “invisible, buried in semi-
+presenting personal informatics data in unusual ways to 
+private settings and squirreled away in inaccessible 
+stimulate the values of “curiosity, play, exploration, and 
+technical code” [24]. Embedded in those systems, though, 
+reflection” called for by ludic design approaches [12]. 
+lie the socio-technical standards, aesthetics, and values of 
+In promoting multiplicity of engagement in personal 
+the people who build and use them. Star argues for the 
+informatics interfaces, our goal is not to suggest that 
+ethnographic examination of infrastructure, offers several 
+designing personal informatics for self-optimization 
+ 
+ 
+ 
+Figure 1. Screenshot of the interface. 
+through self knowledge is wrong; rather, it is one among a Creating Provocative Facts 
+We then examined the Chrome API to see what data it 
+range of possibilities that can be explored. We demonstrate 
+made available and how those data might be used. These 
+how raising awareness of information infrastructures is a 
+available data included the URL of pages visited and the 
+design motivation that can challenge and complement 
+associated time stamps, with additional events for opening 
+personal informatics interfaces [20]. 
+tabs and accessing bookmarks. This API became source 
+DESIGN PROCESS AND STRATEGIES 
+material and inspiration for an extensive list of “provocative 
+Our design goals were to raise awareness of the data-
+facts,” specific presentations of personal information that 
+mining process, to highlight its scope and limitations, and 
+we might be able to implement and deploy. We focused on 
+to expose predominant values embedded in personal 
+text-based presentations rather than the graphs and charts 
+informatics interfaces and data-mining infrastructures. Our 
+common in conventional personal informatics interfaces, 
+design process led to the articulation of three strategies, 
+both to facilitate prototyping and to create a simple 
+each of which addressed one of these goals. 
+implementation that designers with other datasets could 
+Choosing a Data Source and Platform 
+easily emulate.  
+We began by exploring the kinds of personal data that 
+We shared this list with colleagues, noting which designs 
+would be feasible to mine and would provide grist for 
+provoked the strongest responses as well as the nature of 
+provoking reflection. After considering potentially personal 
+those responses. The most promising designs served as 
+data sources such as health or biometrics information, we 
+templates for the final set of facts that the system presented 
+settled on web browsing as a data source. Web browsing 
+about the users’ web browsing. Opening the extension 
+activities can be highly personal, meaning that analyzing a 
+presents the user with a randomly selected subset of these 
+user’s browsing data both aligns with the traditional focus 
+facts, as shown in Figure 1. 
+of personal informatics (i.e., “know thyself”) and has 
+significant provocative potential. Further, it is a kind of data 
+During the implementation process, we also organized the 
+that, while passively collected, is easily viewable through 
+facts into rough conceptual groups based on the nature of 
+browsers’ history listings, and it is a kind of data with 
+the provocation that they inspired. We iteratively combined, 
+known risks caused by its collection, evidenced by mass-
+divided, and recombined these groups, along with their 
+media coverage of problems caused by the release of search 
+connections and resonances with Star's dimensions and 
+histories and online identity theft. 
+properties of infrastructures, until each stood as both 
+conceptually coherent and distinct from the others. 
+We developed an extension to the Chrome web browser to 
+collect browsing data and to present personal informatics 
+By examining the facts that ended up in each of these 
+visualizations of those data. Not only is Chrome a popular groups, asking what they had in common that made them 
+browser [26], but building a Chrome extension is not much 
+provocative, and considering what sorts of discussions they 
+more difficult or complex than building a web page, and we 
+evoked, we articulated a set of strategies for designing 
+wanted the techniques we used to be appropriable by other 
+personal informatics systems. These strategies serve two 
+designers who may not have a background in machine 
+roles. First, they provide concrete guidance for designers 
+learning or data mining. This approach also allowed us to 
+who might wish to apply critical design to the domain of 
+store and process the web browsing data on participants’ 
+personal informatics. Second, we suggest that these 
+machines, without having to download it to a server, 
+strategies describe an effective means for promoting critical 
+allowing us to respect participants’ privacy. 
+reflection about data-mining infrastructures. 
+ 
+ 
+Design Strategy Infrastructure dimension Motivation 
+Make it Creepy: Display the sensitive and Raise implications of data-gathering systems for 
+Reach or scope of data infrastructure 
+highly personal aspects of gathered data. surveillance and individual privacy. 
+Make it Malfunction: Deliberately display Infrastructure becomes visible upon Promote reflection on the limitations of data 
+gaps in gathered data breakdown gathering. 
+Highlight the role of personal informatics systems 
+Make it Strange: Show information in Infrastructure links with conventions of 
+in perpetuating dominant social norms in data 
+unconventional ways practice 
+gathering and presentation. 
+Table 1. Three general strategies for designing provocative facts, their relationship to Star’s infrastructures, and their design goals. 
+Three Design Strategies 
+been open but not how long it has held focus; if a user has 
+Our design strategies describe a means for achieving five tabs open for one hour, a naïve reading of the data 
+several goals: to raise awareness of the broad scope of 
+provided by the API makes it appear that the user has been 
+personal data mining, to reveal the limitations of the data-
+online for five hours and has spent one hour on each site. 
+mining process, and to expose the predominant social 
+This aspect of the data led to situations in which the system 
+values embedded in personal informatics infrastructure. 
+told the user that s/he had been online for longer than 24 
+Table 1 presents the relationships between these strategies, 
+hours in a single day. In another example, if the proportion 
+Star’s perspective on infrastructure, and specific design 
+of .edu websites exceeded that of other websites, users were 
+goals we hoped would help raise awareness of key aspects 
+addressed by the interface as being a “scholar.” In this case, 
+of data-mining infrastructures. 
+not only do many scholarly activities take place on non-edu 
+websites, but simply visiting .edu websites does not a 
+Make It Creepy. “Creepy” informatics highlight the scope 
+scholar make. 
+of personal data mining and the highly personal nature of 
+the data being collected. To make our interface creepy, we 
+These examples show conclusions that are obviously 
+looked for personal data that might be uncomfortable for 
+wrong, but that wrongness is the point. By intentionally 
+the user to confront. We did not seek data that were 
+interpreting the data in incorrect or implausible ways, we 
+necessarily uncomfortable in and of themselves, but rather 
+engineer breakdowns that make “the normally invisible 
+data that, when collected and mined, contrasts with the 
+quality of working infrastructure…visible” [24]. Thus, 
+commonly perceived and valued anonymity of web users’ 
+malfunctioning informatics use satire and incorrectness to 
+behavior. For example, the fact “Did you know that we’ve 
+draw attention to hidden infrastructures and the 
+been recording your activity for 5 days? In that time, we’ve 
+assumptions made in the data-mining process. 
+seen you online for 200 total hours, and recorded more than 
+Make It Strange. Personal informatics collect, analyze, and 
+200 sites you’ve visited” calls attention to the scale and 
+curate data for a specific purpose, often in the interest of 
+continuous nature of web data logging, as well as the 
+persuasion or behavior change [17]. That purpose shapes 
+extensive infrastructure that exists for gathering and 
+the user’s relationship with her or his data. Personal 
+manipulating users’ data. The goal is not to force the user to 
+informatics rarely highlight the role that these interfaces 
+confront uncomfortable or shameful aspects of their data, 
+play in affirming mainstream relationships between 
+but rather to make visible the effect of being under constant 
+individuals and their data. Making strange informatics 
+surveillance, contrasting the socially normative values of 
+draws attention to the embedded norms of such systems by 
+logging and self-tracking with the privacy implications of 
+suggesting alternative genres of personal informatics that 
+personal informatics infrastructures and interfaces. 
+emphasize humor and ludic engagement over behavior 
+Make It Malfunction. “All models are wrong” [2], and data 
+change and personal optimization, while still using the 
+are always incomplete. Our second design strategy involves 
+metrics and vocabulary of the existing infrastructure. 
+highlighting this incompleteness. In some ways, this 
+Making it strange is not a matter of gamification [6] or 
+strategy resonates with Chalmers’ notion of “seamful 
+making personal informatics “fun.” Rather, it more closely 
+design,” an approach that highlights the places where 
+resembles making fun of personal informatics. To make it 
+ubiquitous computing technology is not perfectly seamless 
+strange, we followed a number of approaches. For example, 
+and explicitly incorporates such seams meaningfully into 
+one fact told the user, “You visited 592 websites this week. 
+the design [4]. Similarly, “malfunctioning” informatics 
+That’s .5 times the number of webpages on the whole 
+highlight gaps in the data and the ways that those gaps can 
+internet in 1994!” This historical comparison draws 
+lead to an imperfect picture of the self. 
+attention to the abundant nature of modern web browsing as 
+We looked for stories that seemed plausible based on the 
+collected through unique URLs, but presented in a 
+data alone, but actually were slight misinterpretations, 
+somewhat obtuse and non-judgmental way. A similar fact 
+somewhat inaccurate, or completely ridiculous. For 
+stated, “In the time you've spent on the web, Apollo 11 
+example, the Chrome API reports how long every tab has 
+would have gone to the moon and back 1.5 times.” 
+ 
+ 
+Comparing the user’s web browsing data with other data or or—less often—a tool to contemplate one’s data traces as 
+known quantities measured in different units added a they are seen by other online entities. The interview process 
+playful dimension, upending social convention and often had a transformative effect. Initially, users often 
+normative values by allowing the design to poke fun at the 
+described the interface as being an optimization tool. After 
+data or, at times, at itself.  being prompted to describe their experiences of the 
+interface, they arrived at various critical conclusions about 
+Note that the design strategies were not explicitly described 
+broader privacy policy disclosure issues, the inherent 
+to participants, e.g., no part of the system was labeled or 
+limitations of data mining, and the norms and standards 
+described as being “creepy.” Rather, the strategies provide 
+embedded into personal informatics. Users also recalled 
+categorization, for our own design process and provide 
+experiences with other personal informatics interfaces 
+concepts that may be useful to other interested designers. 
+outside the traditional “self-optimization through self-
+USER STUDY knowledge” narrative. We organize the results by our three 
+To explore the potential value of our strategies, we 
+design strategies. 
+conducted a user study to evaluate the effectiveness of each 
+Make It Creepy. When asked about the scope of the data 
+strategy at promoting critical reflection about personal 
+that users thought their browser collected about them, many 
+informatics and their infrastructures. 
+participants “just assumed they logged everything” [P17]. 
+Methods 
+11 participants expressed awareness of and passiveness 
+We tested our interface over the course of two weeks with 
+toward ubiquitous online surveillance and were not 
+23 participants, recruited using local university department 
+surprised about the invasive nature of the creepy 
+listserv emails and snowball sampling from those emails. 
+informatics because “Google already knows everything 
+Participants received a mid-point questionnaire that asked 
+about me” [P10]. When prompted to define “everything” in 
+them to talk about their experience and general use of the 
+more detail, one user described how he imagined that 
+system, as well as their specific reactions to the responses 
+Google was logging his mouse movements and keystrokes, 
+generated by the system (e.g., which facts did you like, 
+as per his experience of using Google’s built-in chat 
+which did you find confusing, etc.). Participants were asked 
+service, which “knew” whether users were idle or typing: 
+to complete an exit interview at the conclusion of the study, 
+“Chrome knows when you are sleeping, Chrome knows 
+featuring more open-ended, interpretive questions and 
+when you're awake…” [P3]. 
+clarifications of responses in the mid-point questionnaire. 
+However, the creepy informatics prompted participants to 
+We did an affinity analysis of our exit interview data, 
+try to identify which infrastructure recorded the number of 
+iteratively grouping and regrouping responses to different 
+websites visited and time spent online. One participant 
+questions based on thematic similarity. The analysis 
+commented on the difference between “Chrome history, 
+focused on reactions such as awareness of data-mining 
+which is not to be confused with Google history… your 
+infrastructure, criticism and rejection of the dominant 
+Google search history”—where the participant explained 
+personal informatics narrative, and consideration of 
+that the latter was “going to Google” while the former was 
+alternative narratives and values. We used that analysis to 
+only stored locally on their computer [P12]. Participants 
+loosely code the interviews and questionnaire responses for 
+wondered whether the data gathered in Chrome was still 
+recurrent themes, which we organize and present in the 
+personally identifiable if they “don't use any Google 
+results section below. 
+account,” and whether it was associated instead by IP 
+Results 
+address [P8]. Several participants commented on the 
+19 (6 female) of the 23 participants returned the mid-point 
+implications of data tracking outside of our interface; one 
+questionnaire and agreed to be interviewed. Our 
+participant questioned whether Google used any identity 
+participants were mostly undergraduate students studying at 
+information to affect her browsing experience: 
+a large research university in the northeastern United States. 
+One thing that kind of bothers me is their 
+Two thirds of participants described themselves as studying 
+personalization of your search results without them 
+in technology-oriented fields. Despite the potential bias 
+telling you […] I understand why they narrow down 
+from technology-focused students, our participant 
+search results, so that people see what they want. But at 
+population enabled us to elicit feedback about how people 
+the same time, it’s a little strange that we can all Google 
+reacted to the design strategies operating on their own data. 
+the same thing and get different results…. [P10] 
+It also enabled insights about how people who anticipate 
+These later reactions demonstrate increased concern about 
+working in the technology sector think about the effects of 
+specific aspects and implications of the data-mining process 
+designing personal informatics systems that collect and 
+and underlying infrastructure. This attitude was also echoed 
+mediate data of other (often non-technical) individuals. 
+by two participants who, after completing the interview, 
+Analysis of our interviews revealed a consistent first 
+sent the researchers documents and discussions detailing 
+impression of the interface. Participants typically saw the 
+Google’s and Chrome’s privacy policies in attempts to 
+tool as a lighthearted and imperfect tool for introspection 
+clarify aspects of data-mining policy. Attempts to 
+ 
+ 
+disambiguate the structure of personal data traces also led This reaction bounds the traditional personal informatics 
+to critiques of the incongruity between the design 
+narrative of self-optimization through self-knowledge by 
+motivations of the systems that gather personal data and the recognizing that the technologies that gather data could be 
+systems that present it back to users. When asked with 
+wrong. In particular, both knowing these limitations and 
+whom they might share facts from our interface, users having more information outside of the data presented can 
+wanted to give them to other people with the intention of help people interpret the results of data mining. Presenting 
+raising the same kinds of awareness: misinformation motivates critical discussion about the 
+I think [my friend] would just find something like this limitations of data-mining tools and their potential for error, 
+very interesting because we have talked about these as well as alternative roles for the user in interpreting these 
+same issues before […] Oh well, everybody tracks all informatics interfaces. 
+of your information. Everybody knows what you’re 
+15 participants also attempted to reverse-engineer the 
+doing. [P15] 
+erroneous facts to explain how they were computed. This 
+Specifically, individuals who identified themselves as reverse engineering is a form of critical thinking where the 
+people with technical knowledge thought that the interface 
+subject disambiguates a process that would otherwise be 
+could be useful for raising awareness about data mining invisible to them. One participant described a reverse-
+among non- or less-technical users: engineering process in response to a fact about her 
+I would give it to a non-CS [computer science] major Facebook usage: 
+friend of mine, because I’d be curious in seeing how The first time I looked at it, it said that the site on 
+they’d respond to it… I don’t think they would take the Facebook I’m most likely to visit was my friend 
+same kindness to a tool collecting statistics about them. [name]’s Facebook […] I know I’ve been on my own 
+[P16] at least twice that day. So, maybe I accidentally left 
+that tab open… and it does it by time. [P7] 
+We hoped to use the creepy informatics to raise awareness 
+of the scope of data mining, yet many participants Some reverse-engineering attempts were very technical, 
+expressed a general sense of complacency toward Google’s 
+such as the participant who described his usage of the 
+ubiquitous data-mining infrastructure. However, interface as “I read the analytics and then thought about 
+participants speculated widely about the actual capabilities 
+which parts of my HTML headers you were collecting” 
+of personal informatics systems and the types of data we [P18]. Such attention to technical detail may be due in part 
+collected. They attempted to clarify their understanding of to our technology-heavy participant sample. However, 
+the personal data infrastructure, e.g., which entities had participants from non-technical backgrounds also engaged 
+access to their information, where that information went, in this reverse-engineering process: 
+and the extent of the logging. Finally, users speculated on Unless I’ve discovered a wormhole, I don’t see how I 
+how the data-mining process affected their browsing could have spent over 1,000 hours online in five days 
+experiences and how it might affect others’ experiences. [...] I’m not techie at all, so I only thought of that when 
+I got a weird answer like that. So I realized it was 
+Make It Malfunction. In response to informatics built with 
+probably calculating all my tabs or taking all my tabs 
+unreliable data, participants, understandably, did not agree 
+into account or something. [P11] 
+with many of the representations generated in response to 
+their behavior. In response to the system’s incorrect Such results suggest that designing misinformation can 
+identification of their most-visited page on Facebook (by 
+encourage reverse-engineering attempts not just for 
+counting time spent at a unique URL), one participant “techies,” but also for people who do not describe 
+described the discrepancy: themselves as having a technical background. These 
+When I’ve been on Facebook, my most-visited site was attempts lead to interrogation of a process that is often 
+the checkpoint to confirm it was you if you were using invisible or regarded as being value-neutral by non-
+a new computer. And I’ve probably spent more time specialists. 
+stalking people than just I have just pressing 
+Finally, misinformation prompted several abstract 
+‘Remember this computer’ or whatever. [P2] 
+discussions about the inherent limitations of data gathering. 
+Such reactions not only cast doubt on the rest of the 
+One participant criticized the analysis present in the 
+interface but also prompted recounting instances of interface and commented that “the same pitfalls of data 
+doubting other technologies: 
+mining are also true of a lot of statistical manipulation in 
+[On] a treadmill, even if you enter your weight and general…. A big joke in the field is when somebody asks 
+your age, it's not going to give you your exact heart ‘what do these numbers mean,’ you say, ‘what do you want 
+rate, or…the exact number of calories burned, but you them to mean?’” [P6]. 
+still get a sense… But the treadmill that I've been using 
+Another participant asserted that web-browsing data 
+in New York [City], I don’t think it’s me that’s better, 
+“couldn’t describe me because it only describes my 
+but it seems that I’m doing better on it than I was at 
+browsing habits…. It just wouldn’t be perfect because I 
+home. [P4] 
+ 
+ 
+have experiences outside of the web world that would presenting unexpected information, we saw evidence that 
+influence my web behavior” [P16]. By drawing attention to 
+our strategies may have helped to uncover the expectations 
+and calling into question the methods used to present the and standards embedded in the infrastructure. 
+data, misinformation undermined the expectation that users 
+Similarly, when a participant was asked why the system 
+are supposed to confront their data and, as a result, change 
+chose to show Google searches in kilowatt-hours, they 
+their behavior. Instead, they suggested that the data could 
+added, “It’s not the system, this is you!” [P13]. By making 
+be gathered in ways that are biased and that the data 
+it strange, we created a space where users’ expectations (the 
+presents an inherently limited subset of the users’ 
+normative mainstream values of the system) fell into 
+experiences. 
+conflict with the interface, drawing attention to the role of 
+Thus, showing users faulty representations of their personal the designer as a mediator of data infrastructure. 
+data provoked a variety of critical reactions about the 
+Over half of our participants responded to the ludic 
+limitations of personal informatics systems. Users 
+informatics with similarly playful appropriations. One 
+responded with personal narratives around the 
+participant proudly described his “extra browser” where he 
+misinformational facts and how they came into conflict 
+kept several tabs open and stagnant because he wanted to 
+with their own perceptions. Users also attempted to reverse 
+see how many times he “could make Apollo 11 go to the 
+engineer the process of the malfunctioning informatics to 
+moon” [P13]. Other participants talked about “training” the 
+explain how they came to show the information that they 
+interface, and doing certain superficial behaviors like 
+did, and in that process demonstrated awareness of data-
+closing extra tabs to get what they saw as a more favorable 
+mining structures. More broadly, participants reflected on 
+result from the interface (i.e., less time spent online) [P7]. 
+the effect that misinformation has on their experience of 
+One participant admitted to “fantasizing about opening all 
+personal informatics and whether misinformation was an 
+the .edu sites, so it would tell me I’m a scholar” [P3]. 
+inherent and inevitable outcome of data-mining processes, 
+Similarly, participants’ playful responses also extended 
+themselves. This contentious attitude toward data-driven 
+beyond our interface to other systems, such as when a 
+persuasion became more central in participants’ experiences 
+participant expressed a desire to “log one calorie” into a 
+around the third strategy. 
+calorie tracker tool that predicted how much she would 
+Make It Strange. Several of the facts in our interface 
+weigh in the future because “then it’ll tell me […] you’re 
+showed data in unexpected ways. Participants referred to going to weigh negative two pounds by Friday!” [P4]. 
+the strange informatics as “the random ones” and as the 
+One user projected her relationship to the system over time: 
+ones that they didn’t expect to be included in the interface. 
+I've been on Facebook for 27.83 hours, right? […] 
+Specifically, many users reported finding these facts to be 
+Well, I kind of don’t care. Probably in another month, 
+unexpected because they did not present users’ behavior in 
+it telling me about how much time I spend on 
+familiar units (such as hours or number of pages visited). 
+Facebook is just going to be kind of meaningless to me 
+Participants questioned why certain points of data were 
+because it’s like, what do those hours mean in any 
+chosen and calculated in that way. In response to the fact 
+case? But what I do like is the one that’s like you've 
+that incorporated comparisons to the size and scope of the 
+used, mine says .03 kilowatt-hours… that and the 
+internet, one user looked up how many sites existed in 
+fraction of the Internet that existed in 1994. That’s kind 
+1994, and said in response: 
+of interesting because over time it will amount to 
+I’m actually surprised. I consider myself kind of an 
+something meaningful. [P15] 
+Internet power user, and back in 19-something-or-
+other… there were like ten thousand pages on the In this case, the participant dismisses the longevity of the 
+Internet, and I haven’t even come close to that. [P14] 
+persuasive element of personal informatics, instead 
+adopting an alternative relationship based not on self-
+Instead of reflecting on ways to optimize his web browsing, 
+optimization but on a detached curiosity in watching obtuse 
+the participant expressed being impressed by the historical 
+units growing over time. These unconventional 
+size of the web.  
+appropriations of existing infrastructure, such as logging 
+Playful informatics drew attention to the non-neutrality of time online in unusual units, promote long-term 
+personal informatics interfaces: one participant referred to 
+relationships between personal informatics and their 
+them as “sassy” [P16], and another commented that while it subjects that are not part of the mainstream personal 
+“seems like it’s spitting out facts… it’s clearly intending to  
+informatics narrative. 
+get at me, somehow, and be provoking” [P4]. Several users 
+Participants’ experiences and reactions to ludic informatics 
+expressed frustration toward facts that were deliberately 
+involved questioning the content of the interface, 
+obtuse. One fact, for example, calculated how long a user 
+undertaking creative engagement, and tampering with the 
+has been on their most visited site without disclosing which 
+data-gathering infrastructure. These informatics also raised 
+site it was; this fact infuriated several participants who 
+broader issues about the nature of the relationship between 
+wanted to know “where they wasted the most time” and 
+personal data and its subject, and the role of the designer 
+expected our interface to show them this information. By 
+ 
+ 
+and the data infrastructure in forming that relationship. always exhibit some degree of creepiness and malfunction; 
+Ludic informatics supported alternative relationships 
+their output will always be framed with respect to some pre-
+toward personal data and prompted critical reflection on the existing set of values. Our strategies can serve as one 
+goals and motivations of mainstream personal informatics. 
+resource for designers to acknowledge and communicate 
+the limitations, motivations, biases, and values embedded in 
+DISCUSSION 
+personal informatics systems to these systems’ users [22]. 
+The Rhetoric and Scope of Personal Informatics 
+In contexts in which these somewhat provocative 
+Our deployment provoked discussions that problematized 
+approaches might not be appropriate for deployment in a 
+the “know thyself” rhetoric of personal informatics systems 
+final product, they can still exist as a design resource for 
+[16] by drawing attention to limitations to the “knowledge” 
+encouraging designers’ reflection about how to 
+that personal informatics systems can provide. These 
+communicate the boundaries and seams in personal 
+limitations were expressed in users’ corrective and 
+informatics systems that might otherwise not be visible to 
+dismissive reactions to malfunctioning informatics, and in 
+the systems’ users.  
+the acknowledgement of the incongruity between the 
+motivations of data-gathering systems and the personal 
+Personal Informatics for Data Justice 
+informatics interfaces that use them, as reflected by creepy 
+Our experiences of deploying the interface also call to 
+informatics. Finally, as has been observed in other work 
+attention the foggy mysticism, deep uncertainties, and lack 
+around Facebook, even sophisticated and frequently used 
+of knowledge that surround data-mining infrastructure. Like 
+data-gathering systems can present only a part of the picture 
+the participants in Dunne and Raby’s project who heard 
+of a person’s behavior [23]. Our results highlight the ways 
+stories of people picking up radio broadcasts in their dental 
+that the limitations of human self-knowledge that often 
+filings and felt their skin tingle when they sat near a TV [8], 
+motivate personal informatics are balanced by the 
+our participants were largely aware of data mining, and 
+limitations of data gathering in the informatics, themselves, 
+many expressed concerns about its implications. However, 
+and that the data presented in personal informatics systems 
+overwhelmingly—even among technical audiences—users 
+are shaped by the infrastructures that are used to gather and 
+are unsure of exactly which processes are happening, what 
+present the data (as well as the fact that these data represent 
+data are collected, where those data are stored, and what is 
+a subset of all possible data). 
+being done with them. One participant described our 
+interface as a form of “white-hat hacking”: 
+Though the “know thyself” approach has been one effective 
+If you can log all of this stuff, then maybe just about 
+method for affecting behavior change in fields ranging from 
+any other Chrome extension can…. What you’re doing 
+health to power usage [17], our deployment highlights a 
+[…] is [showing] this what we could have tracked and 
+different user relationship with personal informatics 
+this is what we could have possibly done with it…. It’s 
+systems: that the user can engage with the infrastructures 
+like white-hat hacking in that way. [P13] 
+underlying personal informatics by questioning the 
+processes and the values embedded within them. Through 
+When we asked participants for design suggestions, they 
+creative tampering and dismissal of the self-optimization 
+recommended changes that would facilitate understanding 
+narrative, our interface supports ludic engagement and 
+of the data-mining infrastructure: “There should be 
+reflection on the values, possibilities, and limits of self-
+descriptions of where the calculations came from” [P14]. 
+optimization.  
+Several participants pointed out a major difference between 
+We do not think that these alternative modes of engagement 
+our interface and other data-mining practices. As one 
+are in fundamental opposition to the “know thyself” 
+participant put it, “I gave you god powers to do this because 
+rhetoric that dominates the personal informatics research 
+I trusted you…. I want you to show me things that I didn’t 
+domain; instead, we recommend that designers consider the 
+opt into” [P16]. That is, our attempts to be creepy and 
+strategies we have proposed as a method for designing and 
+reveal infrastructure may have been dampened by the fact 
+building multifaceted personal informatics systems. It is our 
+that our participants “trusted us” with using their data and 
+view that these strategies can be used to complement 
+were fully aware of what we were doing. This is in contrast 
+traditional personal informatics interfaces by providing 
+to other data-mining systems, where users are generally not 
+users with awareness of the underlying infrastructures and 
+fully cognizant of or complicit in the tracking of their web-
+alternative ways of interpreting their outputs. 
+browsing data. Our design strategies promote visibility of 
+the scope of data collection carried out in data-mining 
+Further, just as Fogg argued that persuasive technologies 
+infrastructures; this kind of visibility can either help to 
+bear an ethical responsibility [10], personal informatics 
+build users’ trust in these infrastructures or raise important 
+systems may also be subject to the same ethical burden, 
+questions about where these systems might introduce risks. 
+particularly since most existing personal informatics 
+systems have been created with the aim of persuading 
+Another role that an interface like ours could play, in 
+individual behavior change through self-reflection. 
+addition to raising awareness of data mining infrastructures 
+Pragmatically speaking, because these systems process 
+and opening them up for critical discussion, is to explicitly 
+imperfectly collected and interpreted user data, they will 
+promote personal data efficacy and control. This idea is 
+ 
+ 
+related to work in the area of usable privacy, where to others; in the future, we hope to deploy critical personal 
+concrete visualizations of personal location data over time informatics to people with less technical expertise, less 
+can highlight privacy concerns compared to less revealing familiarity with data-mining techniques, and less prior 
+representations [25]. In our case, instead of describing the 
+exposure to personal informatics tools. 
+infrastructure in static text, interactive and personalized 
+Since our approach of applying critical design techniques to 
+computations might serve as mediators between users and 
+personal informatics systems is relatively new, we chose to 
+the infrastructure that surrounds them. 
+approach data gathering in an open-ended and qualitative 
+Or Not: Staying Open to Interpretation fashion. This research approach also introduces some 
+An alternate relationship that critical personal informatics 
+limitations on the kinds of data that we were able to gather. 
+might facilitate between users and their data is that of a 
+Our goal with this research was not to produce universal or 
+playful but slightly disinterested observer, one who uses the 
+generalizable findings but rather to demonstrate that the 
+system as an object of curiosity rather than as a tool for 
+approach of applying critical design to personal informatics 
+self-mastery or data efficacy. For some users, the sense of 
+is a useful thing to do, and hope that future work in this 
+complacency toward data mining continued after they 
+field will explore different methods for evaluating the 
+acknowledged the extensive and poorly understood 
+efficacy of critical personal informatics tools. 
+infrastructure behind the interface. Users continued to use 
+We have also taken a narrow definition of informatics: as 
+and enjoy our system for other reasons: some users enjoyed 
+mentioned before, our visualization is text-based, and the 
+tampering with the results, others humorously engaged with 
+computations that we perform on the web-browsing data do 
+and appropriated misinformation, and still others described 
+not utilize intensive machine learning techniques. Our 
+the joy of watching numbers grow: “I refreshed it every 
+approach was motivated in part by feasibility—both for the 
+now and then just to see. Probably just as often as I refresh 
+researchers implementing the interface used here and for 
+Gmail... because I’m totally a stats guy. I just like looking 
+others who might use our strategies—and in part by the 
+at numbers [...] Once I look at my numbers for long 
+desire to focus our contribution on participants’ 
+enough, they’re just numbers” [P12]. Participants 
+engagement with our provocative design strategies and to 
+commented that they would enjoy the interface much less if 
+not get distracted by the interface itself or its computational 
+it had a clearer persuasive agenda: “It says that I’ve been on 
+aspects (through complex data mining and pattern finding). 
+Facebook for 27.83 hours…. Well, I kind of don’t care” 
+However, we recognize that these pursuits are not 
+[P15]. 
+antithetical to the idea of revealing infrastructure. We have 
+These relationships might evolve over time. Participants 
+suggested that perceived simplicity invites reverse 
+described being initially surprised by the unexpected 
+engineering; further work in this area could reveal whether 
+aspects of the interface, but then gradually became 
+computational intensity promotes higher or lower levels of 
+accustomed to it. In their interviews in Design Noir, Dunne 
+critical engagement. 
+and Raby asked a participant if she saw the table-shaped 
+We hope that our design strategies could be used in 
+critical object as a kind of gadget. The participant 
+conjunction with traditional personal informatics 
+responded that she saw it as a gadget now, but maybe if she 
+approaches to draw users’ attention to the processes of data 
+used it enough, it would “turn into a piece of furniture” [8]. 
+collection and data presentation, as well as the implications 
+There might be a similar role for our interface: initially, it 
+and limitations of those processes. Because we intended our 
+could be an instigator of data infrastructure awareness and a 
+strategies to be generalizable, we are continuing to explore 
+proponent of privacy settings, but as the radical nature 
+their applicability both to different contexts, such as with 
+wears off, it could become as much of an everyday object 
+health and emotion data. We are also interested in 
+as the infrastructure it aims to reveal. Maybe not a kitchen 
+combining personal data sets across different settings, and a 
+table, in the sense that the interface itself is not regularly 
+breadth of “personal” data, such as data shared among 
+used, but as something our participants “won’t uninstall… 
+several people or, even more broadly, across social and 
+but might sporadically come back to check my favorite 
+political networks. 
+[data reflections]” [P11]. 
+CONCLUSION  
+LIMITATIONS AND FUTURE WORK 
+Personal informatics represents a significant class of 
+We recognize that the reactions to our interface were 
+applications built atop ubiquitous data-gathering and data-
+specific to the audience we recruited, their age and 
+mining infrastructures. While these systems have the 
+technical capabilities, as the culture in which they live and 
+potential to allow people to reflect on their own behaviors 
+study. While our study participants are not necessarily 
+and habits, existing systems do a poor job of 
+representative of all technology users (and did not include 
+communicating the scope of data collected to build models 
+hard-to-reach populations), it was representative of the 
+of human activity, owning up to the errors possible when 
+audience to whom traditional “quantified self” applications 
+making sense of mined data, or explicitly acknowledging 
+are generally marketed. However, as Star notes [24], things 
+the values embedded in decisions about which data are 
+that may be visible in infrastructure for some are invisible 
+collected and how they are reflected back to the user. 
+ 
+ 
+In this paper, we argue for the role of critical design in 10. Fogg, BJ. Persuasive computers: Perspectives and research 
+challenging the status quo of personal informatics. We directions. Proc. CHI ’98, ACM Press (1998), 225–232. 
+present three design strategies that encourage outward 
+11. Friedman, B. Value-sensitive design. interactions 3, 6 
+reflection on the data-mining infrastructures and personal 
+(1996), 16–23. 
+informatics interfaces, themselves—as well as the kinds of 
+12. Gaver, W.W. (2002). Designing for Homo Ludens. I3 
+relationships that these technologies typically afford—by 
+Magazine, 12 (June 2002). 
+suggesting the possibility of alternative relationships 
+13. Jones, W. and Teevan, J. Personal information 
+between personal data and its subjects. Our approach 
+management. UW Press, Seattle, 2007. 
+challenges the designers of personal informatics systems to 
+incorporate representations of their systems’ limitations by 
+14. Leahu, L., Schwenk, S. and Sengers, P. Subjective 
+foregrounding their potential creepiness, their potential for objectivity: Negotiating emotional meaning. Proc. DIS 
+malfunctions, and the strangeness revealed when systems 
+’08 ACM Press (2008), 425–434. 
+embody values different from those prescribed by 
+15. Li, I., Dey, A.K. and Forlizzi, J. A stage-based model of 
+mainstream systems. An analysis of how users experienced 
+personal informatics systems. Proc. CHI 2010, ACM 
+a system built around these provocative strategies affirms 
+Press (2010), 557–566. 
+that personal informatics systems can be used to raise 
+16. Li, I., Dey, A.K. and Forlizzi, J. Know thyself: 
+awareness about data mining, can promote efficacy and 
+Monitoring and reflecting on facets of one’s life. Ext. 
+control over personal data, and can also challenge the role 
+Abstracts CHI ’10, ACM Press (2010), 4489–4492. 
+of data analytics as persuasive agents. 
+17. Li, I., Dey, A.K. and Forlizzi, J. Understanding my data, 
+ACKNOWLEDGEMENTS 
+myself: Supporting self-reflection with ubicomp 
+This research was supported by Cornell’s Information 
+technologies. Proc. UbiComp ’11, ACM Press (2011), 
+Science and Communication Departments and the Hunter 
+405–414. 
+R. Rawlings III Cornell Presidential Research Scholarship. 
+18. Mandiberg, M. Oil Standard (2006), 
+Thanks to the Interaction Design Lab, Saeed Abdullah, 
+http://turbulence.org/works/oil/ 
+Alistair Ballantine, and Yang Yang Zheng, as well as our 
+19. Peesapati, S.T., Schwanda, V., Schultz, J., Lepage, M., 
+study participants. Special thanks to the anonymous 
+Jeong, S. and Cosley, D. Pensieve: Supporting everyday 
+reviewers for their helpful feedback and suggestions. 
+reminiscence. Proc. CHI ’10, ACM Press (2010), 2027–
+REFERENCES 
+2036. 
+1. Bell, G., Blythe, M. and Sengers, P. Making by making 
+20. Redström, J., Jaksefic, P. and Ljungstrand, P. The 
+strange: Defamiliarization and the design of domestic 
+ChatterBox. Proc. HandheM and Ubiquitous Comp. '99, 
+technologies. ACM Trans. Computer-Human Interaction 
+Springer, 1999. 
+12, 2 (June 2005), 149–173. 
+21. Sengers, P. and Gaver, B. Design for Interpretation. 
+2. Box, G.E.P. and Draper, N.R. Empirical model building 
+Proc. HCII ’05. Lawrence Erlbaum Associates (2005). 
+and response surfaces. Wiley, Hoboken, NJ, 1987. 
+22. Sengers, P., Boehner, K., David, S. and Kaye, J. 
+3. Carver, C. and Scheier, M.F. On the self-regulation of 
+Reflective design. Proc. Critical Computing, ACM 
+behavior. Cambridge University Press, Cambridge, UK, 
+Press (2005), 49–58. 
+2001. 
+23. Sosik, V.S., Zhao, X. and Cosley, D. See friendship, sort 
+4. Chalmers, M., MacColl, I. and Bell, M. (2003). Seamful 
+of: How conversation and digital traces might support 
+design: Showing the seams in wearable computing. Proc 
+reflection on friendships. Proc. CSCW ’12, ACM Press 
+Eurowearable, IEE (2003), 11–16. 
+(2012), 1145–1154. 
+5. Collusion. http://www.mozilla.org/en-US/collusion/ 
+24. Star, S.L. The ethnography of infrastructure. American 
+6. Deterding, S., Sicart, M., Nacke, L., O’Hara, K. and 
+Behavioral Scientist, 43, 3 (1999), 377–391. 
+Dixon, D. (2011). Gamification: Using game-design 
+25. Tang, K.P., Hong, J.I. and Siewiorek, D.P. 
+elements in non-gaming contexts. Ext. Abstracts 
+Understanding how visual representations of location 
+CHI ’11, ACM Press (2011), 2425–2428. 
+feeds affect end-user privacy concerns. Proc. UbiComp 
+7. DiSalvo, C. Adversarial Design. MIT Press, Cambridge, 
+’11, ACM Press (2011), 207–216. 
+MA, 2012. 
+26. Top 5 Browsers. StatCounter (2012). 
+8. Dunne, A., and Raby, F. Design noir: The secret life of 
+http://gs.statcounter.com/#browser-ww-monthly-
+electronic objects. Birkhäuser, Basel, Switzerland, 2001. 
+201107-201206 
+9. Endsley, M.R. The Role of Situation Awareness in 
+27. Wilson, T.D. and Dunn, E.W. Self-knowledge: Its 
+Naturalistic Decision Making. In Zsambok, C.E. and 
+limits, value, and potential for improvement. Annual 
+Klein, G.A. (Eds.), Naturalistic decision making. 
+Review of Psychology, 55 (2004), 493–518.
+Erlbaum, Hillsdale, NJ, 1997, 269–282. 
+ 
+ 
+ 
